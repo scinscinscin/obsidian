@@ -1,0 +1,63 @@
+- how will you analyze data
+- databases deal with data analysis
+
+**data** - raw facts
+ - there is no thought / indepth understanding
+ - becomes information when we process it
+	 - cannot analyze something if we don't have data / the data that we have is not enough
+ - collected via different methods
+ - a building block of information
+
+**database**
+ - solves problems encountered in data management
+	 -  data management - focuses on proper generation / storage and retrieval of data
+	 - business / research / administration
+ - it is important to understand how databases work and interact with other applications
+ - shared integrated computer structure that stores a collection of
+	 - end user data - raw facts of interest to end user
+	 - metadata - data about data
+		 - data characteristics and relationships in data
+		 - components and expands value of data
+		 - joined tables
+		 - is a filesystem
+ - holds / processes / shares the data
+ - **types of database**
+	 - database can be classified according to
+		 - number of users - > 30
+		 - locations - where would it be used
+		 - expected type and extend of use
+	 - single user database supports only one user at a type
+		 - desktop database: single user, runs on PC
+	 - multiuser database supports multiple users at the same time
+		 - workgroup and enterprise databases
+	 - centralized database: data located in a single site
+	 - distributed database: data is distributed across several different sites
+	 - operation database: supports a company's day to day operations
+		 - transactional / production database
+	 - data warehouse - stores data for tactical or strategic decisions
+		 - unstructured data exist in their original state
+		 - structured data result from formatting
+		 - structure is applied based on type of processing to be performed
+ - **why database design is important**
+	 - focuses on database structure for end user data
+		 - database must identify databases expected use
+	 - a well designed database
+		 - facilitates data management
+		 - generates accurate and valuable information
+	 - poorly designed database
+		 - difficult to trace errors and poor reports
+ - evolution of filesystem data processing
+
+**database management system** - collection of programs
+ - manages structures and controls access to data
+ - intermediary between the user and the database
+	 - database structure stored as a file collection
+	 - can only access files through the dbms
+ - dbms enables data to be shared
+	 - improves data security
+	 - better data integration
+	 - minimized data inconsistency
+	 - decision making
+	 - increased end user productivity
+ - integrates many user's view of the data
+ - the sender and receiver are both end users

@@ -1,0 +1,7 @@
+ - locks can be used to prevent concurrent users from interacting destructively with one other's data.
+	 - read lock - prevents other uses from changing data while you're reading and processing the data
+	 - write lock - tells other uses that the data is being changed and that they should not read or modify it
+ - transactions - batch together statements in an indivisible set that either succeeds or has no effect on the database
+ - foreign keys
+	 - tell mysql that a row in a table shouldn't exist without another matching row in another table
+	 - doing checks in database slows things down because it needs to verify before doing anything

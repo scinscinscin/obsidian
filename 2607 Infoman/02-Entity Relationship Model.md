@@ -1,0 +1,58 @@
+Entity Relationship model - transforms requirements into description of the entities and relationships that appear in the database
+ - involves drawing a diagram where an entity set is represented by a rectangle containing the entity name
+ - attributes are represented as labeled ovals and connected to their owning entity
+	 - some attributes can have multiple values for a given entity, where they are `multivalued`
+		 - shown as double lined ovals
+	 - there has to be an attribute guaranteed to be unique with each individual customer
+		 - identifying attributes form a primary key, which are shown underlined
+		 - you have to think carefully before selecting a key
+			 - it has to be non empty and unique for each individual entity / how small the key is
+			 - we create an artificial attribute defined to be unique and can therefore be used as a key, example: UUID
+	 - the parts of composite attributes are drawn connected to the oval of the composite attribute
+		 - like an address that has street, city, zip code
+	 - attributes values are chosen from a domain of all legal values
+		 - they can be empty but the primary key must never be NULL
+ - representing relationships
+	 - relationships also have attributes
+	 - different number of entities appear on each side of a relationship
+		 - the number of entities on either side of a relationship defines the key constraints
+		 - important to think about the cardinality of relationships as sometimes they can change, redesigning a database is time consuming
+	 - a relationship set is represented using a named diamond
+		 - cardinality is represented indicated alongside the relationship diamond
+	 - relationships can be optional or compulsory, referred to as the participation constraints
+ - Entity or attribute
+	 - Is the item of direct interest to the database
+		 - objects of direct interest should be entities
+	 - Does the item have components of its own
+		 - If the item has components of it's own and it will be duplicated, it might be better to store the components together as a single entity and refer to the unique key of the entity
+	 - Can the object have multiple instances
+		 - find a way to store data on each instance. Represent the object as a separate entity
+	 - Is the object often inconsistent / unknown - attribute of only some of the entities
+		 - better to model it as a separate entity rather than as an attribute that is often empty
+ - Entity or relationship
+	 - map nouns in the requirements to entities and the verbs to relations
+ - Intermediate entities
+	 - simplify many to many relationships by replacing them with an intermediate entity
+		 - also called associate entity
+	 - connects original entities through a many to one and one to many relationship instead of a single many to many relationship
+ - weak and strong entities
+	 - we add further information to clarify our intent
+	 - we can omit key information for entities that are dependent on other entities depending in the context
+		 - if we omit information from a class (assuming it's dependent on other entities) then it's a weak entity, and the relationship with the entities it depends on is called an identifying relationship
+
+## Using the Entity Relationship Model
+ - can be automated using the MySQL workbench tool
+ - translate the ER model into database tables
+	 - work through each entity and then through each relationship
+	 - each weak entity - create a table comprising its attributes and including the primary key of its owning entity
+		 - the primary key of the owning entity is a foreign key here because its a key of another table
+		 - the primary key for the table of the weak entry is the combination of the foreign key and the partial key of the weak entity
+		 - if the relationship with the owning entity has any attributes, then you should add them to this table
+	 - relationships to database tables
+		 - one to one relationships - include the primary key of one entity as a foreign key in the table belonging to the other
+			 - if one entity participates totally in the relationship, place the foreign key in its table
+			 - if both participate totally in the relationship, merge them in a single table
+		 - one to many relationship - include the primary key of the entity on the 1 side as a foreign key in the table for the entity in the many side
+			 - add any attributes of the relationship in the table alongside the foreign key
+		 - many to many relationship - create a new table containing the primary key of each entity as the primary key and any attributes of the relationship
+			 - identifies intermediate entities

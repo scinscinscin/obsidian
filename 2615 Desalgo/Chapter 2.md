@@ -1,0 +1,4 @@
+- extrapolation and substitution method
+- backsubstitution or iteration method
+- recursion tree method
+- master method

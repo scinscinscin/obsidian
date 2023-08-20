@@ -1,0 +1,14 @@
+ - the derivative of any constant is 0
+ - the derivative measures the slope of a function at any value of x
+	 - instantaneous rate of change f(x) at x = a
+ - through the use of the power rule
+	 - used to find the derivative of a monomial
+	 - `d/dx(x^n) = n * x^(n-1)`
+ - constant multiple rule
+	 - d/dx of a constant times monomial is the constant times the derivative of the monomial
+ - product rule
+	 - derivative of `f(x) * g(x) = f(x)g'(x) + f'(x)g(x)`
+ - quotient rule
+	 - derivative of `f(x) / g(x) = (g(x)f'(x) - f(x)g'(x)) / (g(x)^2)`
+ - chain rule
+	 - derivative of `f(g(x)) = f'(g(x)) + g'(x)`

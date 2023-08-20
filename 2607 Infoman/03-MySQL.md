@@ -1,0 +1,22 @@
+ - permit users to represent relationships between items of data and to calculate relationships
+ - mysql comes with two components
+	 - server that manages the data
+	 - client that asks the server to do things with the data
+		 - `mysql` - MySQL monitor program that allows you to connect to a server and run sql queries
+		 - `mysqladmin` - perform various server administration tasks
+
+`mysql` - starting the monitor
+ - `mysql --user=root --password=password_here`
+	 - `--host` - the host the server is running on, leave default if the server is running in localhost
+	 - `--user` - username to use when connecting to the MYSQL server, no relation to the username the server is running under
+		 - the default username is the machine account name on linux
+	 - `--password` - the password of the user, no password is supplied to the server if left out
+		 - if you include the option but not a password, the client will prompt you
+	 - `--database` - the name of the database to use which prevents you from having to type `USE the_database_name`
+		 - can also add the name of the database at the end of the mysql command
+ - can be used in interactive mode or batch mode
+	 - interactive - you type in sql queries at the prompt and view the results
+	 - batch mode - read in and execute a list of commands from a file
+		 - large set of operations /restore a db
+		 - if you have a file then you can run it using the `SOURCE` command;
+			 - `SOURCE file_here.sql`

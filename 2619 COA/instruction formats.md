@@ -1,0 +1,69 @@
+ computer instructions 
+  - a group of bits that instruct the computer to perform a specific operation
+  - divided into parts, each having an interpretation
+  - every computer has its own **instruction set**
+	  - collection of different instructions that the processor can run
+	  - defines the functions of the processor + has a significant effect on the implementation of the processor
+	  - programmer's means of controlling the processor
+	  - types of instructions:
+		  - data processing - arithmetic and logic instructions
+		  - data storage - movement of data into or out of register and memory locations
+		  - data movement - io instructions
+		  - control - test and branch instructions
+	  - what an instruction set should include
+		  - operation repertoire - number of operations to provide and how complex they should be
+			  - data transfer / arithmetic / logical / conversion / io / transfer of control
+		  - data types - various types of data that operations can be performed on
+		  - instruction format - instruction length in bits
+		  - registers - number of processor registers that can be referenced and their used
+		  - addressing - modes in which address of an operand can be specified
+	  - elements
+		  - operation code (opcode) - specifies the operation to be performed
+			  - mnemonics that indicate the operation
+			  - each symbolic opcode has a fixed binary representation
+		  - source operand reference
+			  - operation may involve one or more input operands
+			  - main or virtual memory
+			  - processor register
+			  - intermediate
+			  - io device
+		  - result operand reference
+			  - the operation may produce a result
+			  - refer to list of possible source operand references
+		  - next instruction reference
+			  - where to fetch the next instruction after the execution of this instruction is complete
+
+## Addressing Modes
+
+ - technique for specifying the address of the operands
+ - Effective address - address where operand is actually found
+
+**types of addressing (example, you can see the addressing modes of 8086 in [[8086]])**
+ - immediate addressing mode
+	 - operand register is specified within the instruction
+		 - `MVI A, 15h` - move the immediate 15 in hex to register A
+	 - operand itself is provided within the instruction rather than the address
+		 - `ADI 3Eh` - add 3e in hex to the contents of register A
+ - register addressing mode
+	 - operand is specified within one of the processor register
+		 - `mov c, a` - contents of c are moved into A
+	 - instruction specifies the register in which the operand is stored
+		 - `add b` - add the contents of register B into register A and store it back to A
+ - register indirect addressing mode (dereferencing)
+	 - specifies the register in which the memory address of operand is placed
+	 - does not specify the operand itself but the location in which the operand is placed
+		 - `MOV A, M`
+	 - basically uses the register as a pointer to the data, "dereferencing" it to find the data it points to
+ - direct addressing mode
+	 - instruction specifies the address of the operand
+	 - memory address is specified where the actual operand is
+	 - examples
+		 - `LDA 2805h`
+			 - load the contents of memory location 2805hex to register A
+		 - `STA 2803H`
+			 - store the contents of register A into memory location 2803h
+ - indirect addressing mode (pointer to pointer)
+	 - instruction specifies ethe indirect address where the effective address of the operand is placed
+	 - memory address is specified where the actual address of operand is placed
+	 - `MOV A, 2802h`
+		 - 2802 contains an address that is dereferenced, that value is then stored in A
