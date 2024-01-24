@@ -1,0 +1,169 @@
+---
+tags:
+  - reviewer
+course: THY3 - Theology 3
+period: Prelim
+assessment: Summative Quiz 2
+---
+
+ - Shalom
+	 - he encourages his people to become just and righteous to realize peace in his kingdom
+	 - shalom literally translates to overall harmony
+ - Judeo-christian tradition expressions of justice
+	 - **Sedakah**
+		 - The righteous god
+		 - the right relationship that god has established
+			 - demonstrates the way of justice for human beings in dealing with one another
+		 - manifested by yahweh in his relationship with all the things he has made
+		 - by israel in her response of obedience
+		 - **Yahweh's righteousness** by keeping the covenant and being the very source of righteousness
+		 - **Can also mean mercy, compassion and salvation**
+		 - Deliverance and salvation
+	 - **Mishpath**
+		 - parusa sa mga tao na nagkakamali, the punishing god
+		 - the forensic nature of justice based on the context of the failure of the right relationship
+		 - Refuses injustice because the right relationship was being violated
+		 - It is also a court of law where the accused is punished and the victim is vindicated
+		 - Yahweh is a judge who punishes and rewards, corrects wrongdoings in order to restore the right relationship
+	 - **Hesed**
+		 - The merciful god
+		 - the loving kindness, steadfast / mercy / compassion
+		 - expression of loving kindness in the kingdom of yahweh
+		 - showing compassion and mercy for Israel's sins
+	 - **Dikaiosune**
+		 - righteousness or justice
+		 - strive first for the kingdom of god and his righteousness
+		 - the kingdom of god - the manner that god wants to be
+			 - king or as to be the diving will is followed
+- Justice of god
+	- to be bring good news / sight to the blind / let the oppressed go
+		- was not only for the forgiveness of sins but also solidarity between outcasts
+	- free and announce the Lord's mercy
+	- God reigns where the divine will is done
+		- the right situation to doing justice is the one willed by god
+	- witnessing the Gospel renews the proclamation of the kingdom of god
+		- The church continues to struggle to realize the kingdom of god through renewal and consistent propagation of the Gospel through words and deeds
+	- Jesus; concern was not limited to forgiveness but also to the poorest and lowliest. Curing sick / lepers / blind people. **Preferential option for the poor**
+- Social mission of the church
+	- rooted in the mission of christ to love and serve
+	- Each catholic is a missionary
+		- are immersed in the signs of the times, making them capable of bringing people closer to the kingdom of god
+		- all members of the church should bear witness to christ and give out hope to everyone
+			- we contribute to the sanctification to the world
+		- called into the communion of both god and others
+	- Promoting and protecting the well being of human persons
+	- In the philippines
+		- forerunner of truth and justice, regardless of ethnicity, gender and religion
+		- Not to be identified with political partisan to become a credible herald of peace justice and truth
+			- advocate of impartiality and shuns forms of discrimination, promotes respect for everyone so that national unity is attainable
+			- Discrimination are obstacles to the development of persons and society as a whole
+- **Baptism** - called to a holiness of life as disciples of jesus
+- **The three social missions of the church**
+	- Kingly - one's commitment to serve others to active participation
+		- serve others
+	- Priestly - pray for one another and establish a deeper relationship with god through prayer
+		- pray for others
+	- Prophet - peace founded on truth and built in justice
+		- promote for peace
+- Certain practices need to be renewed in order to show to the people that indeed god's reign is at hand, even if at the same time it cannot be fulfilled in the present
+- As agent of hope and transformation
+	- the fact of religious pluralism
+		- defends the fundamental dignity of man to be free from coercion in matters religious
+	- truthful tolerance
+		- the human person has a right to religious freedom
+		- comes from the declaration on religious freedom, Dignitatis Humanae
+	- fidelity to proclaim kingdom of god
+		- the mission of the church will never change
+		- proclaim the cross of christ as the sign of god's universal love and the source of all grace
+
+# The social teaching of the church
+- **Truth of faith**
+	- persevere in the ministry that christ has started
+		- equality, respect and love for each other
+			- first christians were true followers since they showed these for each other
+		- decisions in their communities are done in remembrance of the memory of christ
+	- capitalism and socialism should have improved the conditions of every person's life, but it didn't because of their neglect to talk about God. Contributed to the increasing problems of poverty and injustice in the community
+		- brought by the industrial revolution
+		- Important thinkers continued to talk about justice and charity for the poor
+	- **The church issues documents to announce their stances on social issues**
+		- based on the dignity of the human person / subsidiarity / solidarity and preferential option for the poor
+		- are grounded in the tradition of the church
+			- Human person as the image and likeness of god
+				- We are the only creatures created in the image and likeness of god (Imago Dei)
+				- inviolable and inalienable, can never be compromised regardless of the circumstances
+				- the dignity of every person before god is the basis of the dignity of god before other men
+			- Shared humanity and interconnectedness
+				- the people of israel is yahweh's own initiative
+				- intends to remain at the service of every human being as its primary goal
+				- the natural law units people even in the diversity of cultures
+			- A just and human society according to god's plan
+				- Things should be fair, moving towards this goal
+				- all things would be shared fairly by all mankind under the guidance of justice
+				- Universal declaration of goods is an economic vision inspired by moral values to not lose sight of the origin or purpose of these goods, fairness and solidarity
+				- Everyone has the right to enjoy social life that are brought by the quest for common good
+				- Everything that we create is based on the things that god has given us, the capacity to transform things into commodities is given to us by god
+- **The paradigm of love and justice versus the ways of violence**
+	- Love is identifying value of the church and what makes us Christian
+	- way of love and justice
+		- love is the highest criterion in the whole of social ethics
+		- love makes us see another person as a friend
+		- love transcends justice, love cannot exist without justice, but justice without love is equally bad
+			- Human relationships cannot be measured by justice, love mercy and to walk humbly with other people
+			- This is where justice / the right punishment must be given but also to forgive show mercy
+	- versus the way of violence
+		- violence only leads to more violence which only needs to new ways of oppression
+		- never a proper response, and goes against the truth
+	- critical collaboration of the state
+		- the church is autonomous from the state
+			- priests and ministers cannot run for public office, but they can resign
+			- church can encourage members to pursue their own opinions to address the situation according to moral value
+		- the state has no official religion
+			- it shall not favor one religion over the other
+			- foster the freedom of all religious beliefs and not interfere with the practices
+		- the state should not discriminate any religion
+		- the church should not control any political group
+		- cooperation
+			- Both church and state have the same goal of realizing the common good
+				- serve mankind under different titles
+			- distinction does not imply separation
+			- church has the right to teach her doctrine and to pass judgement in those matters
+
+# Response of the catholic church
+ - sacramentalized but not evangelized
+ - main task of the church
+	 - encourage its flocks to become active members of Christian communities
+	 - authentic renewal through proclamation of the good news
+ - laity - lay faithful - also includes the people who are not ordained
+	 - to help in the social mission of the church, which is to spread the world of the lord
+	 - sanctified and sanctify others
+ - Community of disciples
+	 - evangelized and evangelizing community
+	 - faith in jesus is expressed in a mission that includes asia and the whole creation
+ - the church of the poor
+	 - empowerment of the laity / participation and leadership in the church's life and mission
+	 - programs for the organization of the marginalized poor
+		 - sectoral groups to attend to needs in political, economic institutions
+ - Basic ecclesial communities
+	 - is required since without it, the communitarian nature of the church and discipleship remain an abstraction
+	 - members are in unity with one another and with their pastors
+		 - celebrate the presence of christ in the sacraments
+	 - the vision of the church as a community of disciples
+	 - ordinary christians are awakened to live their discipleship fully
+	 - concerned with the plight of the poor and needy
+	 - domus ecclesia - house church
+		 - gathered at the house of a member since churches were not allowed
+
+**New evangelization**
+ - revitalize the faith, give dynamism to- the church and to draw people to unity
+	 - reproposing gospel to people in countries and cultures heavily influenced by secularization
+ - evangelization by attraction
+	 - showing that christians love each other
+ - evangelization in a digital world
+	 - the church has to enter the world and use it to communicate the good news to all people
+	 - digital is where everone lives today and where they can be received
+	 - the internet is an instrument that the lord has given us to communicate the good news
+ - Evangelization and conversion - to change the way that we see things
+	 - repentance / metanoia
+	 - change in our mind/ way of thinking
+	 - change in our heart
+	 - change in our behaviour

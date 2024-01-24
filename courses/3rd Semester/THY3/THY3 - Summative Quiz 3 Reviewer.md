@@ -1,0 +1,395 @@
+---
+tags:
+  - reviewer
+course: THY3 - Theology 3
+period: Finals
+assessment: Summative Quiz 3
+---
+
+**The bible is a source of Catholic Social Teachings**
+ - foundation of the vision of life
+ - discloses a God who is interested in the world, in human history and in the manner in which humans live in community
+ - **Justice** - inclines us to give to God and to man what is due to them
+ - The lord requires us to
+	 - only do justice
+	 - love mercy
+	 - walk humbly with your God
+ - Christ's teaching gives emphasis on people over the law, and on the virtues of justice and charity over the legal code.
+	 - Christ as a teacher
+		 - preaches the kingdom of god
+		 - calls people for metanoia - change of heart
+		 - preaches for non violent conversion
+		 - hopeful preparation for its realization in the future
+	 - Christ as a liberator
+		 - heals and liberates people from physical and spiritual illness
+		 - his liberation is also a restoration
+ - Early Christian community endeavored to follow the examples of Christ
+	 - We have a duty to give
+		 - It is not right for one to live in luxury while others live in want
+	 - Deposits of Piety
+		 - used in feeding the needy / in burying them
+		 - taking care of the people that need to be taken care of
+	 - Endeavor to establish unity and solidarity
+ - Middle ages and continuing catholic social teaching tradition
+	 - the church remained to be an agent for social justice even with institutionalization in the roman empire
+	 - St Thomas Aquinas said that distribution of wealth requires justice which is a habit where man renders to each one his due
+		 - A just war requires legitimate authority / just cause and the right intention
+ - Emerging ideologies of the modern time
+	 - Dark Ages and the age of enlightenment
+		 - The church during the middle ages value faith and obedience which are instruments of ignorance and oppression
+		 - Age of enlightenment
+			 - Use of reason instead of faith
+			 - Autonomy instead of obedience
+			 - Brought about changes in the society including the industrial revolution and the two ideologies of capitalism and socialism
+			 - Industrial revolution
+				 - 1760 to 1850
+				 - started in England
+				 - Introduction of new technology and the rise of factories and salaried workers
+					 - Allowed for mass production leading to a surplus that lead to a profit
+				 - Gave birth to capitalism
+	 - Capitalism
+		 - Aimed towards profit
+		 - Markets are constructed for the interest of those who have the capital, who makes use of the same capital in order to generate more income or more profit
+		 - Social mobility - capability to rise from one social status to a better one depending on the effort one exerts
+		 - Self direction - one's own future is one's own responsibility
+	 - Socialism
+		 - says the principles of social mobility and self-direction are myths and are only true for the rich and able members of the community
+		 - Capitalism ignores, tolerates and perpetuates unjust situations of resource distribution
+			 - increasing the gap between the rich and the poor
+			 - endorses the pathology of isolated existence
+		 - Common ownership - to replace and abolish the concept of private property
+		 - Personal freedom must be replaced by government control that seeks the implementation of the Common Good
+	 - First social encyclical was written because of the social conditions brought by the two competing ideologies
+		 - Rerum Novarum **see below for full**
+			 - although it is the first encyclical - the church's social concern did not begin here
+			 - "the church has never failed to show interest in the society"
+			 - marks the beginning of a new path. Signals a new beginning and a singular development of the Church's teaching in the area of social matters.
+		 - Pope Pius XI coined the term **social doctrine** and designate the doctrinal "corpus" concerning issues relevant to society
+# Modern Social Teachings of the Church
+**Social justice**
+ - The exercise of God-given individual rights taken in relation to the common welfare
+ - certain principles of what we term social justice
+	 - applying the Law of God to conditions of present day economic and social life in order to carry out its primary objective of
+
+The church's social teaching tells us how to build a just society and living lives of holiness among challenges in modern society
+ - The social role of the church is to tell us how to live a good life in a bad society.
+ - Modern CST is articulated through papal / conciliar and episcopal documents
+ - The church has the right to speak on matters that affect religion and morality as they affect moral issues and social issues
+	 - can use Gospel principles to help reconcile and unify social classes
+		 - individual Christians' must advance civil institutions, human dignity and foster a unity between people since the church and humanity experience the same earthly situation
+	 - church can educate people to act justly
+	 - the church commits herself to the humanization of life / world justice and preferential option for the poor and against social apathy
+
+**Encyclical**
+ - Comes from the Latin encyclicus meaning general or encircling.
+ - a letter treating some aspect of catholic doctrine sent by the pope to bishops
+ - the form can very widely and often designates a wider audience
+ - Gives us principles for reflection / criteria for judgement / guidelines for action
+# List of all Encyclicals
+**Rerum Novarum (Of new things)**
+ - Leo XIII in 1891
+ - Industrial revolution leads to exploiting workers
+ - First comprehensive document of social justice
+ - Themes
+	 - Defends the workers rights based on natural law
+	 - Rights include work / private property / just wage and worker's associations
+	 - Property issues and inequalities among people
+		 - criticized the unequal distribution of wealth and the huge gap between the rich and the poor
+	 - Wage and protection of workers
+		 - divide between people may be addressed if we move towards the improvements of workplace
+		 - Regulated by free consent, meaning the government must intervene seeing to it that workers receive what is due to them
+		 - the duty of employers is to give everyone what is just
+	 - Worker's unions
+		 - supports unions as legitimately supported by the notion of natural rights
+		 - Criticized states' tendencies to suppress these unions
+		 - Workers unions are mechanisms to ensure that conditions are set to allow workers to perform and use their full potentials.
+ - examines the condition of salaried workers, distressed industrial laborers who languished in inhumane misery
+
+**Quadragesimo Anno** (the 40th year)
+ - Pius XI , 1931
+ - Discusses the great depression underway and the dictatorships growing across Europe
+ - Messages
+	 - states need to reform greedy capitalist systems to which they become slaves
+	 - Communism is dangerous because it condones violence and abolishes private property
+	 - Labor and capital need each other
+	 - Workers need just wage to acquire private property
+	 - International economic cooperation urged
+	 - Principle of subsidiary introduced
+		 - It is gravely wrong to take what someone earned and give it back to the community
+		 - It is also gravely wrong to assign a greater and higher association what lesser and subordinate organizations can do
+ - Themes
+	 - Economic Dictators
+		 - refer to monopolies and powerful states which dictate the global economy, and argues that the presence of economic dictators make the capitalist system hypocritical
+	 - Totalitarian government
+		 - refer to those where common life is decided only by the government with minimal participation from the people
+
+**Mater et Magistra** (Mother and teacher)
+ - John XXIII, 1961
+ - Context
+	 - Science and technology advance in the developed nations where millions live in poverty in the third world
+	 - Happens during the cold war of powerful states between socialism and capitalism
+	 - Rivalry between US and USSR - Arms / Space race
+ - Message
+	 - disparity between rich and poor nations must be addressed
+	 - Arms race contributes to poverty
+	 - Economic imbalance cause threat to peace
+	 - Rich nations must help poor ones while respecting culture
+	 - Nations are interdependent and need to cooperate
+ - Themes
+	 - Agricultural sector
+		 - balanced attention between the industrial progress and development of agricultural sector
+		 - common good / cooperation among nations / population increase / economic development
+	 - Principle of socialization
+		 - Intervention of state to propel social conditions of the least among us as the danger of threatening individual freedom among the increased intervention of state
+		 - Every person deserves to get the basic needs regardless of their condition / the community must feel responsible in making sure everyone is properly aided
+			 - Socialization is to be done to ensure there are agencies that would look into the distribution of basic services to the citizens.
+	 - Family farms and cooperatives
+		 - cooperatives can influence the balance within the economy towards the common good
+		 - support of the state for the well being and sustenance of cooperatives is needed for the agricultural sector and family farms
+	 - responsibility of wealthy nations
+		 - there is an interdependence among nations
+		 - "The solidarity which binds all men together as members of a common"
+		 - Makes it impossible for wealthy nations to be indifferent upon the hunger / misery and poverty of other nations whose citizens are unable to enjoy basic human rights.
+
+**Pacem in Terris** (Peace on Earth)
+ - John XXIII, 1963
+ - Context:
+	 - height of the cold war, berlin wall was erected and the cuban missile crisis of 1962
+ - Message
+	 - Peace ensured through social rights and responsibilities between citizens and public authorities
+	 - world needs to recognize the rights of women
+	 - Arms race is an injustice / unreasonable and goes against dignity
+	 - United nations needs to be strengthened
+ - Themes
+	 - Peace should be anchored on our understanding of moral order
+		 - Order between individuals
+		 - Order between individuals and government authorities
+		 - Order between states
+	 - Rights talk in the CST
+		 - Supports the goals of the United nations
+		 - Viewed human rights as an advance in our contemporary social situation
+		 - Reminds its readers that an emphasis on rights without attention to duties is insufficient and ineffective
+	 - Disarmament and Mutual Trust
+		 - arms race is contrary to the call for social order
+
+**Populorum Progressio (On the development of Peoples)**
+- Pope Paul VI, 1967
+- talks about development
+	- "CST's magna carta on development"
+- Themes
+	- Attention to Poor nations
+		- plight of poor nations and the rapid progress among rich nations and the slow development of poor nations
+	- Authentic and Integral human development
+		- Authentic development could never be solely measured by economic and material progress. Evaluation of the values that we hold dear.
+	- Call for Global Solidarity
+		- common development among mankind and reminds wealthier nations for 
+			- mutual solidarity
+			- social justice
+			- universal charity
+	- Development
+		- reminds the global community that to get lasting peace, equal opportunity toward development must become a possibility for all nations
+
+**Laborem Exercens (On Human Work)**
+ - John Paul II, 1981
+ - Most comprehensive treatment of human work in the corpus of CST
+ - Context
+	 - Great numbers of people are unemployed, migrant workers are exploited
+	 - Both capitalism and communism are exploiting the workers
+ - Message
+	 - Work is part of man's vocation and dignity
+	 - Decent wages / rights and benefits of worker must be assured
+	 - Work must serve the family, with special consideration for working mothers
+	 - Steps must be taken to assure that disabled can participate in work
+ - Themes
+	 - Objective and subjective components of work
+		 - Subjective dimension - aspect of work that allows the person to realize himself
+		 - Objective component - the kind of work that the person does is measured by its monetary returns.
+	 - A warn against economism
+		 - be careful about equating the dignity of work with the financial incentives it returns
+	 - The role of indirect employers
+	 - Family wage is just wage
+		 - the wage of an adult responsible for a family should be sufficient to properly maintain and provide security for its future
+	 - Support for worker's unions
+		 - Unions must resist the temptation to become political and must be careful to not allow themselves to be used for political ends of others
+	 - Spirituality of work
+		 - work is not only our means for self realization but is our way of participating in the mystery of Christ
+
+**Solicitudo Rei Socialis (On social concern)**
+ - John Paul II, 1987
+ - Context
+	 - economy sucks, debt and unemployment hitting the all time high
+	 - recession hitting everyone
+	 - Commemorate Paul VI's Populorum Progressio and to affirm the relevance of the social doctrine of the church
+ - Message
+	 - critique economic gap between northern and southern hemisphere and global debt
+	 - East-West tensions and competition block world cooperation and solidarity
+	 - Critiques consumerism and waste as well as trading practices that hurt developing nations
+ - Themes
+	 - Super development and under development
+		 - The gap between people is immoral
+	 - Preferential option for the poor
+		 - While we own things privately, that ownership is not only meant for our individual well being but to empower us so we can serve others.
+	 - On terrorism and demographics
+		 - notes the emergence of terrorism used by some groups to create a better society, and says that these are unjustifiable
+		 - increasing tendencies among states to equate demographic growth with under development
+	 - Structures of sin that impedes the realization of the common good
+		 - there are political arrangements that impede the solidarity of people and promotes division which runs contrary to the development of people
+		 - institutionalized corruption is hard to overcome and this invites others to condone rather than fight it
+
+**Centisimus Annus** (The hundredth year)
+ - John Paul II, 1991
+ - Context
+	 - 100th year anniversary of Rerum Novarum
+	 - Collapse of communism in Eastern Europe
+- Message
+	- Critiques the fundamental error of communism
+		- says it has an atheistic view of humanity
+		- it supports the free market as the most efficient system for utilizing resources and responding to needs. It also recognizes the freedom of the human person.
+	- Warns against consumerism as well as making capitalist system an all-encompassing ideology
+- Themes
+	- the new things of today
+		- socialism is no longer strong due to the incoming collapse of the USSR
+	- Subsidiarity and solidarity
+		- an economic program cannot be just if it does not pave the way for subsidiarity and solidarity
+		- It must ensure the well being of human individuals. Unless an authentic measure of social inclusion is realized, the economic system will remain to be ineffective and immoral.
+
+**Caritas in Veritate** (Charity in Truth)
+ - Pope Benedict XVI, 2009
+ - Context
+	 - worldwide economic crisis due to the weakness of financial institutions and the collapse of the housing market
+ - Message
+	 - true human development requires charity lived out in truth
+		 - respect for the common good / religious freedom and sanctity of human life
+		 - only an person-focused economy of community will be successful
+ - Themes
+	 - The phenomenon of globalization
+		 - it brings with it both advantages / disadvantages and corresponding challenges
+	 - Promoting the logic of gift and the principle of gratuitousness
+		 - We will only take care of things when we realize that they are a gift and be willing to give them back in return
+		 - If we want to build a globalized world, we need to have a culture of caring and giving
+
+**Laudato Si** (Praise to be you, my Lord)
+ - Francis 1, 2014
+ - Denounces the harms that contemporary society does to the environment
+ - Theme
+	 - A warning against our neglect for our environment
+		 - Short term but easy gains is the reason for the neglect and abuses in the environment
+		 - Reminds that we are care takers of the world and our abuse to the environment is our neglect of humanity
+
+## Official Catholic teachings other than the encyclicals
+ - **Pius XIII's christmas messages**
+	 - speaks of elements of social life, particularly on peace
+		 - respect for the dignity of the human person
+		 - defense of social unity
+		 - dignity of labor
+		 - rehabilitation of the judicial order
+		 - Christian Conception of the State
+ - **Vatican II documents:**
+	 - Dignitatis Humanae and Gaudium et Spes
+	 - Context
+		 - continuing cold war and arms race
+	 - Message
+		 - church is intertwined with the world
+		 - Assesses the rapid cultural changes and technological advances in light of the gospel
+		 - Optimistic tone but has a concern for faith, family, and transcendent destiny of man
+	 - Dignitatis Humanae
+		 - religious freedom and the relationship between states and religions
+	 - Gaudium et Spes
+		 - natural and catholic humanism, social and political philosophy, common good, solidarity, human rights, peace and the avoidance of war, family and the state's role in fostering the future of human communities
+ - **Octogesima Adveniens (The coming eightieth year)**
+	 - Paul VI, 1971
+	 - Context
+		 - Verging on recession
+		 - the US has civil rights and women's movements, vietnam war protests
+	 - Message
+		 - Urbanization has presented problems since it splits the elderly / handicapped and marginalized into poor cities
+		 - Discrimination continues based on race / color / sex and religion
+		 - Christians called to engage in political processes to address injustices / applying gospel principles
+	 - Provides views on other social issues like the need for human equality and the need for inclusion in decision making
+		 - addresses the role of women in political and social life
+ - **Justices in the World**
+	 - Synod of Bishops, 1971
+	 - Context
+		 - Political unrest in 1960s, increased liberation especially in Latin America
+	 - Message
+		 - structural injustices must be met with liberation rooted in justice.
+			 - God is the liberator of the opressed
+		 - Church must speak on behalf of the oppressed and be a witness for justice.
+		 - how the church could serve as witness and educator / be an agent to justice to the world
+ - Apostolic Exhortations
+	 - **Familiaris Consortio**
+		 - John Paul II
+		 - landmark document about Marriage and Life
+		 - Messages
+			 - discusses gender and the role of women on social, cultural, and economic factors that affect the family
+			 - Also discusses the contribution of family in the wider society
+	 - **Evangelli Gaudium**
+		 - Pope Francis
+			 - Intended to talk about the proclamation of the Gospel
+			 - Talks about the crisis of communal commitment
+			 - Critiques the economic system that treats money as its lord which promotes a throwaway culture marked by indifference and exclusions
+ - Compendium of the social doctrine of the church
+	 - released by the pontifical council for justice and peace to articulate the social doctrine of the catholic church, in 2004
+
+### Principles and Values of the Social Teachings of the Church
+ - **Dignity of the Human person**
+	 - The foundation of all CSTs is the inherent dignity of the human person
+	 - Human life is sacred and the inherent dignity is the starting point for a moral vision of society
+	 - The person is made in the image and likeness of God, and it is the clearest reflection of God
+ - **Common Good and Community**
+	 - the human person is sacred and social, we realize our rights with others
+	 - Human beings grow and achieve fulfillment in community
+		 - Dignity can only be protected in the context of relationships with the wider society
+		 - How we organize our society affects the capacity for us to grow
+		 - Everyone has a responsibility to contribute to the good of the whole society.
+ - **Universal Destination of Goods**
+	 - facilitate the conditions for integral human development so everyone can contribute to making a humane world
+	 - rooted in common humanity
+		 - if we are all equal, then the wide gap among us is against our common humanity
+	 - Option for the poor
+		 - The poor have the most urgent moral claim on the conscience of the nation
+		 - We are called to look at public policy in terms of how they affect the poor
+		 - The deprivation of rights of the poor hurts the entire community
+		 - Essential part for a society to achieve the common good, since a healthy community can only be achieved when special attention is given to those with special needs.
+ - Rights and responsibilities
+	 - Human dignity can be protected only if rights are protected and responsibilities are met
+	 - Every person has a right to life and a right to basic human necessities
+	 - Corresponding to these rights are duties and responsibilities to one another
+ - Role of government and subsidiarity
+	 - The state is an instrument to promote human dignity / human rights and common good
+	 - All people have a right and responsibility to participate in political institutions so the government can function
+ - Economic justice
+	 - the economy must serve people -> all workers have a fair wage and safe working conditions
+	 - Labor over capital, humanity comes before profit.
+	 - The economy must provide me with the essentials of life
+ - Stewardship of God's creation
+	 - The goods of the Earth are gifts from God intended for everyone
+	 - We have a responsibility to take care of what we have
+	 - How we treat the environment is a measure of our stewardship
+	 - Peace is the mutual respect and confidence between nations, it involves collaboration and binding agreements
+	 - Close relationship in catholic teaching between peace and justice
+		 - Peace is the fruit of justice and is dependent on right order among human beings
+ - Participation
+	 - Everyone has a right to participate in society
+	 - People must be assured a minimum level of participation in the community
+		 - Fundamental demand of justice and a requirement of human dignity
+	 - One should not be excluded unfairly or be unable to participate in society
+ - Global Solidarity and development
+	 - We are one family called to work globally for justice.
+	 - Authentic development must be full human development, respecting the dignity and rights of nations / people.
+ - **Fundamental values of social life**
+	 - Truth
+		 - Witness the reality of our christian vocation
+		 - To speak the truth even during moments where being truthful is inconvenience and difficulty
+		 - Proclaim the message of christ within a culture of openness and dialogue that remains faithful to the demands of justice and truth
+	 - Freedom
+		 - freedom is the highest sign in man, a sign of sublime dignity of every human person
+		 - requires us to be allowed to exercise our autonomy, Christian freedom is aware of its limitations and responsibility
+	 - Justice and Love
+		 - There is no authentic justice without love
+		 - Christian justice is restorative / transformational / liberative
+			 - has to lead with conversion of both the victim and oppressor
+	 - the world is not a perfect place, but we are not fully disgraced since we are good by nature, and that this good cannot be totally corrupted.
+	 - We have an invitation to continually attempt to build a civilization of love and to make our world a better place to live in
+
+

@@ -1,0 +1,113 @@
+- acdg to the catholic church - no spirituality outside of religion
+- spiritus - breath of life
+	- without the spirit, there is no life, it is the one that animates the body of the person.
+	- Death is the separation of the soul from the body, the body has no life
+- Religion comes from religio
+	- means reliance / connection
+- In spirituality, we find a notion of the spirit in search for connection
+- Spirituality - a way of life that searches for God, for what is divine
+	- relates to structures of significance that gives meaning and direction to a person's life that helps them deal with existence
+	- associated with the human quest for meaning / purpose / knowledge / meaningful relationships / love and a sense of the body
+	- no matter your status in life - we strive to find meaning in life, that's why all of us have a connection to spirituality
+	- our goals and ambitions motivate us to do certain actions
+		- sometimes we base our morality on our goals, if our action leads to the goal, then we might judge our actions as right, vice versa
+		- it is important that we should aim to do what is good not only for us but for the entire community
+	- the goal of spirituality is to become fully human by building a relationship with god, united with what is divine (the closer we get to god, the more we understand ourselves)
+		- Understanding
+		- Perseverance
+		- Patience
+	- aspects of creation
+		- matter
+		- consciousness / form / soul
+	- methods of study
+		- science - the study of matter / physical forces that influence matter
+		- spirituality - study of consciousness and its evolution / progress
+- Plato
+	- Each human being is a combination of a physical body and a non physical soul. our physical bodies are not really real or important. His ethical theory focuses on the well being of the soul
+	- the real things exist only in the world of ideas
+		- what we see is a representation and is not important as they are subject to change
+		- ideas don't change, which is why his focus was the world of ideas (the non tangible)
+	- Justice is harmony between the  three different parts of our souls (reason / spirit / appetite), with reason ruling.
+		- reason - capable of intellect, pursues truth and knowledge, weakest part but it can governing itself well
+			- humans are the only ones that have intellect
+			- the brain represents the rational part of the soul, swayed by truths, facts and arguments
+		- spirit - the part that is proud and concerned with one's status. it pursues fame and power
+			- how feelings fuel our actions - the emotional part
+		- appetite - the largest and most powerful part, pursues pleasure and avoids pain.
+			- in control of most people's souls, this leads them to many undesirable consequences.
+			- drives you to eat, have sex, and protect yourself
+			- the animal part of the person
+- Origen of Alexandria
+	- the ultimate goal of human life is to have a continual communion with god
+		- no other goal in life other than to be with God in the future
+	- the path to intimacy with god, then is viewed by origen as the soul's journey from earth to heaven
+	- body - find god through the five senses
+	- soul - find god through enlightened knowledge
+	- spirit - find god through perpetual communion with him
+		- enter into union with contemplation, resulting in a life of pure love and active charity
+- St. Augustin of Hippo
+	- spirituality is in inquiry in the supreme good which gives the happiness that all human beings seek
+	- This happiness can be found in the enjoyment of God and his presence
+	- Criteria of knowing of our actions helps us reach god
+		- we need to follow the 10 commandments of god, live a moral life under the guidance of god's commandments, and that is spirituality
+		- "if we continue to rely on what god wants us to do, our lives will not perish but it will become joyous instead".
+		- It is our duty to follow the will of god because his will is our will too.
+			- god cannot suggest something evil for us, he always decides what is good for all of us
+	- man has a wounded nature which is outcome of original sin. Everyone has these desires, but each is prone to something different:
+		- desire of the flesh
+		- desire for wealth and possessions
+			- it is not bad, unless you become greedy and corrupt
+		- desire for power or authority
+	- evangelical counsels
+		- allows us to combat the desires present in him through its cultivation and practice
+		- with all your soul and chastity - controls our desire of the flesh
+		- poverty - desire for wealth or possessions
+		- obedience - desire for power or authority
+- St. Benedict of Nursia
+	- asks us if we truly seek God
+	- this is a universal human quest and is central to the whole Benedictine way of life.
+	- he considers the ultimate rule of life to be the word of god contained in the scriptures, it's important that we should read, understand, and apply it in our day to day life
+		- Ignorance of scriptures is ignorance of christ
+		- We have to be familiar with the word of god, since it guides us in our day to day life.
+	- Rules
+		- Seeking God / the common good / commitment / mutual sharing/ hospitality / care for earth / peace
+	- Society
+		- seeking material things / individualism / non-involvement / competition / rejection / exploration / violence
+	- Obedience is a part of our ongoing conversion, hearing god's word. Listening obedience calls us to be centered again on our seeking for god.
+- ST. Thomas Aquinas
+	- does not separate nature and grace, but rather shows that nature can be used to defend belief in God
+	- Reason and the senses can be used by human beings and by doing so, humans can discover truths
+	- Summa Theologica Aquinas
+		- shows the existence of God in a way that can be demonstrated to be true
+		- Tried to disprove the theory of two conflicting truths which spread through the western world under the influence of the writings of the Arabic scholar
+		- Uses philosophy to explain theology, logic to make faith reasonable
+- The renaissance
+	- science has no authority when it comes to spiritual things, only material things
+		- This limitation is the reason why we can't limit life to science
+	- Christianity played in the development of the scientific method
+	- Human reason as well as nature were now seen as functioning part from religion
+		- Secular humanism
+	- God became a less omnipotent spirituality, and spirituality was practised more from a human starting point. We became the center of all
+		- Christianity was still influential. Vast majority of inventions were still made in a christian context and world view.
+- Enlightenment
+	- gained much momentum in the 18th century through French Scholars
+		- these people wanted to promote freedom and equality for all people, based on the idea that a person is actually good and needs to learn to use reason rightly, which they can do with proper education
+- Romanticism
+	- mid 18th century until the mid 19th century. First gained momentum in Germany
+	- puts an emphasis in feelings and experience
+	- also the time when a strong historicism developed
+	- the particular became more important then the view of the universal of the enlightenment
+		- experience is different from person to person
+- Modernism and onwards
+	- Hegel developed his idea of dialetical reasoning
+	- Claimed that eternal truths do not exist and that different ideas are equially valid. With regard to the concept of spirituality, this would mean that different kinds of spiritualities can co-exist.
+	- Darwin - made an important contribution to this context
+		- away from the viability and rationality of religion, towards a more naturalistic and evolutionary view
+	- Freud - attempted to explain human behaviour entirely on a  naturalistic and deterministic basis, without invoking a higher cause
+		- Criticized religion as the universal obsessional neurosis of humanity, had a very negative view of religion
+	- Existentialism
+		- there is no inherent meaning in life, no intrinsic human nature
+		- a uniquely defining characteristic of human existence was that existence comes before essence.
+		- The individual has to make choices and define him
+	- Post modernism 
+		- there is no absolute truth, putting an end to all truth claims, contrary to the teachings of the church

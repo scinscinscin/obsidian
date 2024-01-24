@@ -1,0 +1,67 @@
+**Computer architecture**
+ - attributes of a system visible to a programmer
+	 - instruction set, number of bits used to represent data types
+	 - io mechanisms, techniques for addressing memory
+ - has a direct impact on the logical execution of a program
+ - Instruction set architecture defines instruction formats, opcodes, registers, instruction and data memory
+	 - effect of executed instructions on the registers and memory and an algorithm for controlling instruction execution
+**Computer organization**
+ - operational units and their interconnections that realize the architectural spec
+ - hardware details that are transparent to the programmer
+	 - control signals, interfaces between the computer and peripherals and the memory technology used
+	 - organizational choices are based on the expected usages of the architecture
+
+A computer is a complex system that can be described using their hierarchical nature
+ - a set of interrelated subsystems
+ - essential in their design and description since each level consists of a set of components and relationships
+ - behavior exists on a simplified abstract characterization of the system at the next lower level
+	 - structure - the way components are interrelated
+	 - function - operation of each components as part of the structure
+ - things that a computer does
+	 - data processing - manipulating data 
+	 - data storage - the computer must store the data temporarily while they are being worked on at any given moment
+		 - short term data storage
+		 - long term data storage function
+		 - files are stored for retrieval and update
+	 - data movement - the operating environment consists of devices that serve as sources or destinations of data
+		 - when data is sent / received from a device connected to a computer, it's called input-output, device is referred to as a peripheral
+		 - when data is moved over large distances, it's called data communications
+	 - control - a control unit manages the computer's resources and orchestrates the performance of its functional parts in response
+ - a general purpose computer can do a lot since it's function is decided at the time of programming and not at the time of design
+	 - central processing unit - operations of the computer and performs the data processing functions
+		 - traditionally, there has been a single processor
+			 - multicore computer and each processing unit is called a core
+				 - central processing unit - portion that fetches and executes instructions
+					 - ALU / CU / registers
+				 - core - individual processing unit on a processor chip
+					 - equivalent in functionality to a CPU on a single CPU system
+					 - specialized processing units may exist, such as one for vector / matrix operations
+					 - instruction logic - tasks involved in fetching instructions and decoding each instruction to determine the instruction operation / memory locations of operands
+					 - has an ALU
+					 - load and store logic - manages the transfer of data to and from main memory via cache
+				 - processor - a physical piece of silicon containing one or more cores
+					 - computer component that interprets and executes instructions
+					 - if it has more than 1 core, it's referred to as a multicore processor
+		 - control unit - controls the operations of the CPU and the computer
+		 - Arithmetic logic unit - performs the computer's data processing functions
+		 - registers - storage internal to the CPU
+		 - CPU interconnection - a mechanism that provides communication among the CU / ALU and registers
+		 - cache memory - smaller and faster than main memory and is used to speed up memory access by placing the cache data from the main memory
+	 - main memory - stores data
+	 - i/o - moves data between the computer and the external environment
+	 - system interconnection - a mechanism that provides communications among cpu / memory / io
+		 - system bus, consisting of conducting wires which all the components attach to each other
+		 - most computers are housed in a motherboard
+			 - a printed circuit board is a rigid board that holds and interconnects chips and other electronic components
+			 - main printed circuit board in a computer is called a system board or motherboard
+				 - smaller ones that plug into the slots in the main board are called expansion boards
+				 - contains a slot or socket for the processor chip, which contains multiple cores
+				 - also has slots for memory chips / io controller chips and other components
+				 - expansion slots enable the inclusion of more components on expansion boards
+					 - pci-express slots for a display adapter
+					 - ethernet controller and ethernet ports for network connections
+					 - usb sockets for peripheral devices
+					 - SATA sockets for connections to disk memory
+					 - interfaces for DDR main memory chips
+			 - a chip is a single piece of seminconducting material upon which electronic circuits and logic gates are fabricated
+				 - the resulting product is called an integrated circuit

@@ -1,0 +1,48 @@
+- subjective history is not necessarily inferior to objective history
+- we can't know facts about history from artifacts with 100% certainty
+	- they are only a small parts of the history where they belong in, and can only be given historical context if they are placed in a human setting
+- a lot of things are not recorded, only a part of what survives attracts the historians
+	- the whole history can only be known through the surviving record
+- the historian uses their experience to know history from inadequate reminders
+	- it can be nothing more than a mental image upon an application of his own experience
+	- close to the approx. of truth as he can get, recognizing that the truth is gone
+	- he just recreates a verisimilar image of as much of the past as the evidence makes recoverable
+- primary source
+	- testimony of a witness of anyone that was present at the events they tell (eyewitness)
+	- they only need to be original - first hand as to their testimony
+		- original source and primary source are different
+- secondary source - someone who is not an eyewitness
+- History
+	- Greek for historia - learning / inquiry
+	- Germans - Gerschichte - to happen
+	- Chronological record of significant record events, study of past
+- kasaysayan
+	- narrative / relevance / importance
+	- the inquiry conducted by the historian and the series of past events into which he inqueries
+	- interaction between historian and facts, and their interpretation
+- Historical method
+	- historians have to verify sources, date them, locate place of origin
+	- process of critically examining and analyzing the records and survivals of the past
+	- "Each generation of historians develops its own perspective, our understanding of the past is constantly reshaped by the historian and the world where they live in"
+		- Howell and Prevenier
+	- Events observed by someone > events observed and remembered > events recorded > those that have surviving records > believable records for a historical account > the historian's cone of view.
+		- the information we get is pretty small, our lives are small compared to our own past
+- Historical sources
+	- materials used for the writing of history
+	- products of their own times
+	- sometimes, they are dubious sources, must be keen in verification
+	- Primary sources
+		- provides us with eyewitness account of what happened
+		- it is an important asset in recovering / recreating our past
+	- secondary sources
+		- academic journals / books / the things that we read
+		- are summaries - has a different interpretation since the people who wrote it are detached from the event
+			- is balanced with different primary sources
+		- has some room for questioning
+			- point of view of the author - maybe the author has an agenda
+		- may have pictures, quotes, or graphics of the primary sources in them so the people have more appreciation
+	- other classifications
+		- written / non written source
+			- Non written: oral / artifact / ruins / fossils / art works / videorecordings / audiorecordings
+		- published / unpublished
+		- textual / oral / visual sources

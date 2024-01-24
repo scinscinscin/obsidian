@@ -1,0 +1,20 @@
+ - an array of millions of adjacent cells, each cell is capable of storing a bit
+ - each row is implemented by a register and has a length equal to the word size of the machine
+ - each register has a unique address to move a word in and out of memory
+ - built from ram chips
+ - `number of words * word size`, ex: `4Mx16`
+	 - 4 million words / addresses
+	 - width is 2 bytes
+ - word size
+	 - maximum number of bits a cpu can process at a time and depends on the processor
+	 - fixed size piece of data as a unit by the instruction set or hardware of the processor
+	 - depends on the processor architecture / what it can handle
+ - whenever cpu executes a program, it needs to load instruction from memory by generating the **memory request**, containing the address + control signals
+	 - address of the word to be read is stored in the MAR
+	 - a read signal is issued by the CPU stating that the address of the MAR is to be loaded into the MDR
+	 - the required word will be loaded into the MDR ready for use
+ - write operation
+	 - word is stored in the memory data register
+	 - address of location to write to is stored in the MAR
+	 - write signal is issued by the CPU to indicate that it should be specified
+	 - MDR and MAR are used exclusively by the CPU

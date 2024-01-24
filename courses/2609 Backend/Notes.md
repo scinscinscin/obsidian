@@ -1,0 +1,106 @@
+# Abstract Window Toolkit
+
+ - The package in the java API that allows us to create graphical user interface objects like buttons, frames, textareas and the like
+ - Superseded by the swing and JavaFX APIs
+ - Components
+	 - Buttons
+	 - Textfields
+	 - Label
+ - Containers
+	 - Panel
+		 - A type of container that provides a space
+		 - It cannot be launched itself, it needs to exist inside another container
+	 - Frame
+		 - Frame Class
+			 - A top level window with a border and title bar
+			 - Uses BorderLayout as the default layout manager
+			 - Has resizable corners
+	 - Dialog
+ - Layout Managers
+	 - Are used to position components inside containers
+	 - can be customized by nesting containers
+	 - From java.awt
+		 - FlowLayout
+			 - arranges components in a directional flow, like lines of text
+			 - used to arrange buttons in a panel, arranging them horizontally until no more buttons fit on the same line
+			 - the line arrangement is determined by the align property
+				 - LEFT, RIGHT, CENTER, LEADING, TRAILING
+		 - BorderLayout
+			 - lays out a container, and resizing components to fit in five regions, NORTH, SOUTH, EAST, WEST, CENTER
+			 - Each region can't contain more than 1 component
+			 - `(new Panel()).add(new Button("okey"), BorderLayout.SOUTH)`
+		 - GridLayout
+			 - lays out a container's components in a rectangular grid
+			 - container is decided into equal sized rectangles, and one component is placed in each rectangle, such that all components will still be equally sized
+		 - Cardlayout
+		 - GridBagLayout
+	 - javax.swing
+		 - BoxLayout
+		 - SpringLayout
+
+# Event Handling Techniques
+ - **Events** - objects that describe interactions between the user and a gui component
+ - **Event Sources** - GUI components that can be interacted with by the user
+	 - have methods that allow you to register event listeners with them. When something happens to the source, it sends a notification to all the listener objects for that event
+	 - All Information is encapsulated by an event object that is subclassed from `java.util.EventObject`
+	 - Different event sources can produce different kinds of events
+ - **Event handlers**
+	 - a method that is invoked every time that an event is called
+	 - where you put code that runs everytime an event occurs
+ - Techniques
+	 - Event delegation model
+		 - Allows you to delegate the event handler to a different class, producing a loosely coupled GUI and Event handler package
+			 - Each class is a separate Java source file
+		 - Can attach as many event handlers to one event source, just need to register each one to the source
+	 - Listeners - interfaces that you implement, you have to override all methods in the interface
+	 - Adapter classes - like listeners, but you're not required to override everything
+		 - only listeners that contain two or more methods have a corresponding adapter class
+		 - they have default implementations for the listener so you don't have to override everything
+	 - Inner classes
+		 - make for tightly coupled components, used to group the UI and event handler code tightly in a single codebase
+	 - Anonymous classes
+		 - creates an object on the fly that is anonymous
+		 - does not have any handler or object references
+		 - they are automatically destroyed, leaving memory in an optimized state
+			 - Are used usually for mobile devices / desktop applications that have an efficient runtime, since having less objects in memory improves runtime speed
+	 - Lambda expression
+		 - Allows you to pass unnamed functions as parameters to methods. 
+		 - A simplified version of anonymous classes
+
+# Swing
+ - A part of the java foundation classes that is used to create window-based applications
+ - Built on top of AWT, but provides a set of platform independent and lightweight components
+	 - Swing is platform independent, AWT is platform dependent
+	 - Swing is lightweight, AWT is heavyweight
+	 - Swing look and feel can be customized, AWT cannot be customized
+	 - Swing provides mower powerful components, AWT provides less components
+	 - Swing follows MVC pattern, AWT does not
+ - `javax.swing` provides classes for the swing API:
+	 - JRadioButton - Implementation of a radiobutton, can be selected / deselected
+		 - Can be used in collaboration with a ButtonGroup to group buttons, so that only one can be selected in the group at a timer
+	 - JCheckbox - Implementation of a checkbox, an item that can be selected or deselected
+		 - Any number of checkbox in a group can be selected, and is toggleable by a click
+	 - JComboBox - a component that combines a button or editable field and a dropdown list
+		 - the user can select a value from the drop down list, which is then set as the default view, similar to `<select />`
+		 - If editable, the user can set their own values for it
+	 - JList - a component that displays a list of values, where the user can select one or more items
+		 - A separate model (ListModel) maintains the contents of the list, which must be created first before the JList itself
+	 - JButton
+	 - JTextField
+	 - JTextArea
+	 - JMenu
+	 - JColorChooser
+ - Converting from AWT to Swing
+	 - Add a package declaration at the top of the source code so it can be packaged in a jar file
+	 - Add J in front of the components and containers, but don't add it in the layout managers
+ - JAR file - Java Archive
+	 - A package file format typically used to group java classes into one file for distribution
+	 - Can be accessed and used in different operating systems
+	 - Without a manifest file: 
+		 - Creating: `jar cvf <JarFile.jar> <list of files follows>`
+		 - Running: `java -cp <JarFile.jar> <package.name.class.with.Main>`
+	 - With manifest: 
+		 - Creating: `jar cvfm <JarFile.jar> <Manifest.MF> <list of files follows>`
+			 - where Manifest.MF contains: `Main-Class: <package.name.class.with.Main>`
+		 - Running: `java -jar <JarFile.jar>`
+

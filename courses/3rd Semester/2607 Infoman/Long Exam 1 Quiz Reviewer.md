@@ -1,0 +1,263 @@
+---
+tags:
+  - reviewer
+course: ICS2607 - Information Management
+period: Prelim
+assessment: Long Exam 1
+---
+
+ - Good decisions require good information
+ - Data is managed most efficiently when stored in a DB
+	 - DB evolved from computer file systems
+ - Understanding file system characteristics is important
+
+ - Data - raw facts
+	 - must be formatted for storage / processing and presentation
+	 - is the foundation for information, as building blocks
+ - information is the result of processing raw data to reveal meaning
+	 - Produced by processing data
+	 - Accurate/ relevant / timely information is the key to good decision making
+	 - Data management - proper generation / storage and retrieval of data
+# Databases
+ - solve many problems encountered in data management
+ - Used in all modern settings involving data management
+ - Shared integrated structure that stores a collection of
+	 - End user data - raw facts of interest to end user
+	 - Metadata - data about data
+		 - Provides description of data characteristics and relationships of data
+		 - Complements and expands the value of data
+ - **DBMS** - collection of programs that manages the structure and controls access to data
+	 - Intermediary between the user and the database
+	 - You can only access files through the DBMS
+	 - Enables data to be shared
+	 - Integrates many users' view of the data (can be used by many different types of users)
+	 - Consists of logically related data stored in a single data repository
+	 - Most of the functions are transparent to the end-users
+	 - transforms data when storing and retrieving data to and from a format that can be understood by computers and humans
+	 - 
+ - Stores definitions and relationships in a data dictionary
+	 - DBMS looks up the required component structures and relationships
+	 - Changes are automatically recorded int he dictionary
+	 - Provides data abstraction and removes structural and data dependency
+ - Advantages
+	 - data sharing / security / access / integration
+	 - decision making / end user productivity
+	 - Minimizes data inconsistencies
+ - Classed by
+	 - number of users
+		 - single user db supports only one user at a time
+		 - Multiuser database supports multiple users at the same time
+	 - database locations
+		 - Centralized db - data is located at a single site
+		 - Distributed db - data is distributed across several different sites
+	 - expected type and extent of use
+		 - Operational database - supports a company's day to day operations
+		 - Data warehouse - stores data used for strategic decisions
+			 - Unstructured data is stored, meaning they are stored in their original state
+ - Types of DB
+	 - semi structured data have been processed to some extent
+	 - XML represents data elements in textual format
+
+# Database Design
+ - focuses on the design of DB structure used for end user data
+	 - Designer must identify the expected use of the DB
+	 - facilitates data management and generates accurate and valuable information
+ - a poorly designed DB causes difficult to trace errors
+ - need to study file systems because complexity of database design is easier to understand
+	 - understanding file system problems helps to avoid problems with DBMS
+	 - useful for converting file systems to database systems
+	 - composed of a collection of file folders, where the contents of a folder are logically related
+	 - **manual file systems** - a data repository for small data collections
+		 - cumbersome for large collections
+		 - each file used its own application program to store, retrieve and modify data
+		 - each file was owned by an individual or department that commissioned its creation
+	 - computerized file systems
+		 - converted computer file structure from manual system
+		 - wrote software and application programs that managed the data
+	 - problems with file systems
+		 - security was difficult to program and often omitted in the file system environment
+		 - requires extensive programming 
+ - **independence**
+	 - structural dependence - access to a file is dependent on its own structure
+	 - structural dependence - change file structure without affecting data access
+	 - data dependence - data access changes when data storage characteristic changes
+	 - data independence - data access do not change when the storage characteristic changes
+ - logical data format - how humans view data
+ - physical data format - how computer must work with data
+
+Data redundancy
+ - file system makes it difficult to combine data from multiple sources
+ - Organizational structure promotes storage of same data in different locations
+	 - islands of information and the data is unlikely to be updated consistently
+	 - Data redundancy - same data stored unnecissarily in different places
+	 - Data inconsistencies - different and conflicting versions of same data in different places
+	 - Data anomalies - all changes in redundant data are not made correctly
+
+## Information system
+ - provides data collection / storage and retrieval
+ - consists of
+	 - Hardware - all the system's physical devices
+	 - Software - OS / DBMS / Application programs
+	 - People - all users of the database system
+	 - Procedures - instructions and rules that govern the design and use of the DB system
+	 - Data - collection of facts stored in the database
+ - System analysis - processes that establishes need for and extent of information system
+ - System development - process of creating information system
+ - Uses - transforms data into information that forms basis for decision making
+	 - Consists of data and code
+ - Performance is tied to
+	 - database design and implementation
+		 - Creating database storage structure
+		 - Loading data into the database
+		 - Providing for data management
+	 - Application design and implementation
+	 - Administrative procedures
+ - **SDLC - traces the history of an information system**
+	 - Database design and application development is mapped out and evaluated
+	 - Planning - initial assessment and feasibility study
+		 - Should the existing system be changed?
+		 - Evaluate alternate solutions
+			 - Technical requirements
+			 - System cost and operational cost
+	 - Analysis - User requirements / existing system / logical system
+		 - Problems defined during planning phase are examined in greater detail during analysis
+		 - Thorough audit of the user's requirements
+		 - Existing hardware and software systems are studied
+		 - The goal is for better understanding of
+			 - System's functional areas
+			 - Actual problems
+			 - and opportunities
+	 - Detailed systems design - Detailed system spec
+		 - Designer completes the design of system's processes
+		 - Includes all necessary specifications
+		 - Laid out for conversion from old to new system
+	 - Implementation - Coding / testing / debugging / installation / optimization
+		 - Required software is installed
+		 - coding / testing and debugging continues until it is ready for delivery
+		 - Database is created and systems is customized
+	 - maintenance - Evaluation / Maintenance / Enhancement
+		 - Corrective maintenance
+		 - adaptive maintenance
+		 - Perfective maintenance
+ - DBLC
+	 - Database initial study
+		 - Analyze the situation of the company
+		 - Define problems and constraints
+		 - Define objectives
+		 - Scopes and boundaries
+		 - **identifying the information that the user/clients need**
+		 - **How information can be accessed and how they should look when they are printed**
+		 - **Data definition** - we gather and list all necessarily fields for our database
+			 - Think of all data needed
+		 - **Data refinement** - breakdown some fields to more specific fields to store information at the smallest logical parts
+		 - **Need to tell the database how to bring the original information back by using relationships**
+	 - Database design
+		 - Concentrate on the data characteristics required to build database model
+		 - Two types of views
+			 - Business view and Designer's view
+	 - implementation and loading
+		 - Implement all design specs from previous phase
+		 - Install the DBMS
+		 - Create the database
+		 - Load or Convert the data
+	 - Testing and evaluation
+		 - In parallel with application programming
+		 - DB tools used to prototype apps
+		 - If implementation fails to meet some of the system's eval criteria
+			 - Finetune specific system and DBMS configuration parameters
+			 - Modify physical or logical design
+			 - Upgrade software or hardware
+		 - Integrity
+			 - Enforced using proper use of primary and foreign key rules
+		 - Backup and recovery
+			 - Full backup / Differential backup
+			 - Transaction log backup
+	 - Operation
+		 - Problems not forseen during testing surface
+		 - Load balancing software to distribute transactions among multiple computers
+	 - Maintenance and evaluation
+
+**Distributed database design**
+ - Portions of database reside in different physical locations
+ - Database fragment - subset of a database stored at a given location
+ - Processes accessing the database vary from one loc to another
+ - Designers must develop data distribution and allocation strategies
+
+**Threats to data security**
+ - human error / software failure / hardware failure
+ - Theft and fraud
+ - Loss of privacy and confidentiality
+ - loss of data integrity
+ - Loss of availability
+
+Views
+ - a subset of the database that is presented to one or more users
+ - User can be given privilege to view without allowing access to underlying tables
+ - Protect the data from unauthorized use
+ - Domains set allowable values
+
+**ACID**
+ - Atomic - transaction cannot be subdivided
+ - Consistent - constraints don't change from before transaction to after transaction
+ - Isolated - DB changes not revealed to users until after transaction has completed
+ - Durable - DB changes are permanent
+# Data Models
+ - simple representations of complex real world data structures
+ - model - an abstraction of a real world object or event
+	 - useful for understanding complexities of the real world
+ - modeling is iterative and progressive
+ - importance
+	 - facilitates interaction between the programmer / designer and end user
+		 - end users have different views and needs for data
+	 - data model organizes data for various users
+	 - is an abstraction - cannot draw required data out of the data model
+ - Building blocks
+	 - entity - any object whose data is collected and stored
+	 - attribute - a characteristic of an entity
+	 - relationship - an association among entities
+		 - one to one
+		 - many to many
+		 - one to many
+	 - constraint - a restriction placed on the data
+ - business rules - policies / procedures within a specific organization
+	 - apply to any organization that stores and uses data to generate information
+	 - description of operations to create actions within an org's environment
+	 - describes characteristics of data as viewed by the company
+ - Nouns -> Entities
+ - Verbs -> relationships
+ - Models
+	 - Hierarchical models
+		 - developed in the 1960s to manage large amounts of data for manufacturing projects
+		 - basic structure is an upside down tree
+		 - structure contains levels or segments
+		 - Each parents can have many children, but each child has only one parent
+	 - Network mode
+		 - represent complex data relationships more effectively than hierarchical model
+		 - record may have more than one parent
+	 - Relational Model
+		 - EF Codd in 1970
+		 - Table, is a matrix consisting of row and column intersections
+		 - Model was conceptually simple at expense of computer overhead
+		 - Stores collection of related identities
+		 - SWL-based relational database application involves three parts
+			 - End user interface - end user to interact with the data
+			 - Set of tables stored in the database
+				 - each table is independent from another
+				 - Rows in different tables are related using FKs
+				 - SQL engine that executes all queries
+ - Entity relationship model
+	 - Chen in 1976
+	 - Graphical representation of entities and their relationships in a database structure
+	 - entity relationship diagram
+		 - graphic representations to model database components
+		 - Entity is mapped to a relational table
+		 - Connectivity labels types of relationships
+			 - Can be expressed using either Chen notation or Crow's feet
+	 - Chen notation
+		 - relationships are represented by a diamond, and the relationship name is written inside
+	 - Crow's notation
+ - Physical model
+	 - Operates at lowest level of abstraction
+		 - Describes the way that data are saved on storage media such as disk or tapes
+		 - Requires definition of physical storage and data access methods
+		 - Physical independence - changes in physical model do not affect internal model

@@ -1,0 +1,75 @@
+Decrease and Conquer
+ - reduce problem instance to smaller instance of the same problem
+	 - solve smaller instance
+	 - extend the solution of smaller problem to obtain solution to original problem
+		 - also called prune and search
+		 - increase and conquer
+		 - inductive / incremental method
+ - exploits the relationship between a solution to a given instance of a problem and a solution to its smaller instance
+ - it does not work equally on both subproblems
+ - advantages
+	 - can be implemented top down or bottom up
+	 - is very efficient
+ - disadvantages
+	 - less widely acceptable compared to brute forcing
+
+## Variations
+ - **decrease by a constant**
+	 - exponentiation - compute a^n where a!=0 and n>=0
+		 - brute force is iterative
+		 - decrease by a constant soln
+			 - a^n = a^n-1 * a
+	 - insertion sort
+		 - applies the decrease by 1 technique in order to sort an array
+		 - we assume that instance `A[0..n-2]` is sorted
+			 - scan the sorted subarray until an element <= `A[n-1]` is found, then insert current element after that element
+	 - topological sort
+		 - determines which jobs must be performed first
+		 - represents job dependencies using a digraph
+			 - jobs are vertices, an edge from x to y means that x must be completed before y
+		 - topological sorting provides an order in which to perform jobs subject to dependencies
+		 - is not solvable if the graph has a cycle
+		 - **Topological Sort DFS**
+			 - Find a linear ordering of how tasks could be performed that preserves precedence rules
+			 - Call DFS(G) to compute finishing times in an array for each vertex. In post order, addToHead vertices into a linked list.
+ - **decrease by a constant factor**
+	 - exponentiation
+		- get a^n/2 and use it to compute for a^n
+		- is much more efficient to be programmed by a computer since it prevents from having to recompute already known values
+	 - binary search
+		 - used to search for a key K in a sorted array `A[1-n]`
+		 - the number of elements to search is split into 2 for every iteration
+		 - can be applied either recursively or iteratively
+ - decrease by a variable size
+	 - greatest common divisor
+		 - largest integer dividing both m and n exactly
+		 - brute force = consecutive integer checking
+		 - euclid's algorithm = gcd(m,  n) = gcd(n, m mod n) if m > 0
+			 - gcd(m, 0) = m
+
+Permutations - the different orderings of S
+ - Each permutation must include all elements of S
+ - Incremental method
+	 - Assume that we have (n-1)! permutations, we insert n into each of the possible position among elements of every permutation of n-1 elements
+	 - T(n)>= nT(n-1), the running time is n!
+	 - Insert one element at a time in all possible insertion points
+ - Johnson-Trotter's minimal change algorithm
+	 - Each permutation is obtained by swapping two elements in the current permutation
+	 - Allow each element to point to either the left or the right
+	 - a digit is mobile, if it is larger than the digit it points to
+	 - while the last permutation has a mobile element
+		 - find its largest mobile element k
+		 - swap K with the element it points to
+		 - reverse the direction of all elements larger than K
+		 - add the new permutation to the list
+	 - Running time is linear
+Combinations - the different subsets of S
+ - Subsets have cardinalities from 0 to n
+ - Incremental - generate all 2^n subsets of the set A
+	 - start with Null set of A
+	 - create new subsets by adding ai to subsets of {a1, a2, a3, a(i-1)}
+	 - The running time is T(n) = Theta (2^n)
+ - There is a correspondence between subsets of a set and bitstrings
+	 - if a set has 3 elements, we can represent it using a 3-bit bitstring where the presence of an element is signified with a 1 in a specified position
+ - Minimal changes - is referred to as Gray code
+	 - 000, 001, 011, 010, 110, 111, 101, 100

@@ -1,0 +1,217 @@
+---
+tags:
+  - reviewer
+course: THY3 - Theology 3
+period: Finals
+assessment: Summative Quiz 4
+---
+# The Church and Politics
+ - **The issue on political interference of the church**
+	 - Political involvement
+		 - Separation of church and state
+		 - The church being true to her mission
+	 - Pastoral prudence and the law of the church
+		 - Forbids clerics to assume public offices which entails a participation in the exercise of civil power
+	 - Critical collaboration of subsidiarity with the state
+		 - relationship of church and state not as a separation but as mutual autonomy and cooperation
+ - **Church realization and guiding principles in Philippine political involvement**
+	 - It is essential in the church's mission to enter the realm of politics, with the spirit of the gospel, including passing moral judgements even in matters related to politics whenever the fundamental rights of man requires it.
+	 - **Principle of human dignity**
+		 - self-interests have rendered the moral principles of justice, truth, charity, concern for the poor and the weak ineffective.
+	 - **Internal evangelization**
+		 - the Filipino faithful needs to reflect on the dichotomy of faith and individual social life
+	 - **Politics has a moral and religious dimension**
+		 - Politics is a divine trust for service and that all authority and power come from God
+	 - **Salvation of the human person is not only from personal but also from social sin**
+		 - Personal sins like pride, selfishness, greed and hatred come to infect habitual patterns of human interactions, which produces institutionalized social structures
+			 - Our personal sins come together and normalizes social sin
+	 - **Option for the poor**
+		 - politics in the country has a big role in keeping a majority of the population in poverty, and unless the church pursues this task of evangelizing politics, it will continue to make the poor poorer
+ - **The church assessment on Philippine politics**
+	 - the current environment of Philippine politics is characterized by its relentless corruption of values
+		 - this corruption of values is biggest bane in our society as a nation and the most serious obstacle in achieving full development
+	 - **Political Peddling**
+		 - using political influence in government or connections with persons in authority to obtain favors or preferential treatment for another to obtain something in return
+	 - **Political culture** - the usual ways of thinking and corresponding behavior
+		 - Patronage politics - master and servant relationship
+			 - the relationship between the public official and ordinary citizen is that of a patron and client
+		 - Political dynasty
+			 - Succession of political power by individuals belonging to the same heritage or multiple members of the same family occupying different position in the government sector
+		 - Politics of personalities
+			 - the popularity count more than knowledge and competence of political candidates
+		 - Pay-off politics - vote buying lmao
+			 - A political stand depends on what the supporters or funders can get in return for supporting a candidate
+	 - Electoral Processes
+		 - Before Elections
+			 - Diverse electoral maneuvers
+			 - Trivialization of campaign period
+			 - Lies and deception
+		 - During elections
+			 - Threatening elements of Philippine Elections
+			 - corruption of various forms
+		 - After elections
+			 - Politics debased and prostituted to the low level
+ - **Signs of hope in Philippine politics**
+	 - Sound individual Filipino values
+		 - moral outrage in the face of violence, injustice, untruth
+		 - formation of circles of discernment
+	 - Catechism for Filipino Catholics
+		 - people are reasons for hope amidst the creeping cynicism and apathy to the political system of the country
+	 - Urgent calls of the Church in Philippine Political Life
+		 - the church vows to continue building the three C's (Character, capability, community) among the faithful
+			 - Character - deepen the Filipino sense of honesty and integrity, service and responsibility, stewardship and solidarity
+			 - Capability - individuals grow in their capacity to develop their abilities, and to make leadership accountable
+			 - Community - promoting a spirituality of citizenship, a concrete way of living out the social virtue of solidarity
+		 - Active political involvement of the laity
+			 - The church calls those who are competent / persons of integrity and commitment to get directly involved in principled partisan politics, and become candidates for political election, and be a leaven of social transformation for the country
+		 - Education on politics as a public service
+			 - There is a need to change attitudes that public service is a sacred trust. Dishonesty and corruption must be eradicated and avoided from every level of social life
+				 - Qualifications issued by the church
+					 - Competent / Pro-God / Pro-Poor / Pro-Country / Pro-environment
+		 - Exercise the right of suffrage
+			 - The church calls for the informed, enlightened and politically mature social conscience for it is the starting point for infusing Christian morality and spirituality into the electoral process
+
+# The Church and Economy
+
+- **Trickle down economics**
+	- jobless growth - without new opportunities for employment
+	- ruthless growth - benefits mainly the wealthy
+	- voiceless growth - without extension of democracy or empowerment
+	- rootless growth - cultural identities to wither
+	- futureless growth - destroys the environment
+- **Poverty of economic exclusion in the Philippines**
+	- exclusion from gainful livelihood 
+		- unemployment and underemployment, contractual labor
+	- exclusion from sufficient shelter
+		- informal settlers and homeless either by natural and man-made calamities
+	- exclusion from rural development - rural poverty
+	- exclusion from adequate healthcare - privatization of public hospital and rising population of the elderly
+	- exclusion from quality education - out of school youths and overcrowded schools
+- **CST principles for a Philippines that has a caring economy**
+	- Centrality of the human person and solidarity
+		- We have a right to participate in decisions that affect our lives
+		- Calls for authorities to evaluate the possible negative impacts of projects in the name of progress / industrialization and development
+	- Preferential option for the poor
+		- poverty, misery and injustice are widespread, we should be caring for the people who can't take care of themselves
+	- Universal purpose of created goods
+		- Top 10% earns 10x more than the poorest 10%
+		- refusal of the more privileged of the universal destination of goods that brings about this disorder, unrest, and dissent
+	- **Recognizing the meaning and dignity of work**
+		- Objective sense - How much you get paid for your work
+			- The acts done, resources utilized and instruments used and technology adopted to produce something for temporal advantages
+		- Subjective sense - the human person engaged in or attending to a job
+			- actions necessary for their self-realization in accordance with their role or mandate
+		- **Significance of work**
+			- Personal - for the good of the worker
+				- Work is a fundamental right of man, necessary for their self-expression and transformation
+				- Part of our becoming of a human being
+			- Familial
+				- One becomes more accountable to themselves and to others, especially to their family, who are dependent for their well being
+			- Societal - for the welfare of society and building communion
+				- Work is a builder of social relation because it takes place within and leads to social relation
+	- Spirituality of work
+		- Participation in Christs redemptive act
+			- Work makes one closer to god, a participation in the power of God through changing / developing and beautifying things on earth
+		- Vocation
+			- an expression of man's true nature as being made in the likeness of God through working creatively and responsibly using one's talents and abilities to the fullest
+		- Sins in work
+			- becomes a source of social sin when accompanied by anxiety concerning competition for status, fame, and power
+			- leads to the alienation of the worker person from their identity, used when profitable, and discarded when no longer needed
+			- becomes a compulsion because of the tendency to judge a person in terms of work they do
+	- Priority of labor over capital
+		- Labor - personal elements of the worker or strength of the human resources
+		- Capital - all material resources / money and tools or instruments for production or manufacturing
+		- Labor has priority over capital
+	- Right of workers
+		- Right to decent work
+			- freely chosen and associates workers with the development of their community
+			- allows the worker to be respected and not be discriminated
+			- the worker must be paid a family wage, and be able to provide schooling for their children
+			- permits the worker to unionize and make their voices heard
+			- leaves enough time to discover one's self at a personal, familial and spiritual level
+			- guarantees those who have retired a decent standard of living
+		- Right to just wage
+			- a just wage should be a familial wage - is sufficient enough for the needs of the family without the other spouse taking a gainful employment outside of the home
+			- contribution of the worker in the economic effort
+			- national and universal common good
+		- Healthy working environment
+			- the physical health of the worker is not endangered
+			- right to security in cases of sickness / inability to work / old age and unemployment
+			- Right to sufficient rest and leisure
+			- No contractualisation and outsourcing of labor
+		- Worker's unions / association
+			- Unions are a weapon of self-defense against injustices of employers
+				- Serves as instruments of education for members
+				- Promotes the interest of the workers in attaining better working conditions
+			- Develop a sense of loyalty and to identify with the enterprise
+			- Helps the state by relieving it of many burdens it has to attend to
+			- Unions are not an absolute right
+				- Limited by the higher and basic rights of religious / moral, and political freedom
+				- Guard against abusing their strength in an exploiting manner by using force to impose conditions that are burdensome for the overall economy
+				- The policies of the union should not become the affair of an oligarchy within the union
+		- Collective bargaining
+			- compromise between employer and laborers, is directed to some issues and conditions of employment which are over those mandated by law
+			- It is unfair to expect unions to make concessions if managers and shareholder do not make equal sacrifices
+		- Right to stage a strike
+			- Unions can settle the issue to a strike if they fail to come to terms
+			- A collective refusal to work on the part of the workers to continue rendering their services for the purpose of obtaining benefits
+			- They must have a just cause
+				- all other means must have been exhausted
+				- The good of the strike should be greater than its consequence
+				- There should be a reasonable hope of success
+				- The means employed must be morally acceptable
+		- Principle of profit sharing
+			- Consciousness of corporate social responsibility
+			- Promotes healthy employer-employee relationship
+			- Promotes loyalty / justice / productivity / team spirit
+			- Results in reduction in labor turnover
+			- Results to less supervision
+
+# Politics and Culture
+
+ - art, architecture, technology, modes of behavior, customary laws, language, values
+ - **Traditional Filipino Values** 
+	 - These values are positive within the proper context and within limits, they are negative when excessive or lacking
+	 - Family-centeredness
+		 - Too many emphasis can lead to extreme clannishness or inability to think beyond family interests
+		 - Has bred a tradition of political dynasties / nepotism and corruption in the name of protecting family interests
+	 - Hospitality
+		 - Can lead to extravagance, showiness, excessive concern for appearance rather than substance
+	 - Debts of Gratitude
+		 - Can lead to giving more importance to returning a favor to someone than in fulfilling our duty to the bigger community
+		 - Can lead to abdication of responsibility for moral decision-making in favor of group expectations
+	 - Perseverance
+	 - God-fearing
+	 - Power of influence
+	 - Reciprocity of interpersonal relationships
+		 - Undermines our ability to adhere to rules and legal structure
+		 - There is a tendency for us to view rules and regulations as negotiable - especially if we're in a position of strength
+ - Church and cultures
+	 - the divorce between faith and culture as the drama of our time
+	 - the way we understand culture is crucial to how we grasp the faith and cultures relationship
+ - inculturation
+	 - the process where an ecclesial community lives its Christian faith and experience within a given cultural context
+	 - the Philippines has been a Catholic country for > 500 years, it has a lot to do with the type of people Filipinos are, the inculturation meant that there is an integration of faith and culture
+		 - images of Christ in the country suggest a deep level of integration between Christianity and Culture
+			 - are products of Filipino culture and are an example on how people worked as the best ages of inculturation
+		 - **Black Nazarene** 
+			 - Image of a suffering Christ brought from Mexico by Augustinian Recollects in the seventeenth century
+			 - Translacion - happens during its feast day every 9th of January
+			 - Claimed that it grants their petitions, materials and spiritual
+			 - has a father image, as the one that provides / guides / protects the family, this image is projected to Christ
+		 - **Santo Nino**
+			 - earliest Christian image in the Philippines, given to the queen of Cebu by Magellan in 1521
+			 - Celebrated every last sunday of January, the traditional image is dressed as a king
+			 - Nino defeated enemies in the battle, repulsed invaders, extinguished fires and provided food
+			 - is attractive because of the Baby Symbol in the psyche of every Filipino, a childlike attachment to his mother and father
+				 - malambing / vulnerable / matampuhin
+				 - Makes us identify with the child-image of Christ in Santo Nino
+	 - The main task of inculturation is to prepare Christians to live out their faith in a cultural context which is continuously changing
+		 - the intimate transformation of authentic cultural values through their integration in Christianity and the insertion of Christianity in various cultures
+	 - **Recommendation for continuing inculturation in the Philippines**
+		 - Church of communion - PH church needs to be a true community of disciples in her work of evangelization through inculturation
+		 - Engaged church - church needs to interact with Filipino culture to make herself relevant and effective
+		 - Discerning church - Christian faith involves a dynamic process of reflection
+		 - Egalitarian Quality of culture - the church must not tolerate discrimination in Filipino Society
+ - Filipinos have to work harder to correct excesses and defects in them especially if those have become ingrained in society and culture
+ - There is a need for continuing inculturation through a transformative process of bringing the kingdom to different facets of society.

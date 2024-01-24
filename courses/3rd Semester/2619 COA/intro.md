@@ -1,0 +1,97 @@
+ - consists of the CPU / memory and IO components
+	 - cpu does work by executing instructions in the program
+ - von neumann architecture
+	 - design of current computers are based on this architecture
+	 - 3 principles
+		 - data and instructions are stored in a single read write memory
+		 - the contents of this memory are addressable by location
+		 - execution occurs in sequential fashion unless explicitly modified from one instruction to the next
+ - the basic function of a computer is to execute a program, which is a set of instructions stored in memory
+
+Registers
+ - CPU has the MAR and MBR
+	 - MAR - memory address register
+		 - address in memory for the next read or write
+	 - MBR - memory buffer register
+		 - contains the data to be written into memory or receives the data from memory
+		 - also called the MDR for memory data register
+	 - I/O AR and I/O BR
+ - a memory module has locations defined by sequential addresses
+		 - each location contains a binary number that can either be interpreted as an instruction or data
+		 - [[Memory]]
+ - an io module transfers data from external devices to cpu and memory and vice versa, it contains buffers for temporarily holding these data until they can be sent on
+
+Instruction cycle
+ - the time required by the CPU to execute a single instruction
+ - consists of the fetch and execute cycle
+	 - the processor fetches an instruction from memory
+		 - the Program counter holds the address of the instruction to be fetched next
+		 - the fetched instruction is loaded into the instruction register
+	 - the processor decodes the instruction and performs the required action
+		 - types
+			 - processor-memory - data is transferred from processor to memory or from memory to processor
+			 - processor-io - data is transferred to /from a peripheral device by transferring between the processor and an IO module
+			 - data processing
+				 - the processor performs arithmetic or an logic operation on data
+			 - control - an instruction may specify that the sequence of execution is altered
+
+Direct Memory Access
+ - hardware mechanism that allows peripheral components to transfer their IO data directly to and from memory
+ - frees the CPU from involvement in the data transfer, improving performance
+ - capability provided by some bus architectures
+
+Interconnection structures
+ - collection of paths connecting the CPU, memory and IO
+ - suggests the types of exchanges that are needed by indicating the major forms of input and output for each module type
+	 - wide arrows represent multiple signal lines carrying multiple bits of information in parallel
+	 - memory to processor - read an instruction or unit of data from memory
+	 - processor to memory - writes a unit of data to memory
+	 - io to processor - reads data from an io device to an io module
+	 - processor to io - sends data to the io device
+	 - io to and from memory
+		 - uses dma to exchange data between IO and memory
+ - memory module
+	 - a memory module will consists of N words of equal length
+	 - each word is assigned a unique numerical address called an address
+	 - the nature of the operation is indicated by read and write control signals
+ - io module
+	 - has two operations, read and write
+	 - may control more than one external device, and each device is referred to using a port that has a unique address
+		 - has external data paths for the input and output of data with an external device
+		 - an io module may be able to send interrupt signals for the processor
+ - cpu
+	 - reads in instructions and data
+	 - writes data after processing
+	 - control signals to control the operation of the system
+	 - receives interrupt signals
+ - bus
+	 - communication pathway between two or more devices
+	 - shared transmission medium
+	 - multiple devices connect to the bus, but only 1 can send at a time
+	 - each line is capable of representing binary 1 and 0
+	 - connects major computer components
+	 - structure
+		 - data bus - moving data between modules
+			 - the number of lines is referred to as the width of the data bus
+			 - key factor in determining system performance
+		 - address bus - designate the source / destination of data on the databus
+			 - address io ports
+			 - dictates the max memory capacity
+		 - control bus - control the access and use of the data and address lines
+			 - transmit both command and timing info between modules
+			 - indicate the validity of data and address info
+				 - memory write / memory read
+				 - io/write and io/read
+				 - transfer ack - data has been accepted from / or placed on the bus
+				 - bus request - module needs to gain control of the bus
+				 - bus grant - requesting module has been granted control
+				 - interrupt request - interrupt is pending
+				 - interrupt ack - pending interrupt has been recognized
+				 - clock / reset
+			 - process of sending data
+				 - obtain the use of the bus
+				 - transfer data via the bus
+			 - process of requesting data
+				 - obtain the use of the bus
+				 - transfer a request to the other module
+				 - wait for the module to send the data

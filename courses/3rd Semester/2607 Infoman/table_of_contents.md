@@ -1,0 +1,7 @@
+![[01-Database Design]]
+![[02-Entity Relationship Model]]
+![[03-MySQL]]
+![[04-SQL]]
+![[05-Column Types]]
+![[06-Aggregating data]]
+![[07-Transactions & Foreign keys]]

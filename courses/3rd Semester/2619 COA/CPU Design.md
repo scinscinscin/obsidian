@@ -1,0 +1,74 @@
+**Performs the sequences of microops needed to perform the instruction cycle**
+ - register section
+ - ALU
+ - control unit
+## Steps
+- determine the application or tasks that the CPU will perform
+- design the ISA capable of handling these tasks and the registers that are to be used
+- design the state diagram for the CPU
+	- show microoperations performed during each state and conditions that cause CPU to go from one state to another
+- design the data paths and control logic to realize the state machine
+
+## Example cpu
+ - specification
+	 - addressable memory - 64 address spaces, each 8 bits each
+		 - need 6 bits to address the memory space
+	 - single programmer addressable register- accumulator
+	 - other registers
+		 - AR - 6 bit address registers
+		 - PC - 6 bit program counter
+		 - DR - 8 bit data register = instructions and data from memory
+		 - IR - 2 bit instruction register = opcode portion of the instruction code from memory
+	 - four instructions - first two bits correspond to the opcode, last 6 bits refer to the address
+		 - ADD - AC + MEM = AC
+		 - AND - AC ^ MEM = AC
+		 - JMP - GOTO ADDRESS
+		 - INC - AC + 1 = AC
+ - micro operations performed for each instruction
+	 - number of microoperations dictate the number of states that the CPU can be in
+	 - add instruction
+		 - load memory into data register
+		 - perform add operation (add from DR into AC)
+	 - and instruction
+		 - load instruction into data register
+		 - perform and operation (AND between DR and AC)
+	 - jmp instruction
+		 - load the program counter with 6 bits of DR
+	 - inc instruction
+		 - increment the contents of AC
+	 - when fetching
+		 - load the value of the program counter into AR
+		 - load the value of MAR into DR, increment program counter
+		 - load the IR with last 2 bits of DR, load AR with last 6 bits DR
+			 - prepares the instruction to be executed
+ - established required data paths
+	 - creating direct paths between pair of components that transfer data using multiplexers / buffers
+	 - creating a bus within the CPU and route data between components via the bus
+	 - in this example
+		 - AR only supplies its data to the memory
+		 - IR does not supply data but only to the CPU
+		 - AC does not supply data to any component
+			 - there is no store command
+			 - AC must be able to load AC + DR and AC ^ DR
+				 - include an ALU that can generate these results
+					 - create separate hardware to perform each function and use a multiplexer to output one of the two results
+					 - implemented using a parallel adder and and gates
+		 - the bus is 8 bits wide but some transfers are 6 bits wide
+ - designing a control unit
+	 - control signals must be generated to cause the operations to occur in the proper sequence using combinatorial and sequential logic
+	 - the cpu has 9 states (refer to microoperations per instruction), therefore a 4 bit counter is needed where 7 outputs will not be used
+	 - **the counter**
+		 - assign fetch 1 to counter 0
+			 - use CLR input to reach this state
+				 - used when an execute cycle is done ADD 2, AND2, JMP1, INC1
+		 - sequential states to sequential counter values and use INC input of counter to traverse
+			 - INC input is used by fetch2, fetch3, add1, and1
+		 - assign first state of each execute cycle based on the instruction opcode and the maximum number of states in the execute routines
+			 - ADD 2 is after ADD 1
+			 - AND 2 is after AND2
+		 - counter inputs
+			 - clr - clears = go back to fetch1
+			 - inc - go to next state
+			 - load - load the value of the instruction register into the decoder using the format `1-IR-0`
+	 - control signal generation
+		 

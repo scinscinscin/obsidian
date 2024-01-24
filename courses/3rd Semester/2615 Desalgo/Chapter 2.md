@@ -1,0 +1,30 @@
+- extrapolation and substitution method
+	- guess the form of the solution using symbolic constants
+	- use mathematical induction to show that the solution works and find the constants
+	- substitute the guessed solution for the function on smaller values
+	- Example: `T(n) = 2T(n/2) + n`
+		- Guess: `O(n * lgn)`
+		- Inductive hypothesis: `T(n) <= cn lg n`
+		- `T(n) <= 2(c(n/2) lg(n/2)) + n`
+			- `cn lg(n/2) + n`
+			- `cn * lgn - cn * lg2 + n`
+				- we can remove the 2nd factor since it factors to `n(clg2 + 1)` which is dominated by `c * (nlgn)`
+			- `cn * lgn`
+				- where 
+- backsubstitution or iteration method
+- recursion tree method
+- master method
+	- solving algorithmic recurrences of the form `T(n) = aT(n/b) + f(n)` where a > 0 and b > 1 are constants
+		- f(n) is known as a driving function and
+		- recurrences of this general form are called a master recurrence
+	- describes the running time of a divide an conquer algo that divides a problem of size n into a subproblems, each of size n/b, solving the subproblems in T(n/b) time
+		- the driving function encompasses the cost of dividing the problem before the recursion as well as the cost of combining the results of the recursive solutions to subproblems
+	- **Cases**
+		- if `f(n) = O(n^(log_b(a - e)))` then `T(n) = Theta(n^(log_b(a)))`
+			- if the driving function is lower than `O(n^(log_b(a))` then the recursion is `Theta(n^(log_b(a)))`
+		- if `f(n) = Theta(n^(log_b(a)))` then `T(n) = Theta(n^(log_b(a) * lg(n))`
+			- if the driving function is equal to `Theta(n^(log_b(a)))` then the recursion is ` Theta(n^(log_b(a) * lg(n))`
+		- if `f(n) = Omega(n^(log_b(a + e)))` then `T(n) = Theta(f(n))`
+			- if the driving function is higher than `Omega(n^(log_b(a))` then the recursion is equal to the driving function
+	- the `log_b(a)` function - watershed function
+		- is compared against the driving function
