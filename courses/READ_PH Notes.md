@@ -46,3 +46,192 @@
 			- Non written: oral / artifact / ruins / fossils / art works / videorecordings / audiorecordings
 		- published / unpublished
 		- textual / oral / visual sources
+
+## The boys
+Each of them has a unique perspective
+ - **Pigafetta**
+	 - Money driven
+	 - has a different point of view since he's Italian and not a spaniard
+		 - Italy is the heart of europe
+	 - Has a livelier writing with a chronological story
+	 - Pre spanish colonization, focusing on the politics of different islands
+ - **Plasencia**
+	 - Spaniard and arrived later than pigafetta
+	 - Wants to report and tell a story (Los Custombres), about customs and traditions in the islands
+		 - Approximates filipino customs so that people in Spain can understand them
+	 - Is a friar, arrived in 1570s
+ - **De Morga**
+	 - Spaniard and arrived later than pigafetta
+	 - Only wants to report, on official duty as a politician
+		 - Chosen by rizal since it's not biased towards religion / colonizer
+			 - He read it before writing el filibusterismo
+	 - Reported about the economic situation
+		 - Events in the Philippine Islands, 1609 in Mexico (shows the connection of Mexico and PH under galleon trade)
+
+ - After pigafetta, there were 4 expeditions, with 3 unsuccessful
+	 - Culmination of expeditions was the one by Miguel Lopez De Legazpi
+		 - Learned to not fight with the islands and to work with them, from the previous expeditions, and as such became the first governor general of the PH
+		 - Has a skill in diplomacy
+	 - Philippines w/o spaniards
+		 - Manila and Cebu were not united therefore there was no "filipino culture" before the spaniards
+	 - The PH owes a lot to spain, but most importantly our political system
+		 - Old System (Baranggay)
+			 - Each baranggay had a datu, with 20-160 citizens, and derived power from the economy
+			 - Datu was chiefs in war, leader of the barrangay, corresponds to knights
+		 - Pre-colonial class divide / **social stratification** (classified by Plasencia)
+			 - Kadatuan - The Datu and his family
+				 - Becomes datu since they have support and allegiance from the Timawa
+				 - The power is not tied to land since land is abundant but more so sa dami ng timawa na sumusuporta
+				 - The political network is the source of his power
+					 - His role is to govern and to manage the baranggay, mobilize labor, adjudicate and to allocate resources
+					 - Needs to get the good side of the timawa (show them their wealth and power)
+				 - Dynastic, but actually democratic
+			 - Maharlika - Royals / Nobles
+				 - did not pay tax but must go to war, offered a feast by the Datu
+				 - Helped the Datu in everything
+			 - Timawa - Freemen
+				 - A social contract - supports the Datu to get stability in the barrangay
+				 - Free to support another Datu to support
+			 - Alipin - Commoner / slave
+				 - Becomes a "slave" due to his accountabilities, not entirely a slave based on the european definition
+				 - Actually rendering services to another person (servitude)
+				 - Namamahay - Has property
+					 - Married and serve their master, even if their master is not a datu
+					 - Lives in their own houses, children were able to inherit their properety
+					 - Person A owes Person B something, Person A can give his slave to Person B to pay for his debt.
+				 - Sagrigulid - Has no property, but can go up the class divide
+					 - Serve the master in his house and land
+					 - Master grants them should he see fit, and gives them a portion of their harvest
+					 - Servants born in the house of their master are rarely sold
+					 - Usually people obtained in raids
+					 - Hard to go up the class divide since they don't have any capital
+		 - Post colonial class divide was based on race / skin color
+			 - Peninsularis - From Spain
+			 - Insularis - Born in PH but of spanish descent
+			 - Mestizo - Halo-halo
+			 - Indio - Philippine Native
+			 - Sangry - Chinese
+				 - Spain hated the chinese due to wars in previous colonies, all guns in intramuros point to binondo
+		 - Spanish Town system
+			 - Square / has a plaza
+			 - Reduction - creating a centralized town, near a river or mountain
+				 - babaguhin ang buhay ng mga natives since they have a different barometer for civilization
+				 - transformation from old living condition to "under the church bells"
+					 - Church is the highest place, this imposing view makes the citizens believe that their live revolves around the church (panoptic view (coined by michelle fucoh))
+					 - Pray every 3 hours, prayer marks the beginning and end of the day
+				 - Not only where you live but also how you view yourself, surrendering yourself to the state
+				 - Made the indoctrination and management of colony easier, some say it was never completed (hanggang sa dulo ng colony, hindi napalitan ung tawag sa highest governing official)
+			 - Gradual conquest - Precolonial traditions were still observed
+
+**Raids**
+- the goal is to get the resources and the people, but not the land
+	- not called a war since they're not getting land
+- first thing the Datu does is to allocate the resources they gained from the Raid
+- not usually a lot of killing
+	- settled through taunts (callback to Battle of Mactan)
+
+**Galleon Trade**
+ - the return route from manila to acapulco
+	 - previously unsuccessful from manila to america
+ - De Morga noted that Philippines has good timber and good ship building skills
+	 - many trees became extinct due to excessive ship building
+	 - A steady supply of ships were needed, and indios were instructed to build ships using their own material
+		 - Biased towards the chinese, preferential treatment
+	 - many shipyards were instructed and built in the Philippines like in Cavite
+ - Chinese drops off our goods to the PH, in exchange for something
+	 - Chinese gives us: silk of various qualities, velvets, gold, woven fabrics, linen from lensiswela
+		 - consists of mainly textiles
+	 - Chinese wanted silver, didn't care about what the west has to offer, thought of itself as the center of the world, wasn't eager to establish trade relations
+		 - From chinese: Europeans are just customers, vv: desparate to establish trade relations, thus the PH was important.
+		 - Chinese wanted silver since it was rare to them, but their currency was pegged to the silver.
+		 - Spanish served as middlemen between trade in Chinese and America
+ - A way for the spaniards to sustain european presence in the PH
+ - Used to be the lifeblood of the Philippines
+	 - Gone after the revolution of south america
+	 - The revolution was the result of the FF:
+		 - American Revolution - due to tax
+		 - French Revolution - again; due to tax
+			 - is the birth of democracy
+		 - Industrial revolution
+			 - Mass development / labor / mass production
+		 - Latin American Revolution
+			 - Due to education, was able to overthrow the government
+
+**Friars - under religous orders**
+ - They must spread the word
+ - Part of Pacto De Sangre
+ - They didn't want to give up their land to the seculars, but had to because of the Spanish war
+	 - Spain couldn't send friars to the Philippines, therefore seculars got their land
+	 - also caused by the revolutions in south america
+ - Plasencia is a friar
+ - Urdaneta
+	 - Discovered the return route from the Philippines back to america
+		 - Called the Torna Viaje
+		 - turned into the galleon trade
+ - Augustinians
+	 - Controlled South Luzon / North and Central Luzons
+ - Franciscans 
+	 - Follows the vow of poverty
+	 - My life is for other people
+	 - Known for music - uses it to convert other people
+ - Jesuits
+	 - Controlled Visayas / Cavite and Mindanao
+	 - 3 times expelled from the Spanish Dominion
+		 - Since they follow the pope directly
+		 - The king of spain and the pope were at war, so the jesuits were kicked out often
+		 - Their land was given to the recollects, and this land was given to the secular priests
+			 - Seculars
+				 - The diocesans
+				 - Gomburza
+				 - Just for maintenance
+ - Dominicans
+	 - Controlled Bataan, Cagayan , Binondo, South Luzon
+	 - Rizal worked for Dominicans
+ - Recollects
+	 - Augustinians who decided to rebel
+	 - Gained land from the Jesuits
+
+**Conversion**
+ - used anitos - Santo Nino
+ - used Music to convert the children of the datu
+	 - Converting the children of the datu meant control
+ - Pueblo
+	 - Was kept in tact
+ - They learned the local languages and dialects and preserved the culture of the area
+	 - Assimilating faith - adapting faith to local culture
+	 - Pasyon - follow the footsteps of god, suffer in life
+		 - Believes that they will go into the after life
+	 - Revolution - believes that god will recognize their sacrifice if they die
+
+**Cash Crop system**
+ - Mestizo buys land from the friars, splits it and makes indio's plant in the land
+	 - Forms a basic economy that was used to replace the Galleon trade when it disappeared
+ - Exports things that can be planted in the Philippines that other countries need but can't plant
+	 - Tobacco
+		 - Split into many tiers
+		 - G1 - For Europe
+		 - G2 - For Asia
+		 - G5 - Local
+	 - Sugar -> from negros
+	 - Rice -> from central luzon
+	 - Hemp -> From Bicol
+	 - Pineapple -> From Mindanao
+ - All the places that sold something had a port
+ - Resource curse
+	 - A disconnected government because there's so many resources they become complacent
+	 - There is a tendency to not value the items that you have right now, not realizing they're important
+ - Scarcity mentality
+	 - Mentality to always go for 100% because they don't have a lot
+ - **Gov General Dela Torre**
+	 - Believed that once we rely on 1 thing (galleon trade), we can't survive without it, therefore we need to adapt and branch out
+	 - Cash Crop became the only source of income after the Galleon Trade disappeared due to the South American revolution
+ - Due to the cash crop system, lower classes went up
+	 - Mestizo and sangry went up
+		 - The mestizos were the precursor to the illustrados
+		 - Rented friar land
+	 - Gained social capital
+		 - Start locally inside universities, before being able to interact with Europeans
+- Pacto de Sangre - we must protect the bloodline of insulares and peninsulares
+	- Better to be poor than an Indio
+	- Insulars still believed that they are better than the natives
+		- *insert ung napaka racist na reading*

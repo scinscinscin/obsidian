@@ -193,51 +193,52 @@
 		 - distributed representation - a representation of a concept is spread over many memory locations
 			 - more robust against noise and information loss
 	
- - Agent types
-	 - table lookup agents
-		 - maintains an array of previous perceptions, initialized to empty array by default
-		 - has a huge table of rules deciding the action to perform based on the current state AND previous states
-			 - takes a long time to build even with learning because the past data is also taken into consideration
-		 - has no autonomy since all actions are determined from the predetermined rules
-	 - simple reflex agents
-		 - looks at current percepts but ignores past percepts
-			 - the output is derived solely from the current environment of the agent
-			 - is simple but has a limited intelligence only
-		 - does not work in partially observable environments since it doesn't have memory
-	 - model based reflex agents
-		 - Model - a representation of how things work and the effect of own actions
-			 - State depends on the perception history
-			 - transitional model - knowledge of how the world works
-				 - turning the steering wheel turns the car
-				 - the camera is wet when it is raining
-			 - sensor model - how the state of the world is reflected on the percepts
-				 - droplets appear in the camera when it is wet
-		 - Model based agent - uses a model, previous state, last action and current percept to estimate new current state and make a best guess for its next action using some rules
-	 - goal based reflex agents
-		 - considers the goal in deciding what to do next
-			 - goals are solely binary representations between happy and unhappy states
-		 - can combine knowledge about the goal with the model in considering what action to do next
-		 - involves consideration in the future - what will happen if i do this action, and will it make me happy.
-		 - the knowledge that supports its decisions is represented explicitly and can be redefined
-	 - utility based planning agents
-		 - considers satisfaction in different states via a utility function to reach possibly conflicting goals
-			 - since goals are a binary state, a more general measure should allow for a comparison of different world states acdg. to its utility to the agent
-		 - utility function - internalization of the performance measure
-		 - not all utility based agents are model-based, a model-free agent can learn what action is best in a situation without ever learning exactly how that action changes the environment
-	 - learning agents
-		 - learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge might allow
-		 - Critic - gives feedback values on the percepts, based on a standard
-			 - tells learning element how well the agent is doing with respect to a fixed standard
-			 - conceptually outside the agent
-		 - Problem generator - suggests things to try out, tells the agent to try things it does not know about
-		 - learning element - responsible for making improvements
-			 - uses feedback from the critic on how the agent is doing and determines how the performance element should be modified
-			 - can make changes to any knowledge components incorporated in the previous agents
-				 - Example: Improving the model component of a model based agent so they conform better with reality
-		 - performance element - responsible for selecting external actions
-			 - takes in percepts and decides on actions
+### Agent types
+ - **Table Lookup Agents**
+	 - maintains an array of previous perceptions, initialized to empty array by default
+	 - has a huge table of rules deciding the action to perform based on the current state AND previous states
+		 - takes a long time to build even with learning because the past data is also taken into consideration
+	 - has no autonomy since all actions are determined from the predetermined rules
+ - **Simple Reflex Agents**
+	 - is literally just a DFA
+	 - looks at current percepts but ignores past percepts
+		 - the output is derived solely from the current environment of the agent
+		 - is simple but has a limited intelligence only
+	 - does not work in partially observable environments since it doesn't have memory
+ - **Model based reflex agents**
+	 - Model - a representation of how things work and the effect of own actions
+		 - State depends on the perception history
+		 - transitional model - knowledge of how the world works
+			 - turning the steering wheel turns the car
+			 - the camera is wet when it is raining
+		 - sensor model - how the state of the world is reflected on the percepts
+			 - droplets appear in the camera when it is wet
+	 - Model based agent - uses a model, previous state, last action and current percept to estimate new current state and make a best guess for its next action using some rules
+ - **Goal based reflex agents**
+	 - considers the goal in deciding what to do next
+		 - goals are solely binary representations between happy and unhappy states
+	 - can combine knowledge about the goal with the model in considering what action to do next
+	 - involves consideration in the future - what will happen if i do this action, and will it make me happy.
+	 - the knowledge that supports its decisions is represented explicitly and can be redefined
+ - **Utility based learning agents**
+	 - considers satisfaction in different states via a utility function to reach possibly conflicting goals
+		 - since goals are a binary state, a more general measure should allow for a comparison of different world states acdg. to its utility to the agent
+	 - utility function - internalization of the performance measure
+	 - not all utility based agents are model-based, a model-free agent can learn what action is best in a situation without ever learning exactly how that action changes the environment
+ - **Learning agents**
+	 - learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge might allow
+	 - Critic - gives feedback values on the percepts, based on a standard
+		 - tells learning element how well the agent is doing with respect to a fixed standard
+		 - conceptually outside the agent
+	 - Problem generator - suggests things to try out, tells the agent to try things it does not know about
+	 - learning element - responsible for making improvements
+		 - uses feedback from the critic on how the agent is doing and determines how the performance element should be modified
+		 - can make changes to any knowledge components incorporated in the previous agents
+			 - Example: Improving the model component of a model based agent so they conform better with reality
+	 - performance element - responsible for selecting external actions
+		 - takes in percepts and decides on actions
 
-**Problem solving agents**
+### Problem solving agents
  - goal formulation - goals organize behaviour by limiting the objectives and hence the actions to be considered
  - problem formulation - the agent devises a description of the states and actions necessary to reach the goal
 	 - abstraction - the process of removing detail from a representation, a good problem formulation has the right level of abstraction
@@ -263,14 +264,14 @@
 	 - if the model is incorrect or the environment is non deterministic, the agent would be safer using a closed-loop approach
 	 - in a partially observable environment, a solution would be a branching strategy that recommends different actions depending on what percepts arrives
 
-**Search algorithms**
+### Search algorithms
  - take a search problem as input and returns a solution, or an indication of failure
- - each node in the search tree corresponds to a state in the state space and the edges in the tree correspond to actions
-	 - the root of the tree is the initial state of the problem
+ - each node in the search tree corresponds to a path in the state space and the edges in the tree correspond to actions
+	 - Each node has the state, previous node, action taken from previous node, depth, and total path cost.
  - Difference between state-space graph and search tree
 	 - Graph - possibly infinite set of states in the world, and the actions that allow transitions from one state to another
 	 - search tree - describes paths between these states, reaching towards the goal
-		 - the tree may have multiple paths to any given state, but each node in the tree has a unique path path back to the root
+		 - the tree may have multiple paths to any given state, but each node in the tree has a unique path back to the root
  - We expand nodes by considering the available actions for that state, and using the result function to see where those actions lead
 	 - We generate a new node for each of the resulting state
 	 - The essence of search is figuring out which child node to expand next, the **frontier** is any node that has not been explored
@@ -290,11 +291,24 @@
 		 - can be measured in the number of states and actions considered
 	 - space complexity - how much memory is needed to perform the search
 
+### Search Strategies
+ - is defined by picking the order of node expansion
+ - Strategies are evaluated based on the following dimensions
+	 - completeness - does it always find a solution if one exists
+	 - time complexity - number of nodes generated
+	 - space complexity - maximum number of nodes in memory
+		 - time and space complexity are measured in terms of:
+			 - b - maximum branching factor of the search tree
+			 - d - depth of the least-cost solution
+			 - m - maximum depth of the state space tree
+	 - optimality - does it always find a least-cost solution
+	 - use of knowledge - uninformed vs informed search
 # Uninformed search
- - Location of goal states are unknown, but it can test if it is at the goal
+ - **Location of goal states are unknown, but it can test if it is at the goal**
 	 - early goal test - test if the node is the goal as soon as it is generated
 	 - late goal test - test if the node is the goal when it's visited
- - Search formulation
+ - Only uses the information available in the problem description
+ - **Search formulation**
 ```pseudocode
 actionSequence = [];
 state; // current world state
@@ -316,42 +330,32 @@ function SimpleProblemSolvingAgent(percept): action{
 	return action
 }
 ```
- - Environment assumptions
+ - **Environment assumptions**
 	 - fully observable, discrete, deterministic, known, static, sequential, single agent
 	 - Toy examples are usually well defined, not realistic and are useful for comparing algorithms, while real world example are complex, with usually no standard description
-### Search Strategies
- - is defined by picking the order of node expansion
- - Strategies are evaluated based on the following dimensions
-	 - completeness - does it always find a solution if one exists
-	 - time complexity - number of nodes generated
-	 - space complexity - maximum number of nodes in memory
-		 - time and space complexity are measured in terms of:
-			 - b - maximum branching factor of the search tree
-			 - d - depth of the least-cost solution
-			 - m - maximum depth of the state space tree
-	 - optimality - does it always find a least-cost solution
-	 - use of knowledge - uninformed vs informed search
- - An uninformed search strategy uses only the information available in the problem definition
  - **Breadth first search** - expand the shallowest unexpanded node
-	 - can be implemented using Best first search where the eval function is the depth of the node, the number of actions it takes to reach the node
-		 - or also by using a first in first out queue
-	 - Is complete - will always find a solution if it exists
-	 - Time and Space - $O(b^{d+1})$
-		 - it keeps every node in memory
-	 - Optimal - is optimal if the cost per step is 1
- - **Depth-first search** - Expand deepest unexpanded node
-	 - Can be implemented as a call to Best First Search where the eval function is the negative of the depth but is usually implemented as a tree like search that doesn't keep track of reached states
+	 - can be implemented using Best first search where the eval function is the depth of the node, the number of actions it takes to reach the node, or also by using a first in first out queue
+	 - Is a general version of Uniform Cost search where all the steps equal to 1
+	 - Properties
+		 - Is complete - will always find a solution if it exists
+		 - Time and Space - $O(b^{d+1})$ - it keeps every node in memory
+		 - Optimal - is optimal if the cost per step is 1 (see Uniform Cost Search)
+			 - It will find the solution that is closest to the root
+ - **Depth first search** - Expand deepest unexpanded node
+	 - Can be implemented as a call to Best First Search where the eval function is the negative of the depth but is usually implemented using a stack
 	 - Properties
 		 - Not complete - fails in infinite depth-spaces and spaces with loops
 			 - Can be modified to avoid repeated states along path, complete in finite spaces
 		 - Time - $O(b^m)$ - only terrible if the maximum depth of the tree is worse than the depth of the least-cost solution
 			 - if solutions are dense, may be much faster than breadth-first search
-		 - Space - $O(bm)$ - uses linear space
-		 - Is not optimal
+		 - Space - $O(bm)$ - uses linear space since it only has to keep track of the path of the current node it is on
+		 - NOT Optimal
+			 - it will return the first solution that it sees, which might be deeper than the most optimal solution
 	 - For problems where tree search is feasible, depth first search has smaller needs for memory since a reached table isn't needed and the frontier is very small
-	 - Has an even more optimized variant called backtracking search
+	 - Has an even more optimized variant called backtracking search for limited environments
 		 - only one successor is generated at a time rather than all successors, and it is generated by modifying the current state rather than allocating memory to a brand new state
- - **Depth limited search** - depth first search with depth limit of l, nodes at depth l have no successors
+ - **Depth limited search**
+	 - depth first search with depth limit of l, nodes at depth l have no successors
 	 - keeps DFS from wandering down an infinite path
  ```pseudocode
 	 function DepthLimitedSearch(problem, limit){
@@ -376,12 +380,12 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - Is complete
 	 - Time - $O(b^d)$
 	 - Space - $O(bd)$
-	 - Is optimal if the step cost is 1
+	 - Is optimal if the step cost is 1, the first solution it finds is the closest to the starting state
 	 - Number of nodes generated in a depth limited search to depth d with a branching factor of b can be computed by $N_{DLS} = b^0 + b^1 + b^2 + b^3 + \cdots + b^d$
 	 - Number of nodes generated in an iterative deepening search to depth d with a branching factor b can be computed by $N_{IDS} = (d+1)b^0 + db^1 + (d-1)b^2 + (d-2)b^3 + \cdots + b^d$
  - **Uniform cost search** - like branch and bound algorithmic technique, but bounds are exact costs
 	 - while breadth-first search spreads out in waves of uniform depth, uniform-cost spreads out in waves of uniform path cost
-		 - the valuation function is the cost of the path from the root to the current node - djikstra's algorithm
+		 - the evaluation function is the cost of the path from the root to the current node - djikstra's algorithm
 		 - Expand the unexpanded node that has the least total path cost - the cost from root to current node
 		 - Fringe is a priority queue ordered by path cost
 		 - First goal is least-cost solution
@@ -389,7 +393,6 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - Time - number of nodes with g <= cost of optimal solution
 	 - Space - number of nodes with g <= cost of optimal solution
 		 - Space and time can be exponential because large subtrees with inexpensive steps may be explored before useful paths with costly steps
-		 - Equivalent to breadth-first if step costs all equal, otherwise, there is a complexity related to cost of optimal solution
 		 - Djikstra's is a uniform cost search, but minimum cost to all nodes are computed
 	 - Optimal - yes - nodes are expanded in increasing order of total path cost
 ### Bidirectional Search
@@ -397,17 +400,20 @@ function SimpleProblemSolvingAgent(percept): action{
  - need to keep track of two frontiers and two tables of reached states, and be able to reason backwards (need to be able to go up a parent in the successor function)
 # Informed search
  - Location of goal states are known by using a heuristic function
-	 - can find solutions more efficiently than an uninformed strategy
+	 - can find solutions more efficiently than an uninformed strategy using heuristics
 	 - h(n) - estimated cost of the cheapest path from the state at node n to a goal state
 	 - Similar to uniform cost search, but UCS uses an exact function, instead of something that estimates desirability
 	 - Implementation - order the nodes in fringe in decreasing order of desirability
- - Greedy best first search - a form of best - first search that expands first the node with the lowest h(n) value
+ - **Greedy best first search** 
+	 - a form of best-first search that expands first the node with the lowest h(n) value
 	 - the desirability of the node is directly tied to how close it is from the goal (if it is near to the goal then it must be desirable)
 	 - complete in finite state spaces, but not in infinite spaces
 		 - can get stuck in loops or what seems close but is actually inaccurate due to heuristics
-	 - worst case time and space complexity is: $O(|V|)$ but can be reduced in certain problems to $O(bm)$ with a good heuristic function
- - A* search
+	 - time and space complexity is: $O(b^m)$ (as worst as depth first search) 
+		 - can be reduced in certain problems to $O(bd)$ with a good heuristic function
+ - **A* search**
 	 - solves the problem with greedy search by avoiding expanding paths that are already expensive
+	 - A combination of UCS and Greedy Best First Search
 	 - Function: $f(n) = g(n) + h(n)$
 		 - where g is the function for the path cost from the initial state to node n
 		 - where h is the estimated cost of the shortest path from n to a goal state
@@ -419,15 +425,271 @@ function SimpleProblemSolvingAgent(percept): action{
 			 - Tree search - if the heuristic function is admissible
 			 - Graph search - if heuristic function is admissible and consistent
 				 - if the heuristic function is inconsistent, a node in the state space tree may be rediscovered by multiple paths with lowering path costs, and be readded into the frontier
-	 - Types of heuristics
-		 - Admissible Heuristics
-			 - h(n) is admissible if for every node n, $h(n) \leq h^*(n)$ where $h^*(n)$ is the true cost to reach the goal state from n
-			 - it never overestimates the cost to reach the goal, being optimistic
-			 - if h(n) is admissible, then A* using TreeSearch is optimal
-		 - Consistent heuristics
-			 - h(n) is consistent if for every node n, every successor n' of n generated by any action a, $h(n) \leq c(n, a, n') + h(n')$
-				 - follows the triangle inequality, going directly from A to B is faster than A through C then B
-			 - Every consistent heuristic is admissible but not vice versa
-			 - the output of the heuristic is non decreasing along a path and is admissible
-			 - if h(n) is admissible and consistent, then GraphSearch is optimal
+				 - consistent h(n) ensures that we discover optimal goals before suboptimal goals
+		 - Time complexity
+			 - Expands all nodes in increasing order until it reaches C*
+### Heuristics 
+ - creating heuristics is easier by simplifying the rules of the game (deriving from a relaxed version of the problem)
+	 - For example: in 8 puzzle, instead of sliding the pieces, it could be the number of squares that are not in the proper location, or the Manhattan distance for each square
+ - Dominance - if h1 and h2 are both admissible heuristics, and h2(n) >= h1(n), then h2 dominates h1
+	 - a better heuristic is one that is closer to the actual value since then you would have to expand less nodes
+ - Combining heuristics
+	 - picking one from multiple heuristics
+	 - h(n) = get the max across all heuristic functions (is costly if you have a lot of heuristics)
+ - **Types of heuristics**
+	 - Admissible Heuristics
+		 - h(n) is admissible if for every node n, $h(n) \leq h^*(n)$ where $h^*(n)$ is the true cost to reach the goal state from n
+		 - it never overestimates the cost to reach the goal, being optimistic
+		 - if h(n) is admissible, then A* using TreeSearch is optimal since it will never overlook the cheapest most optimal solution.
+	 - Consistent heuristics
+		 - h(n) is consistent if for every node n, every successor n' of n generated by any action a, $h(n) \leq c(n, a, n') + h(n')$
+			 - follows the triangle inequality, going directly from A to B is faster than A through C then B
+		 - Every consistent heuristic is admissible but not vice versa
+		 - the output of the heuristic is non decreasing along a path and is admissible
+		 - if h(n) is admissible and consistent, then GraphSearch is optimal since the same nodes would never get added to the frontier, the direct route to the Goal node is always more optimal than the path with other nodes.
+
+# Local search
+ - For optimization, goal finding and constraint satisfaction problems
+	 - has no prescribed start state, can start from anywhere
+	 - path to optimal solution or goal is irrelevant, and it only cares about the final answer
+		 - "in a set of complete configurations, find the MOST optimal"'
+	 - an iterative improvement algorithm that finds better and better solutions incrementally, tracking a single state and trying to improv it
+ - we want to maximize an objective function gives the quality of a possible solution
+	 - known as the **performance measure**
+	 - find the x and y that maximizes / minimizes the function of z
+ - state space = a set of complete configurations
+	 - complete - a set of complete configurations, basically a domain of solutions that are unoptimal
+		 - 8 queens: the state space is all the boards with 8 queens placed (64C8)
+		 - Travelling Salesman problem - all possible tours
+	 - consistent - does not violate any constraints
+ - **Hill climbing search**
+	 - Also known as gradient ascent / descent
+	 - can only see what's 1 action away - the local neighborhood
+		 - once it reached a local maximum, it stops searching since there is no better neighbor to move to
+			 - is not globally optimal, can get stuck in local optima, depending on the initial state ** - is not complete**
+	```pseudocode
+	function HillClimbing(problem){
+		// create the initial state of the problem
+		current = Node(GenerateInitialState(problem))
+		
+		/**
+			from the given state, other neighbors have values (h)
+			8 queens: the h is the number of pairwise attacking queens if a 
+				queen from the same column is moved to that location
+			TSP: the h is the overall tour length if a pair of paths is switched,
+				so A->C and B->D will switch to A->D and B->C
+			HillClimbing picks the next state with the lowest or highest h value, 
+				which is the "best" neighbor
+		*/
+		
+		while(true){
+			neighbors = current.generateNeighbors();
+			maxNeighbor = max(neighbors);
+			if(maxNeighbor.value > current.value) current = maxNeighbor;
+		}
+	
+	}
+	```
+	 - has no memory of the past (except in some variants)
+	 - Variants
+		 - Choose first better successor (First choice hill climbing)
+			 - select the first random neighbor with a better value, good for many neighbors
+		 - Randomly choose among better successors (Stochastic hill climbing)
+			 - Randomly select from uphill moves, possibly weighted by gradient
+			 - For example, moving from a node with value 5 to 7, (7-5)/5 calculates the chance to go into that direction, the smaller the improvement, the less likely it will be chosen
+		 - Random restart hill climbing
+			 - when stuck, try from another random state
+ - **Making HCS better**
+	 - Sideways moves - Allows moves to neighbors that have the same value as the current node (sideways, not up or down)
+		 - Is able to handle shoulders or plateaus so the AI can possibly find better solutions ahead
+		 - **Tabu Search** - keep a small list of recently visited states, and forbid returning to those states
+			 - Allows worsening moves if no better / equal solutions are found
+		 - Is able to reduce the chance of 8 queens getting stuck from 86% to 6% of the time
+			 - 3 to 4 steps to find solution or get stuck
+			 - If 100 consecutive sideways movement is allowed, 8 queens only gets stuck 6% of the time, but much more steps are needed to find the solution
+	 - Simulated Annealing
+		 - Inspired by tempering of glass, at the beginning, the temperature rapidly decreases, but eventually it starts to level off at a certain temperature
+		 - Escapes local maxima by allowing bad moves but gradually decrease their frequency
+			 - Steeper downhill moves have less chance to be taken than less steep downhill moves
+			 - Controlled by annealing schedule, dictates how much downhill moves are tolerated
+				 - They are more tolerated at the beginning of the search than later
+		 ```pseudocode
+		 function SimulatedAnnealing(problem, schedule){
+			 // schedule is a table that takes in the number of moves passed, and returns a probability of whether to accept bad moves or not, decreasing as the number of moves passed increases
+			 
+			 current = makeNode(initialState(problem));
+			 currentTime = 0;
+			 
+			 while(true){
+				 T = schedule[currentTime++];
+				 if(T == 0) return current;
+				 
+				 next = random(current->generateSuccessor());
+				 delta = next.value - current.value
+				 if(delta > 0) current = next;
+				 // we accept next as the curernt state even if it's worse based on a e^(delta/T) probability
+				 else if(random(e^(delta / T))) current = next;
+			 }
+		 }
+		```
+		- Formula is given by $P=e^{\frac{\delta E}{T}}$ where T is the temperature and Delta E is the change in value from next.value to current.value
+		- If the annealing is slow enough, then it will find a globally optimum state with probability approaching one, but is impractically long
+			- The more downhill steps needed to escape a local optimum, the less likely to make all of them in a row
+	- **Local Beam Search**
+		- How it works
+			- Start with K randomly generated states
+				- K is known as the beam width
+			- Iterate all of their successors
+			- If one of the successors are a goal, then return it
+			- Else pool all of their successors together and pick the k best ones.
+			- repeat
+		- It is not the same as running k greedy searches in parallel since in this, you are pooling the best, so some bad starting states could be completely dominated and removed by better starting states.
+		- Open list only keeps the best K nodes
+		- **Stochastic Beam Search**
+			- Many times, all k states end up in the same local hill, this can be solved by choosing k successors randomly, but biased towards good ones.
+			- Similar to natural selection
+		- Properties
+			- Is not complete - since it's by chance, it may not find a solution
+			- Is not optimal - it may return a goal state, but it doesn't know if it's the most optimal
+			- Heuristic - yes
+			- Time - km
+				- May search the entire state space tree
+			- Space - kb 
+				- Only stores the next 1st level of successors for K beams.
+	- **Genetic Algorithms**
+		- An adaption procedure based on the mechanics of natural genetics and natural selection
+		- Optimization and Evolution
+			- Optimization - survival of the fittest
+				- Picking the best from the batch 
+			- Evolution - Recombination
+				- From the best, merging them together to hopefully make a better version
+		- Representation
+			- Gene - A single bit or subsequence in string that represents a single attribute
+			- Chromosome - a string that represents each attempt state a GA makes towards a solution
+				- a sequence of traits that can be interpreted as a possible solution
+				- typically represented by a series of binary digits (genes)
+			- A genetic algorithm maintains a collection or population of chromosomes, and each chromosome represents a different guess at the solution
+		- GA procedure
+			- Initialize a generation of random guesses
+			- Evaluate each chromosome in the generation using a fitness function
+			- Apply GA operation between the best of the current population to make the next generation
+			- Finish when solution is reached or number of generations has reached an allowable maximum
+		- Operations
+			- Selection or reproduction
+				- Select individuals x according to their fitness function f(x)
+					- fitness function shouldn't just be a single trait, but a combination of many traits
+				- Fittest individuals survive and possibly mate for next generation
+				- We can run the children through a fitness function to determine its value, then the percentage that it gets chosen for the next generation is its value / the sum of the values of the children
+					- Children can be chosen twice for the next generation
+						- 1st child can be the parent with 2nd child and 3rd child
+			- Crossover
+				- Select two parents, and select a point in their chromosomes where they will swap
+				- Cut and splice pieces of one parent to those of the other, creating a child where the left side of chromosomes is from A and right side of chromosomes is from B
+			- Mutation
+				- With small probability, randomly alter 1 bit
+				- An insurance against lost bits
+				- Pushes the GA out of local minima, since if all the children are similar almost nothing happens.
+		- Similar to
+			- Simulated Annealing
+				- Diverse population at the beginning
+				- large steps at the beginning when using crossover
+				- Hopes to converge with small steps later to a solution
+			- Stochastic Beam Search
+				- Combines uphill tendency using many states
+				- Randomly selects next generation of states
+	- Non deterministic actions
+		- The actions that you perform don't always do the same things, sometimes they do A, sometimes they do B
+		- Requires percepts to narrow down states that agent could be in
+		- Do not need a sequence of actions since next state is not guaranteed
+		- We need a contingency plan on what to do based percepts and goal
+			- so use decision trees instead of sequences
+			- If this happens, this is what we do next, else this
+		- AND-OR search trees
+			- OR nodes - selection at discretion of agent
+			- AND nodes- possible states based on percepts about environment
+				- you have to analyze all nodes under an AND node
+			- OR and AND nodes alternate in AND-OR trees
+			- Solution - a subtree with a goal in each leaf, an action in each OR node, and every branch in AND nodes
+			- When you perform an action from the current node, you can either go to an OR node or an AND node, an OR node directly goes to the next node, meaning there's no variability in the action, an AND node, it can either go to one node from a selection of multiple NODES
+
+# Adversarial Search
+**Games**
+ - Games are a hallmark of intelligence and are easy to formalize
+	 - They can be a good model of real world competitive activities
+ - Types of game environments
+	 - Deterministic vs Stochastic - does the game have a element of randomness to them
+	 - Fully observable / partially observable - do you know all the information about the game
+	 - PI and deterministic
+		 - Chess / Checkers / Go / Tic Tac Toe / Tower of Hanoi
+	 - II and deterministic
+		 - Battleships
+	 - PI and stochastic
+		 - Backgammon / Monopoly
+	 - II and stochastic
+		 - Scrabble / Poker / Bridge
+ - Two player zero sum games
+	 - Player takes turns, and they have opposite goals (are adversarial)
+		 - If one wins, the other loses
+	 - Each game outcome or terminal state has a utility for each player
+		 - A win is +1 point, a loss is a -1 point or 0
+	 - The sum of both player's utilities is 0
+		 - Sometimes the sum is a non-zero constant, if no points are lost on losing
+ - Games vs Single agent search
+	 - We don't know how the opponent will act
+		 - The solution can't be determined from the start since the opponent may act in different ways, it's not a fixed sequence of actions but a policy that maps from state to best move in that state
+	 - Efficiency is critical in playing well
+		 - Time to make a move is limited, the branching factor, depth and number of configurations are huge so you need to terminate searching eventually
+			 - In chess, branching factor is around 35 and depth is around 100, resulting in 10^154 nodes having to be searched
+			 - This rules out searching until the very end of the game
+ - Representation of a Game tree - 2player, deterministic
+	 - You start with the root node (it's your turn)
+		 - You make a move
+		 - The children of the root node are the game states with all the possible moves that you could do
+		 - For each of the children, their children are any of the moves your opponent could make from that game state
+		 - It's similar to AND-OR trees where turns that are YOUR choice are OR nodes, and choices that your opponents make are AND choices.
+	 - Nodes in the game tree are game states
+	 - Edges are moves for each player
+	 - Utility = favorability for max
+	 - The search tree is very large for more complex games like chess
+- Representation of general games
+	- More than two players - the utilities have non zero sums
+	- Utilities are now tuples
+	- Each player maximizes their own utility at each node
+	- Utilities get propagated from children to parents
+
+### Minimax
+ - perfect play for deterministic games
+ - Maximizes your payoff when opponent minimizes your payoff
+	 - "If my opponent is the best, what moves should I play such that I avoid reaching the states where I lose"
+ - **The decision algorithm**
+	 - MiniMax-Decision - returns the action of the children of the current state that has the utility of MAX-VALUE
+	 - MAX-VALUE - from the current state, what's the max(MIN-VALUE) of the child states
+		 - What's the best choice you can make knowing that your opponent is optimal, and will choose the move that MINIMIZES your chance to win
+	 - MIN-VALUE - from the current state, what's the min(MAX-VALUE) of the child states
+		 - this represents your opponent's choice since they want to minimize your utility, they select the minimum of the MAX-VALUE of child states, since you are MAX-VALUE
+ - Properites
+	 - Complete - yes
+	 - Optimal
+		 - It's optimal against an optimal opponent (Minimax is optimal to itself)
+		 - If the opponent is non-optimal, it's possible to do better
+		 - A different strategy might work better for a sub-optimal opponent, but that strategy will be worse against an optimal opponent
+	 - Time complexity - $O(b^m)$
+	 - Space complexity - $O(bm)$
+		 - It uses depth-first search so it only needs to keep track of current state and its parent tree.
+### Alpha beta pruning
+ - Improving minimax by not having to expand all the nodes in the game tree
+ - Similar to branch and bound, where you don't search nodes whose f(n) is already worse than the solution you currently have
+ - Pruning - portions of the search tree are ignored
+	 - doesn't affect action choice against minimax
+	 - amount of pruning depends on move ordering
+		 - should check with best moves so that more lower value branches can be pruned
+		 - With perfect ordering, the time to find the best move is reduced from O(b^m) to O(b^(m/2))
+ - alpha - the value of the best choice for the MAX player found so far at any choice point above n
+ - beta - value of the best choice for the MIN player found so far at any choice point above n
+ - ![[Pasted image 20240207123953.png]]
+	 - The 2nd layer takes the minimum value from all the children
+	 - The 1st layer takes the max from all children
+	 - The children of the middle tree is not expanded, because the min value of the left tree is 3
+		 - There's no point in finding lower values for the middle tree because the player will already go down the left tree
+		 - The middle tree can only get worse from 2, but the left is already fully expanded with the min value being 3
  - 

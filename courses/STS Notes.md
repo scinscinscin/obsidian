@@ -1,0 +1,239 @@
+STS
+ - Interactions between science and tech and social / cultural / political and economical contexts which shape and are shaped by them
+
+**Technology**
+ - makes difficult and complicated tasks easier
+ - developments in this field are not just products of one time thought process but rather gradual improvements to earlier works from different time periods
+
+**Human origins**
+ - Human revolution - sudden emergence of language / consciousness and cultures in our species
+ - Stone age - early period of human history
+	 - First humans emerged from africa and lived simultaneously with other hominid species
+	 - Large complex brains provided to make the capacity to make and use tools
+ - Paleolithic Age
+	 - Earliest part of this period was the paleolithic age / old stone age
+	 - Began about 25 million years ago and lasted until around 8000BC
+	 - Had a nomadic group of people that traveled in groups or bands of about 20-30 members
+	 - Survived by hunting and gathering
+		 - Gathered wild nuts / berries / fruits / wild grains and green plants
+		 - Hunted buffalo / bison / wild goats / reindeer and other animals depending on where they lived
+		 - Fished along rivers and coastal areas
+	 - Men hunted while women gathered
+		 - Women stayed close to the camp - often to a body of water, looking after children and searched nearby woods and meadows for berries / nuts and grains
+		 - Everyone worked to find food, with some scientists believing that equity existed between paleolithic men and women
+		 - Men and women worked together to find food / emergence of first families
+	 - 2/3rds of energy was derived from animal sources
+		 - Paleo diet - heavy on protein and low on carbs
+	 - First tools made by humans
+		 - Technology tools and methods to perform tasks were first used by the paleolithic people
+		 - Sticks / stones and branches served as tools
+		 - Later, people made devices from a hard stone called flint
+			 - flint - hard sedimentary crystalline form of the mineral quartz
+			 - Hitting hard flint with another hard flint would make it flake into pieces, which were sharp and can be used for cutting (a major breakthrough for early people)
+		 - Turned into more complex tools such as spears, bows, and arrows for killing large animals easier
+			 - Increased the number of fish caught, used for cutting up plants and digging roots, cleaning animal hides, used for clothing and shelter
+		 - Made needles from animal bones to make nets and baskets and to sew hides together for clothing
+	 - Learned how to make their own shelters, constructing huts of animal skins, brush and wood
+		 - Made shelters from ice and snow, while many lived in caves
+	 - Had the first use of fire, used for warmth, to cook food, and to smoke meat so that it can be stored
+		 - Certain stone, iron, pyrite gave off sparks when struck against another rock
+	 - Communication and arts
+		 - Development of spoken language, which was constantly growing and changing. Also allowed for the transfer of knowledge
+		 - Cave paintings are found all around the world
+			 - Crushed yellow / black  and red rocks and combined them with animal fat to make paints
+			 - Used twigs and fingertips to apply paints to the rock walls
+ - Neolithic period
+	 - 102000 BC, ending between 4500 and 2000BC
+	 - Agricultural revolution
+		 - Widescale transition from a lifestyle of hunting and gathering to one of agriculture and settlement
+		 - Period in development of human technology
+		 - Made permanent houses available
+		 - Mud-brick houses and stilt houses were also common
+		 - Surpluses could be stored and traded, affording securities
+		 - Sedentary farming populations grew faster than nomadic
+	 - Lived in small tribes composed of families
+		 - Headed by a charismatic leader of tribal groups
+		 - Domestication of large animals resulted in a dramatic increase of social inequality
+	 - Neolithic technology
+		 - bracelets / axeheads / chisels and polishing tools
+			 - Stone artifacts are polished by definition
+			 - Neolithic grinding stone and sickle
+			 - Polished stone axe allowed forest clearance in a large scale
+		 - Skilled manufacturers of a range of types of stone tools and ornaments, including projectile points, beads, and statues
+ - Sumerian Civilization
+	 - 4500-1900BC
+	 - Cuneiform - one of the earliest scripts developed during the Sumerian civilization
+		 - "wedge" shaped, oldest known form of script
+		 - handwriting is developed by the available material
+			 - can't do straight lines in leaves since it will rip them
+	 - Discovered irrigation and dikes, sailboats, wheels, the plow
+	 - It is Iraq in the present day
+ - Egyptian Civilization
+	 - 3100BC to 332 BC
+	 - Discovered paper or papyrus, ink, hieroglyphics, cosmetics and wigs, water clock and clepsydra
+		 - the water clock - has a certain interval for the clock to work
+		 - instead of writing in clay tablets, they write on leaves called papyrus
+ - Chinese Civilization
+	 - 1600BC to 221BC
+	 - Discovered silk, tea production, great wall of china, gunpowder
+		 - gunpowder was initially used for fireworks and not for warfare
+		 - fireworks can break the lines of infantry
+	 - One of the civilizations that was able to exploit a certain species of moths
+	 - The silk road lead to the transfer of innovation, language, ideologies, and knowledge
+		 - Buddhism spread through the east
+ - Greek civilization
+	 - 800BC to 140BC
+	 - Discovered alarm clock and watermill
+ - Roman civilization
+	 - 753BC to 476AD
+	 - Newspapers / bound books / roman architecture / roman numerals
+ - Middle / dark ages
+	 - 476 - 1400
+	 - Term for western Europe during the postclassical era
+	 - Bega with the fall of the Roman empire and ended in 1400s
+	 - West  - Western Europe, and eventually America
+	 - Referred to the dark ages
+		 - Lack of central government
+		 - Widespread diseases
+		 - Long religious wars
+		 - Little to no access to education
+			 - Loss of books, more superstitious and facts were based on religion than facts
+		 - Slow technological or cultural development
+	 - Invented the printing press / microscope / telescope and war weapons
+	 - The status symbol to show that you are rich is the amount of spices
+ - Renaissance
+	 - 14th to 17th century
+	 - The bridge between middle ages and modern history that started as a cultural movement in italy, spreading towards the rest of europe
+		 - Resurgence in creativity / sciences and the arts
+ - Modern history and the industrial revolution
+	 - 1700s to 1900s
+	 - Time when the face of industry changed dramatically
+	 - Lasting impact on the economies of the world and the lives of the person
+		 - Introduction of inventions that made the life of people easier
+	 - Had the advancement of the textile industry that was key to the revolution
+		 - Cotton gin - made removing seed from cotton easier, invented by Eli Whitney
+		 - Made the spinning and weaving of textile easier, resulting in large gains in productivity
+		 - Had the first factory system, and the use of machines as an assembly line approach
+	 - Steam Engine - invented by James Watt in 1775
+		 - Made locomotives and many of the textile machines possible
+	 - Coal mining - extracting coal from the ground
+		 - coal is valued for its energy content, industrialization increased the demand significantly
+		 - Charcoal greatly lowered the fuel cost of iron production, and the charcoal powered steam engine enabled a large increase in iron production
+	 - Machine tools
+		 - Screw cutting lathe / cylinder boring machine / milling machine
+	 - Chemistry
+		 - Large scale production of chemicals was an important development during the revolution (Fertilizers / detergent / dyes / explosives / drugs and other chemicals)
+		 - Sulphuric acid was pioneered by John Roebuck in 1746
+		 - Germany took world leadership in the chemical industry, aspiring chemists flocked to german universities during the period
+	 - Cement
+		 - 1824 Patent by Joseph Aspdin for making portland cement
+		 - Sintering a mixture of clay and limestone to 1400C then grinding it into a fine powder, mixed with water, and gravel to produce concrete
+	 - Agricultural machines
+		 - Joseph Foljambe's Rotherham plough of 1730 was the first commercially successful iron plough
+		 - Threshing machine by Andrew Meikle in 1784 displaced hand threshing with a flail, a laborious job that took 1/4th of agricultural labor
+	 - Tin can
+		 - Patented by Peter Durand in 1810
+		 - has a high impact on food preservation and transportation right up today
+			 - can preserve food from off-season, and transport food from other countries
+		 - John Hall and Bryan Dorkin opened the first commercial canning factory in England
+			 - Byran Dorkin - father of tin can making
+	 - Internal Combustion Engine
+		 - Invented by Jean Lenoir in 1858
+		 - A heat engine where the combustion of fuel occurs with an oxidizer in a chamber that is is an internal part of the working fluid flow circuit
+		 - Used in mass transportation
+			 - Automobile - enables people to go where they wanted whenever
+				 - Henry Ford was one of the most imperative inventors of the revolution
+				 - Modernizes the transportation industry entirely
+	 - Electricity
+		 - the development has been done by an international collection of scientists
+			 - Benjamin Franklin, Alessandro Volta, and Michael Faraday
+	 - Camera
+		 - Nicephore Niepce - The first person to take a photograph in 1814
+	 - Telephone
+		 - Alexander Graham Bell - patented the telephone in 1876
+		 - Improved communications and lead to the various communication devices used today
+	 - Phonograph
+		 - Thomas Edison created the phonograph in 1877
+		 - previously, the only option was for live musicians or actor to perform
+		 - Allowed people to listen to music anywhere
+	 - Airplane
+		 - Orville and Wilbur Wright created the first airplane in 1903
+		 - Changed the face of personal and business travel and had dramatically altered warfare
+ - Anthropocene
+	 - Coined the term Anthropocene as early as the 1960s to refer to the quaternary, the most recent geological period
+	 - Popularized in 2000 by Paul J Crutzen, regards the influence on the Earth's atmosphere in recent centuries as so significant as to constitute a new geological time
+	 - The era in which human activity has been the dominant influence on climate and the environment
+	 - Nuclear weapons
+		 - First nuke was detonated in July 16 1945 in New Mexico
+	 - Fossil Fuels
+		 - marks the anthropocene age
+		 - Current rates of emission are higher than at any time in the last 65 million years
+	 - Plastic use
+		 - Plastics - initially developed in the 1900s have grown rapidly since the 1950s, now we produce 500 million tons a year
+		 - Sediment containing plastics will be a clear sign of the anthropocene
+	 - Changed geology
+		 - Everytime we destroy a patch of rainforest, we change the future of the Earth's geology
+		 - We have transformed more than half of earth for our own purposes
+		 - Deforestation / farming / drilling /mining and landfills are having widespread effects on sedimentary processes
+		 - Disrupts how layers of rock are laid down is detectable thousands of years in the future
+	 - Use of fertilizers
+		 - Levels of nitrogen and phosphorus in soils have doubled in the last century because of our increased use of fertilizers
+		 - 23.5 million tons of phosphorus are produced a year
+		 - Biggest impact on the nitrogen cycle for 2.5 billion years
+	 - Global warming
+		 - rapid increase in Earth's average temp over the past century primarily due to greenhouse gases released as people burn fossil fuesl
+		 - Rate of temperature increase has nearly doubled in the last 50 years
+		 - Global sea levels are higher than at any point in the past 115000 years and are rising rapidly, may also be detectable in the future
+	 - 6th mass extinction
+		 - Considered to be the death of the last individual of the species
+		 - Mass extinctions sparked by massive global changes mark the Anthropocene period
+
+Dark side of tech
+ - Tech is a positive endeavor except for troubling possibilities referred to as wildcards by Michio Kaku. Unanticipated uses of technology and science can turn happy dreams into nightmares.
+
+Philosophy
+ - love of wisdom, literally the translation of philo and sophos
+ -  Axiology
+	 - Study of values in human behavior / study of moral problems
+	 - the rightness and wrongness of actions / what is good and desirable
+	 - Ethics - Study of human conduct and moral values
+	 - Aesthetics - values beauty, nature, and aesthetic experience
+ - Epistemological
+	 - Study of knowledge, how we acquire knowledge and the types of limits there are to our knowledge. How do we know what is true?
+	 - Deductive logic - general to specific
+		 - Rejects the context of discovery
+		 - Asserts that facts are not always observable, and that facts are neutral and objective
+		 - Theories are confirmed, not proven, yet every instance that lends support corroborates the theory
+	 - Inductive logic - specific facts to generalization
+		 - Proposes and rests on a common understanding of the laws of the universe, there are laws of natures / uniformities that govern these laws
+		 - Facts are observable, and that theories should be derived from these facts by observation. (Observation using the senses; seeing is believing)
+	 - Falsificationism
+		 - Rejects the context of discovery
+		 - Confirmation of hypothesis is not enough
+			 - No specific number of confirmations will make any hypothesis true
+		 - A body of science must be falsifiable
+		 - The notion of scientific progress for the falsicficationist rests on the premise that scientific theorists are tentative.
+	 - Science must conitnue to progress through an open quest to put existing theories to the test, allowing preconceived notion of facts, whatever they may be, up to scientific criticism and refutation
+ - Metaphysical
+	 - The study of what is real
+	 - Ontology: What is the nature of existence
+	 - Cosmology: Origin of the universe
+
+**Scientific method**
+ - problem - ask a question
+ - research - define problem statement
+ - hypothesize - construct hypothesis
+ - experiment - test the hypothesis
+	 - Reliability - how consistent a method measures something. If the same result can be consistently, then the measure is considered reliable
+		 - A reliable measurement is not always valid, just because they're reproducible doesn't make them correct
+	 - Validity - how accurate a method measures what it is intended to measure
+		 - Checks how well results correspond to established theories and other measures of the same concept
+		 - High validity - produces results that correspond to real properties / characteristics
+		 - Generally reliable - if a test produces accurate results they should be reproducible
+ - analyze - collect data
+	 - Quantitative data - numeric variables
+		 - statistics turn this into useful information crucial for decision making. Scientifically objective and rational.
+	 - Qualitative data - categorial variables
+		 - deep understanding of how people perceive their social realities, and in consequence how they act within the social world
+ - interpret - report the result
+

@@ -1,10 +1,12 @@
+# History of Spirituality 
+
 - acdg to the catholic church - no spirituality outside of religion
 - spiritus - breath of life
 	- without the spirit, there is no life, it is the one that animates the body of the person.
 	- Death is the separation of the soul from the body, the body has no life
 - Religion comes from religio
 	- means reliance / connection
-- In spirituality, we find a notion of the spirit in search for connection
+	- In spirituality, we find a notion of the spirit in search for connection
 - Spirituality - a way of life that searches for God, for what is divine
 	- relates to structures of significance that gives meaning and direction to a person's life that helps them deal with existence
 	- associated with the human quest for meaning / purpose / knowledge / meaningful relationships / love and a sense of the body
@@ -22,12 +24,12 @@
 	- methods of study
 		- science - the study of matter / physical forces that influence matter
 		- spirituality - study of consciousness and its evolution / progress
-- Plato
+- **Plato**
 	- Each human being is a combination of a physical body and a non physical soul. our physical bodies are not really real or important. His ethical theory focuses on the well being of the soul
 	- the real things exist only in the world of ideas
 		- what we see is a representation and is not important as they are subject to change
 		- ideas don't change, which is why his focus was the world of ideas (the non tangible)
-	- Justice is harmony between the  three different parts of our souls (reason / spirit / appetite), with reason ruling.
+	- Justice is harmony between the three different parts of our souls (reason / spirit / appetite), with reason ruling.
 		- reason - capable of intellect, pursues truth and knowledge, weakest part but it can governing itself well
 			- humans are the only ones that have intellect
 			- the brain represents the rational part of the soul, swayed by truths, facts and arguments
@@ -45,7 +47,7 @@
 	- soul - find god through enlightened knowledge
 	- spirit - find god through perpetual communion with him
 		- enter into union with contemplation, resulting in a life of pure love and active charity
-- St. Augustin of Hippo
+- St. Augustine of Hippo
 	- spirituality is in inquiry in the supreme good which gives the happiness that all human beings seek
 	- This happiness can be found in the enjoyment of God and his presence
 	- Criteria of knowing of our actions helps us reach god
@@ -61,8 +63,8 @@
 	- evangelical counsels
 		- allows us to combat the desires present in him through its cultivation and practice
 		- with all your soul and chastity - controls our desire of the flesh
-		- poverty - desire for wealth or possessions
-		- obedience - desire for power or authority
+		- with all your strength and poverty - desire for wealth or possessions
+		- with all your mind and obedience - desire for power or authority
 - St. Benedict of Nursia
 	- asks us if we truly seek God
 	- this is a universal human quest and is central to the whole Benedictine way of life.
@@ -74,36 +76,38 @@
 	- Society
 		- seeking material things / individualism / non-involvement / competition / rejection / exploration / violence
 	- Obedience is a part of our ongoing conversion, hearing god's word. Listening obedience calls us to be centered again on our seeking for god.
-- ST. Thomas Aquinas
+- St. Thomas Aquinas
 	- does not separate nature and grace, but rather shows that nature can be used to defend belief in God
 	- Reason and the senses can be used by human beings and by doing so, humans can discover truths
 	- Summa Theologica Aquinas
 		- shows the existence of God in a way that can be demonstrated to be true
 		- Tried to disprove the theory of two conflicting truths which spread through the western world under the influence of the writings of the Arabic scholar
 		- Uses philosophy to explain theology, logic to make faith reasonable
-- The renaissance
+- The Renaissance
+	- the course of western thought changed during the renaissance to a secular direction
+		- move towards belief in reason and senses - leading to the emergence of scientific inquiry and the modern era
+		- Christianity played in the development of the scientific method. 
+		- Christianity was still influential. Vast majority of inventions were still made in a christian context and world view.
 	- science has no authority when it comes to spiritual things, only material things
 		- This limitation is the reason why we can't limit life to science
-	- Christianity played in the development of the scientific method
 	- Human reason as well as nature were now seen as functioning part from religion
-		- Secular humanism
-	- God became a less omnipotent spirituality, and spirituality was practised more from a human starting point. We became the center of all
-		- Christianity was still influential. Vast majority of inventions were still made in a christian context and world view.
-- Enlightenment
-	- gained much momentum in the 18th century through French Scholars
-		- these people wanted to promote freedom and equality for all people, based on the idea that a person is actually good and needs to learn to use reason rightly, which they can do with proper education
-- Romanticism
+		- Secular humanism exalted human reason and experience as the measure of all things instead of God and special revelation
+	- God became a less omnipotent spirituality, and spirituality was practised more from a human starting point. 
+- **Enlightenment**
+	- gained much momentum in the 18th century through French Scholars such as Voltaire and Rousseau
+	- these people wanted to promote freedom and equality for all people, based on the idea that a person is actually good and needs to learn to use reason rightly, which they can do with proper education
+- **Romanticism**
 	- mid 18th century until the mid 19th century. First gained momentum in Germany
-	- puts an emphasis in feelings and experience
-	- also the time when a strong historicism developed
+	- puts an emphasis in feelings and experience, a focus on the self, a return to nature, a new nationalism and a return to practices / religions / pantheism and mythologies
+	- also the time when a strong historicism developed - historian consciousness became widespread among intellectuals
 	- the particular became more important then the view of the universal of the enlightenment
 		- experience is different from person to person
 - Modernism and onwards
-	- Hegel developed his idea of dialetical reasoning
-	- Claimed that eternal truths do not exist and that different ideas are equially valid. With regard to the concept of spirituality, this would mean that different kinds of spiritualities can co-exist.
+	- Hegel developed his idea of dialetical reasoning, being influenced by Romanicism.
+		- Claimed that eternal truths do not exist and that different ideas are equially valid. With regard to the concept of spirituality, this would mean that different kinds of spiritualities can co-exist.
 	- Darwin - made an important contribution to this context
 		- away from the viability and rationality of religion, towards a more naturalistic and evolutionary view
-	- Freud - attempted to explain human behaviour entirely on a  naturalistic and deterministic basis, without invoking a higher cause
+	- Freud - attempted to explain human behaviour entirely on a naturalistic and deterministic basis, without invoking a higher cause
 		- Criticized religion as the universal obsessional neurosis of humanity, had a very negative view of religion
 	- Existentialism
 		- there is no inherent meaning in life, no intrinsic human nature
@@ -111,3 +115,241 @@
 		- The individual has to make choices and define him
 	- Post modernism 
 		- there is no absolute truth, putting an end to all truth claims, contrary to the teachings of the church
+
+# Truth
+ - **Relativism**
+	 - There are no such things as permanent or universal truths, all truths were never based on an objective basis like the word of God. All truths are valid, even if they contradict each other.
+	 - **Relativism in faith**
+		 - There is no absolute truth, authority is questioned or rejected
+		 - personal belief is exalted, universal values are forgotten
+		 - echo chambers begin in social media, dialogue becomes impossible
+		 - **Religious indifferentism**
+			 - One religion is just as good as another. Christ is just one among many
+		 - **Cafeteria Catholicism**
+			 - Choose which of the Church's teachings we will accept as true and follow, abandoning beliefs and practices which do not suit our taste or preferences
+	 - **Relativism in morals**
+		 -  Denying existence of moral absolutes, There is no absolute right or wrong
+			 - Consequence of relativism in faith
+			 - Those in our culture, portrays insisting the church insisting on the existence of objective social norms as opposed to basic human rights
+		 - Moral judgement is equated with moralism
+			 - has a loss of morality
+		 - **Utilitarianism / hedonism**
+			 - What is useful is good, what is pleasurable is good, the end justifies the means
+		 - **Practical relativism**
+			 - a form of moral relativism that is self-centered, self-indulgent and grounded on convenience and material security
+			 - Reason of lack of a sense of mission among christians
+			 - "acting as if God did not exist, and making decisions as if the poor DNE, setting goals as if others DNE, working as if people who have not received the Gospel DNE"
+ - **Principle of non contradiction** - two opposing ideas can't be true at the same time, since truth is not something you discover
+	 - Rene Descartes believes in doubting everything
+ - **Spirituality**
+	 - Mission without spirituality is like a body without its soul
+	 - Spirit / spiritual - the contrast of body and matter
+		 - an attribute of the children of god
+		 - Spirit of god - life giving spirit / spirituality of life
+	 - Spirituality is not achieved once and for all, but it is the journey
+		 - Each spirituality is a pathway to holiness, a way to becoming proficient in living the life of the spirit
+	 - It is the awareness that we have a soul and acting accordingly, a life of growing friendship with Christ leading us to holiness, and the various ways by we live out our baptismal promises
+	 - Movements of spirituality
+		 - Identity / Inward
+			 - Rational / conscious - intelligent and free
+		 - Destiny / Upward
+			 - Created to know, love, and serve god in this life, and to be happy with him forever in heaven
+		 - Relevance / outward
+			 - Open and relational: by / with / for others
+	 - Authentic catholic spirituality
+		 - Sees religion and spirituality as intimately linked together as rules and a relationship, where a relationship without rules or parameters leads to contempt and abuse
+		 - Spirituality is not formed by human experience alone but by confirming to the word of God
+ - **The truth**
+	 - Spirituality of truth
+		 - Universal - the same at all places and at all times
+		 - Objective - discovered and not made, not what I think or believe
+		 - Transcultural - Is the same for all people
+	 - Theories of truth
+		 - Correspondence - Truth is what corresponds to facts
+		 - Coherence - Truth is what coheres with the rest of or knowledge
+		 - Pragmatic - truth is what works, or serves our purposes
+	 - Truth is the equation of the mind and thing - Summa Theologiae
+		 - Logical truthfulness - A person is logically truthful if his mind conforms to reality
+			 - Verifying the truth
+		 - Moral truthfulness - A person is morally truthful if his words and actions confirm to his mind
+			 - Living out the truth
+		 - Ontological truth - Something is true in so far as it corresponds to the mind of its maker
+			 - Actualizing the truth
+ - Religion
+	 - Re Ligare - to bind again
+	 - Re Eligere - To choose again
+	 - Not a theological virtue but a moral virtue, the virtue by which we pay due worship to God
+	 - Brings people together, a collective, and requires a distinctive format or traditional organization
+		 - Spirituality is a personal and individual journey
+
+# Spirituality of mercy
+ - Internal ecology - environment is for the people
+ - Hedonism / throwaway culture
+	 - Believes that life is nothing more than pleasure or passions
+		 - A devotion to pleasure and self-gratification, promoted by advertisements
+	 - Must always feel good, pain and suffering should be voided
+	 - culprit of destruction
+		 - Much harm is done because of hedonism in nature
+		 - The way that humanity treats environment influences how it treats itself
+		 - Reducing nature to data destroys it
+		 - Many laws are not implemented / enforced
+	 - Society is invited into hedonism and consumerism regardless of their harmful consequences
+ - Throwaway culture
+	 - consumes / exploits human life and natural resources
+	 - everything is disposable or temporary
+		 - not limited to nature: relationships, beliefs, dreams
+			 - Human beings are themselves being considered consumer goods to be used and then discarded.
+			 - We have created a throwaway culture which is now spreading. It is no longer simply about exploitation and oppression
+		 - human beings are being thrownaway even if they have a right to life / dignity and happiness
+		 - they are also being excluded, no access or part to society, society is not inclusive (people w/ disabilities are being left behind)
+			 - Human beings are creatures of this world, enjoying a right to life, and happiness, and endowed with unique dignity. We cannot fail to consider the effects on people's lives of environmental deterioration, current models of development and the throw away culture
+	 - Reduces things to garbage
+		 - The earth is beginning to look more and more like an immense pile of filth, in many parts of the planet, the elderly lament that once beautiful landscapes are now covered with rubbish
+		 - Contraception / abortion
+		 - Abandonment and exclusion
+		 - Waste of resources
+		 - discarding of relationships, of married love and marriage vows
+	 - Account must be taken of the pollution, each year hundreds of millions of tons of waste are generated, much of it non biodegradable, highly toxic and radioactive from homes and businesses
+	 - Our industrial system at the end of its cycle of production and consumption, has not developed the capacity to absorb and reuse waste and by-products.
+ - Circular Recycling
+	 - Take -> make -> consume -> repair -> reuse -> recycle -> make again
+ - We change the system to paper from plastic, but we still throwaway the bags, instead of reusing them
+ - **Spirituality of mercy**
+	 - a spirit filled movement of the heart to be merciful just as god our heavenly father is merciful
+	 - Our spirituality arises from own own experience of God's mercy
+	 - lives both on the corporal and spiritual works of mercy
+		 - Actions that bring God's mercy to our neighbor
+		 - A deep spiritual experience occurs when we offer forgiveness and reconciliation towards our enemies
+		 - Corporal works
+			 - Feed the hungry
+			 - Give drink to the thirsty
+			 - Clothe the naked
+			 - Shelter the homeless
+			 - Visit the sick
+			 - Visit the imprisoned
+			 - Bury the dead
+		 - Spiritual works of mercy
+			 - Admonish the Sinner
+			 - Instruct the ignorant
+			 - Counsel the doubtful
+			 - Comfort the sorrowful
+			 - Bear wrongs patiently
+			 - Forgive all injuries
+			 - Pray for the living and the dead
+	 - Mercy is our vocation as followers of Christ
+		 - We must be merciful towards all creation, including the environment
+		 - The spiritualty is integral, holistic, and harmonious for it recognizes the kinship with the rest of God's creatures, the rest of God's creation
+		 - This vocation is essential to a life of virtue, it's not a secondary aspect of our christian experience
+	 - Mercy - the compassion in our hearts for another person's misery, which derives us to do what we can to help him
+		 - Affective mercy
+			 - An emotion that we feel
+			 - We feel pity for those who suffer because we too are subject of such miseries.
+			 - Arises from our capacity for empathy
+		 - Effective mercy
+			 - A position action for the good of another, taking steps to relieve the miseries
+			 - Misocondria - having a miserable heart, both affectively and effectively for another person's misery
+				 - Has a deeper emotional meaning than a feeling of compassion
+				 - cor for the misery - for those who are miserable
+				 - the cor - heart is the center of human person and the seat not only of the emotions, but of conscience determination and responsibility
+				 - not only a passive emotional compassion but acceptance of active responsibility for the miserable
+					 - makes us want to help, and be present where they are needed
+				 - does not lament with the evil but seeks to overcome and conquer the evil as much as possible
+		 - One must both affective and effective, to be the authentic virtue of mercy
+			 - Must be rooted in the right reason - we must do what is the objective good for the other who we seem to help
+			 - Proven in effective action for the good of others, as circumstances permit
+				 - If we only sympathize without doing anything, the virtue of mercy does not abide in us in any significant degree
+		 - Man is much more, being blessed by god with an immortal soul, there is a poverty that goes beyond lack of clothing and food, to a lack of understanding, confusion about how to live and find happiness
+		 - Mercy indicates in the direction of gratitude for an unmerited gift and unmerited grace, chesed, which in the hebrew can be used to mean mercy
+		 - Everything is revealed in mercy, everything is resolved in the merciful love of the father. It constitutes the existence of the Church. The church must not only be about the spiritual side of healing but aid those in need physically as well.
+			 - it requires us to banish indifference and hypocrisy
+			 - The culture of care that we have when being merciful is the antidote to the double degradation brought about by the throwaway culture
+ - Environmental laws about protecting the environment
+	 - RA 6969 = Toxic Substance, Hazardous, Nuclear Waste Control Act of 1990
+	 - RA 8749 = Philippine Clean Air Act of 1999
+	 - RA 9275 = Philippine Clean Water Act of 2004
+	 - RA 9003 = Ecological Solid Waste Management Act of 2000
+	 - RA 9147 = Wildlife Resources Conversation and Protection Act
+	 - Many are just laws that are not being implemented
+	 - Principles make us want to write laws, that should be implemented
+		 - Laudato Si wants us to move away from a duty to virtue based ethics
+			 - Caring for the environment shouldn't be just a duty that we do, we must do it because it is right, it is what is good, There should be a shift from stewardship to care
+			 - One can be a good steward without feeling connected. If one cares, they allow themself to be affected by another so much that their path and priorities change
+ - Contemplation
+	 - An idea by St Francis of Assissi
+	 - The divine person are subsistent relations, and the world created according to the divine model is a web of relationships
+	 - We are not disconnected form the rest of creatures but joined in a universal communication
+
+# Communion
+ - Komonia in greek, meaning gathering of people
+ - Commonio - Sharing in communion
+ - An ideal state of fellowship should exist in the church
+ - Charisms - special gifts from the holy spirit for building the church, for entering communion
+
+**Communion of God**
+ - God is a communion of persons
+ - We are capable of imitating God's communion
+ - He willed us to love in communion with each other
+	 - Sin destroyed communion and lead us into alienation, this alienation is harm to other human beings
+		 - Requirements of mortal sin
+			 - Grave matter
+			 - Full knowledge
+			 - Full consent and freedom
+				 - It is not a mortal sin to kill another person out of self defense
+	 - God liberated the israelites from sin and called us into communion once again
+
+**Communion with each other**
+ - Vertical communion - communion with god - the most holy trinity
+ - Horizontal communion - Communion with all baptized members of the church
+	 - This is our prime nature, we have the same faith and follow a single doctrine
+	 - We have the same spirit - the principle of life of the church, which unifies it
+	 - We follow the passion of Christ - we share our suffering
+
+**Church**
+ - Founded by Christ in 33AD in Jerusalem after Pentecost
+ - Referred to as just "The Church" in the Apostolic Era because it was the first / largest religion
+	 - Eventually got renamed to the Catholic Church, with catholic meaning universal
+ - The community of the faithful, processing the true human faith
+	 - The true human faith is the **Apostle's Creed**
+ - Participating in the same sacraments
+ - Under the government of legitimate pastors
+	 - Bishops - Only has power where they have jurisdiction, the Bishop of 1 jurisdiction has to power in another jurisdiction
+	 - **Lead by the Pope - the bishop of Rome**
+		 - The pope has supreme and universal power
+		 - Is the only person that can turn priests into Bishops, except for the **papal nuncio**, the ambassador of the pope in the country
+		 - Papal infaliability - cannot make errors regarding faith and morals on *ex cathedra*
+			 - Ex cathedra - from the chair, meaning on official documents only
+			 - Does not apply when speaking / possibly is an opinion of the pope only
+ - Has an hierarchical order - the apostolic succession
+	 - Not a linear progression but expands into a tree, so 1 apostle turns into many bishops
+ - Classifications of the people within church
+	 - Church Triumphant - Canonized, blessed, those who are already in Communion w/ God
+		 - Intercedes for the militant and suffering
+	 - Church Militant - those who are living
+		 - Prays to the Triumphant
+		 - Prays for each other and the suffering
+	 - Church suffering - those who are purgatory
+		 - Prays to the Triumphant
+		 - Prays for the militant
+ - Ad-intra communion - Communion within the catholic church
+ - Ad-extra communion - Communion w/ other religions
+	 - Eccuminal - within the larger Christian community
+		 - Churches not in contact w/ Rome are still true churches since they share the same sacraments, apostolic succession and have a valid Eucharist
+	 - Extra-religious - Communion between Christians and other religions
+	 - Ecclesial Communities - like churches but w/o proper orders **(They are not churches)**
+		 - a result of the 16th century reformation movement
+		 - Has no apostolic succession, depriving them of a constitutive element of the church
+		 - Has invalid priesthood since they are not ordained by Catholic Churchs
+	 - Non catholic christians - Not catholics but they have valid baptism
+		 - Valid baptism - follows the trinitarian formula
+
+**Individualism**
+ - "I" am the main primary unit of reality and standard of value
+	 - Being dependent on others is shameful
+	 - I must be self reliant
+	 - I must stand out and be unique
+ - Disregards the common good
+	 - The complete development of everyone, the sum of conditions of social living
+ - Dignity - says that everyone is equal
+ - Solidarity - Having a sense of responsibility for everyone
+	 - Everyone is interconnected
+	 - Committing ones self for the common good

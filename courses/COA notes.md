@@ -1,0 +1,56 @@
+Multilevel machines
+ - has different level of abstractions, where Level 0 is no abstract and can be directly executed by electronic circuits
+ - Code in higher machine languages can be compiled down to lower languages, until L0
+ - Contemporary multi level are six level computers
+	 - Level 5 - Problem oriented language level
+		 - Is translated downwards using a compiler
+	 - Level 4 - Assembly language level
+		 - Is translated downwards using an assembler
+	 - Level 3 - Operating system machine level
+		 - Is partially interpreted by the operating system
+	 - Level 2 - Instruction set architecture level
+		 - Interpreted as a microprogram or direct execution
+	 - Level 1 - Microarchitecture level
+		 - Hardware level
+	 - level 0 - Digital logic level
+ - Computer generations
+	 - 0th generation - Mechanical computers (1642 - 1945)
+	 - 1st generation - Vacuum Tubes (1945-1955)
+	 - 2nd Generation - Transistors (1955 - 1965)
+	 - 3rd generation - Integrated circuits (1965 - 1980)
+	 - 4th generation - Very large scale integration (VLSI, 1980-?)
+ - Von Neumann machine
+	 - has three parts, Control Unit, Arithmetic Logic Unit, and Memory
+	 - three parts can talk to each other, ALU has input and output
+	 - Data path:
+		 - has General Purpose registers which store the result of calculations / input to the ALU
+		 - Data from the GPRs are sent to the ALU input register, A and B, one for each operand
+		 - Sent as input to the ALU, and the output is stored in the output register, which can be sent back to the GPRs
+	 - Execution cycle
+		 - Fetch next instruction from memory into instruction register
+		 - Change program counter to point to next instruction
+		 - Determine the type of instruction just fetched
+			 - If instruction uses data from memory, determine where to fetch the data into the CPU register
+		 - Execute instruction
+		 - Repeat
+ - Design principles for modern computers
+	 - All instructions directly executed by hardware
+	 - Maximize the rate at which instructions are issued
+	 - Instructions should be easy to decode
+	 - Only loads and stores should reference memory
+	 - Provide plenty of registers
+ - Pipelining
+	 - Allows for multiple instructions to happen "at the same time" in different parts of the execution cycle
+		 - 1 instruction could be executing while the next one is loading.
+	 - A 5 stage pipeline
+		 - S1 - Instruction fetch unit
+		 - S2 - instruction decode unit
+		 - S3 - Operand fetch unit
+		 - S4 - Instruction execution unit
+		 - S5 - Write back unit
+	 - Superscalar architecture
+		 - has 2 five-stage-pipelines but with a common instruction fetch unit (They share the same S1)
+ - Processor level parallelisms
+	 - A single bus multiprocessor
+		 - All CPUs have access to a common bus and shared memory
+	 - Some multicomputers have local memories, only the CPU can access their local memory, not the memory of other CPUs
