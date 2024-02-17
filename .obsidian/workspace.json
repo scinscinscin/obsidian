@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "9acb5c390d2f3e01",
@@ -173,9 +173,10 @@
   },
   "active": "395064e1409d6e79",
   "lastOpenFiles": [
+    "ICS2609 Long Quiz 1 Reviewer.pdf",
+    "courses/STS Notes.md",
     "STS Quiz 1 Notes.pdf",
     "courses/2609 Backend/Long Quiz 1.md",
-    "ICS2609 Long Quiz 1 Reviewer.pdf",
     "courses/2609 Backend/2609 Notes.md",
     "courses/2609 Backend/Notes.md",
     "courses/2609",
