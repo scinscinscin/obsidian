@@ -1,0 +1,7 @@
+.theme-dark .pdf-viewer{
+    filter: invert(0.90);
+}
+
+body{
+    --file-line-width: 800px
+}
