@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/3rd Semester/2607 Infoman/Long Exam 3 and 4 Quiz Reviewer.md",
+                "file": "courses/2609 Backend/Long Quiz 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/STS Notes.md",
+                "file": "courses/2609 Backend/Long Quiz 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/STS Notes.md",
+                "file": "courses/2609 Backend/Long Quiz 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/STS Notes.md"
+                "file": "courses/2609 Backend/Long Quiz 1.md"
               }
             }
           }
@@ -171,17 +170,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "395064e1409d6e79",
+  "active": "2249eb2dcf56d1e6",
   "lastOpenFiles": [
-    "ICS2609 Long Quiz 1 Reviewer.pdf",
-    "courses/STS Notes.md",
-    "STS Quiz 1 Notes.pdf",
+    "courses/3rd Semester/2608 Frontend/ICS2608 Notes.md",
     "courses/2609 Backend/Long Quiz 1.md",
+    "courses/3rd Semester/2607 Infoman/Long Exam 3 and 4 Quiz Reviewer.md",
+    "courses/STS Notes.md",
+    "STS Notes.pdf",
+    "ICS2609 Quiz 1 Reviewer.pdf",
+    "ICS2609 Long Quiz 1 Reviewer.pdf",
+    "STS Quiz 1 Notes.pdf",
     "courses/2609 Backend/2609 Notes.md",
     "courses/2609 Backend/Notes.md",
     "courses/2609",
-    "courses/3rd Semester/2608 Frontend/ICS2608 Notes.md",
-    "courses/3rd Semester/2607 Infoman/Long Exam 3 and 4 Quiz Reviewer.md",
     "courses/3rd Semester/2607 Infoman/Long Exam 2 Quiz Reviewer.md",
     "courses/3rd Semester/2607 Infoman/Long Exam 1 Quiz Reviewer.md"
   ]
