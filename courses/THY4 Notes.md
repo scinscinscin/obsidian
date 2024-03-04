@@ -353,3 +353,117 @@
  - Solidarity - Having a sense of responsibility for everyone
 	 - Everyone is interconnected
 	 - Committing ones self for the common good
+
+# Dialogue
+ **Dialogue with cultures**
+  - Globalization - compresses time and space of people from different parts of the world
+	  - results in no boundaries between people
+  - God does the first move to us
+	  - can be seen through the prophets and through Jesus christ
+  - Dialogue and proclamation
+	  - is done at a purely human level
+	  - mutual and reciprocal communication
+	  - respect and friendship
+		  - openness and respect are desired despositions
+		  - leads towards harmony
+	  - permeates all activities of the church, is the comprehensive mission of the church
+	  - spirit of dialogue = activities of the church + respect and friendship
+	  - triple dialogue = culture / religion / poor
+  - Culture - Kolore (latin) - protect/honor w/ worship, inhabit and cultivate
+	  - Life of social groups
+	  - How society copes w/ physical, social, and ideational environment
+	  - a standardized design for living
+	  - Rituals / traditions / sacred texts are part of culture
+  - Enculturation - process that culture is handed to another generation and is learned
+	  - values and memories as a result
+	  - the gospel purifies culture and culture enriches gospel
+		  - is referred to as mutual enrichment
+  - Inculturation - the process of combining the gospel and culture
+	  - The church is always changing
+	  - Ethnocentrism & cultural relativism - gospel must be incultured in the people
+		  - mirrors the behaviour and belief system of a group
+
+**Dialogue of religions**
+ - mega migration
+	 - multiculturality
+	 - multireligiosity
+ - Asia and PH has a lot of different religions
+ - Religious pluralism
+	 - focuses on diversity / multiplicity / difference
+	 - Not only in Asia but all over the world
+	 - Christians should not try to convert (proselytism)
+		 - Other faiths must be respected
+	 - Dialogue
+		 - positive / constructive relationships
+		 - understanding / mutual enrichment between religions
+		 - don't be afraid of other religions
+	 - Witness to the exploitations of respective religious convictions
+	 - Four aspects
+		 - Dialogue of life
+			 - People strive to live in peace
+			 - Joys / sorrows / hopes/ dreams
+			 - come together and have dialogue
+		 - Dialogue of action
+			 - work together for integration / development and liberation
+		 - Dialogue of theological exchange
+			 - specialists deepen and appreciate each other's religious values
+		 - Dialogue of religious experience
+			 - Share their spiritual riches such as prayer / contemplation / faith / ways
+ - Religious relativism
+	 - all religions are equal
+	 - results in religious indifferentism
+ - Dialogue in a multireligious world
+	 - no peace w/o dialog among nations and religions
+	 - the evangelizers become evangelized
+
+**Dialogue with the poor**
+ - poverty
+	 - urban poor, globalization, urbanization, materialism
+	 - is split between
+		 - the poor / pauper
+		 - lack of means to provide
+	 - lack of means to provide material needs / comfort
+ - types of poverty
+	 - poverty of the soul - hopelessness / lack of purpose in life
+		 - no lasting meaning
+	 - poverty of the spirit
+		 - a person with poverty of the spirit totally depends on god
+	 - material poverty
+		 - lack of sufficient material for human needs
+ - God is concerned for the welfare of the poor
+	 - his command to the well-off is to respond to the needy
+ - Sabbatical year - land was not to be farmed, slaves were to be let go, and debts were to be forgiven on the 7th year
+ - Jubilee (50th) year - return to proper place, lay legal claims to their property
+	 - this is intended to help w/ poverty by balancing wealth
+ - Scandal of hunger
+	 - malnourishment - body gets food but without proper amount of vitamins and minerals, leading to infection and disease
+	 - chronic hunger - body starves and consumes muscle, fat, and tissue for food, immune system fails
+	 - Causes of hunger
+		 - corruption
+		 - unfair and high interest
+		 - exploiting limited resources
+		 - politics
+ - Triangle
+	 - manage goods more efficiently
+	 - solidarity
+	 - subsidiarity
+		 - respect autonomy, empower people to become independent
+ - Preferential option for the poor
+	 - we cannot love immediately
+	 - practice the works of mercy
+	 - evaluate social and economic activity from the viewpoint of powerless
+	 - needs dialogue to solve poverty
+ - How one can fight poverty
+	 - change attitudes towards the poor
+	 - support employment and just wage
+	 - empower the poor to help themselves
+		 - education of the poor
+		 - educate how the tax system affects
+	 - reform welfare programs
+	 - governmental efforts / protect family operated farms
+	 - ask if new laws support human dignity
+ - Paul VI - evangelization is integral
+	 - not only for the soul but to save us from poverty
+ - Francis - move outside where the people needs them
+	 - bruised / hurting church are what we need
+	 - the church must smell like the sheep / be with its people

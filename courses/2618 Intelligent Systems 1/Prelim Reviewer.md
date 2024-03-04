@@ -272,18 +272,21 @@
 	 - Graph - possibly infinite set of states in the world, and the actions that allow transitions from one state to another
 	 - search tree - describes paths between these states, reaching towards the goal
 		 - the tree may have multiple paths to any given state, but each node in the tree has a unique path back to the root
+		 - Each node in the search tree corresponds to a path from the root to a node in the state-space graph
  - We expand nodes by considering the available actions for that state, and using the result function to see where those actions lead
 	 - We generate a new node for each of the resulting state
-	 - The essence of search is figuring out which child node to expand next, the **frontier** is any node that has not been explored
+	 - The essence of search is figuring out which child node to expand next
+		 - the **frontier** is any node that has not been explored
  - **Best first search**
 	 - A general approach where we choose a node with minimum value of some eval function.
 	 - Each child node is only added to the frontier if it has not been reached before, or is re-added if it is now being reached with a path that has a lower path cost than any previous path
 	 - Can be customized to different specific algorithms by changing the evaluation function of the alg
- - graph search - if the search algorithm checks for redundant paths
-	 - remembers all previously reached states, allowing to detect redundant paths and keep only the best path to each state
- - tree-like search - if it does not check the graph
+	 - graph search - if the search algorithm checks for redundant paths
+		 - remembers all previously reached states by keeping track of them, allowing to detect redundant paths and keep only the best path to each state
+		 - means that nodes previously explored are not re-added back into the frontier
+	 - tree-like search - if it does not check the graph
  - **Characteristics of problem solving performance**
-	 - completeness - is it guaranteed to find a solution when there is one and ca correctly report failure when there is not?
+	 - completeness - is it guaranteed to find a solution when there is one and can correctly report failure when there is not?
 		 - a search algorithm must be systematic in the way that it explores an infinite search space to make sure it can reach any state that is connected to the initial state
 		 - in a search state with no solution, a sound algorithm needs to keep search forever
 	 - cost optimality- does it find a solution with the lowest path cost of all solutions
@@ -338,7 +341,7 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - Is a general version of Uniform Cost search where all the steps equal to 1
 	 - Properties
 		 - Is complete - will always find a solution if it exists
-		 - Time and Space - $O(b^{d+1})$ - it keeps every node in memory
+		 - Time and Space - $O(b^{d+1})$ - since BFS keeps every node in memory
 		 - Optimal - is optimal if the cost per step is 1 (see Uniform Cost Search)
 			 - It will find the solution that is closest to the root
  - **Depth first search** - Expand deepest unexpanded node
@@ -390,18 +393,19 @@ function SimpleProblemSolvingAgent(percept): action{
 		 - Fringe is a priority queue ordered by path cost
 		 - First goal is least-cost solution
 	 - Complete - if the step cost >= epsilon
+		 - is not complete if the path cost becomes smaller and smaller - will continue to search deeper and deeper instead of searching paths with the soln
 	 - Time - number of nodes with g <= cost of optimal solution
 	 - Space - number of nodes with g <= cost of optimal solution
 		 - Space and time can be exponential because large subtrees with inexpensive steps may be explored before useful paths with costly steps
-		 - Djikstra's is a uniform cost search, but minimum cost to all nodes are computed
+		 - Djikstra's is a uniform cost search, but in Djikstra the minimum cost to all nodes are computed
 	 - Optimal - yes - nodes are expanded in increasing order of total path cost
 ### Bidirectional Search
  - simultaneously searches forward from the initial state and backwards from the goal state, hoping that the two searches will meet since $b^{\frac{d}{2}} + b^{\frac{d}{2}} \leq b^{4}$
  - need to keep track of two frontiers and two tables of reached states, and be able to reason backwards (need to be able to go up a parent in the successor function)
 # Informed search
- - Location of goal states are known by using a heuristic function
+ - In informed search, the location of goal states are known by using a heuristic function
 	 - can find solutions more efficiently than an uninformed strategy using heuristics
-	 - h(n) - estimated cost of the cheapest path from the state at node n to a goal state
+	 - $h(n)$ - estimated cost of the cheapest path from the state at node n to a goal state
 	 - Similar to uniform cost search, but UCS uses an exact function, instead of something that estimates desirability
 	 - Implementation - order the nodes in fringe in decreasing order of desirability
  - **Greedy best first search** 
@@ -466,7 +470,8 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - Also known as gradient ascent / descent
 	 - can only see what's 1 action away - the local neighborhood
 		 - once it reached a local maximum, it stops searching since there is no better neighbor to move to
-			 - is not globally optimal, can get stuck in local optima, depending on the initial state ** - is not complete**
+			 - is not globally optimal, can get stuck in local optima, depending on the initial state 
+				 - is not complete
 	```pseudocode
 	function HillClimbing(problem){
 		// create the initial state of the problem
@@ -487,7 +492,6 @@ function SimpleProblemSolvingAgent(percept): action{
 			maxNeighbor = max(neighbors);
 			if(maxNeighbor.value > current.value) current = maxNeighbor;
 		}
-	
 	}
 	```
 	 - has no memory of the past (except in some variants)
@@ -544,7 +548,7 @@ function SimpleProblemSolvingAgent(percept): action{
 			- Else pool all of their successors together and pick the k best ones.
 			- repeat
 		- It is not the same as running k greedy searches in parallel since in this, you are pooling the best, so some bad starting states could be completely dominated and removed by better starting states.
-		- Open list only keeps the best K nodes
+			- Open list only keeps the best K nodes
 		- **Stochastic Beam Search**
 			- Many times, all k states end up in the same local hill, this can be solved by choosing k successors randomly, but biased towards good ones.
 			- Similar to natural selection
@@ -599,11 +603,11 @@ function SimpleProblemSolvingAgent(percept): action{
 				- Randomly selects next generation of states
 	- Non deterministic actions
 		- The actions that you perform don't always do the same things, sometimes they do A, sometimes they do B
-		- Requires percepts to narrow down states that agent could be in
+			- Requires percepts to narrow down states that agent could be in
 		- Do not need a sequence of actions since next state is not guaranteed
-		- We need a contingency plan on what to do based percepts and goal
-			- so use decision trees instead of sequences
-			- If this happens, this is what we do next, else this
+			- We need a contingency plan on what to do based percepts and goal
+				- so use decision trees instead of sequences
+				- If this happens, this is what we do next, else this
 		- AND-OR search trees
 			- OR nodes - selection at discretion of agent
 			- AND nodes- possible states based on percepts about environment
@@ -683,7 +687,7 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - doesn't affect action choice against minimax
 	 - amount of pruning depends on move ordering
 		 - should check with best moves so that more lower value branches can be pruned
-		 - With perfect ordering, the time to find the best move is reduced from O(b^m) to O(b^(m/2))
+		 - With perfect ordering, the time to find the best move is reduced from $O(b^m)$ to $O(b^{\frac{m}{2}})$
  - alpha - the value of the best choice for the MAX player found so far at any choice point above n
  - beta - value of the best choice for the MIN player found so far at any choice point above n
  - ![[Pasted image 20240207123953.png]]
@@ -692,4 +696,93 @@ function SimpleProblemSolvingAgent(percept): action{
 	 - The children of the middle tree is not expanded, because the min value of the left tree is 3
 		 - There's no point in finding lower values for the middle tree because the player will already go down the left tree
 		 - The middle tree can only get worse from 2, but the left is already fully expanded with the min value being 3
- - 
+
+# Constraint Satisfaction Problems
+ - has variables, domains, constraints
+	 - variables - things to fill out
+	 - domains - possible values for variables
+	 - constraints - dictates what values variables can or cannot be
+ - has a factored state (attribute value pairs) - defined by attribute variables X_i with values from Domain D_i
+ - goal test is checking if each constraint specifying allowing combinations of values for subset values is satisfied
+ - a solution is an assignment of values to attributes that satisfies all constraints
+	 - consistent - an assignment does not violate any constraint
+	 - complete - every variable is assigned a value
+	 - designed solutions are complete and consistent assignments of variables
+ - allows for general purpose algorithms with more power than standard search algorithms
+ - Varieties of CSP variables
+	 - Discrete variables
+		 - finite domains
+			 - has n variables with a domain size d, resulting in O(d^n) complete assignments
+			 - Boolean CSPs, is NP complete
+		 - infinite domains
+			 - integers / strings
+			 - needs a constraint language
+	 - continous variables
+		 - linear constraints solvable in polynomial time by linear programming
+		 - solved in operations research
+	 - constraints
+		 - unary - involves a single variables
+		 - binary - involves pairs of variables
+			 - can be represented using a constraint graph
+		 - higher order - involves 3 or more variables
+			 - cryptoarithmetic column constraints
+
+**Constraint graphs**
+ - binary CSP - each constraint relates two variables
+ - constraint graph - nodes are variables, arcs are constants
+	 - a structured representation
+	 - represents which variables are constrained against or to other variables
+
+### CSP Naive Search
+ - DFS
+	 - one variable per node from bottom left
+	 - uses a successor function - any coloring of next uncolored region
+	 - only performs consistency checking with complete assignments, resulting in very slow search
+ - Incremental search
+	 - states - assignment made so far (usually incomplete)
+	 - initial state - the empty assignment
+	 - successor function: assign a value to an unassigned variable that does not conflict with current assignments, and backtrack if there are no legal assignments
+	 - goal test
+		 - check if the current assignment is complete
+ - backtracking search
+	 - problem is commutative if the order of applying a set of actions does not matter
+	 - CSPs are commutative, the assignment is important but not the path to it
+	 - basic uninformed incremental search algorithm for CSPs
+		 - DFS with one variable per level and checks constraints as assignments are added
+		 - checks consistency on each assignment of a value to a variable
+		 - can be improved by general purpose methods
+			 - Ordering
+				 - which variable should be assigned next? (MRV and DH)
+				 - in what order should its values be tried (LCV)
+			 - inference
+				 - can we detect inevitable failure early (FC, AC)
+					 - forward checking
+						 - when a variable is assigned a value, restrict the domains of the other unassigned variables because of this assignment and the constraints
+						 - check unassigned neighbor and remove any variables that are now in conflict because of the current assignment 
+						 - only propagates constraints on the neighbor, not detecting potential conflicts
+						 - does not provide early checking for all conflicts
+					 - arc consistency
+						 - does constraint propagation by repeatedly enforcing constraints
+						 - makes each arc consistent
+							 - X->Y is consistent if and only if for every value x of X, there is a some allowed Y
+							 - removes options that make it so the other node has no other possible values
+
+**Improving CPSs**
+ - minimum remaining values
+	 - choose first the most constrained variable (fewest possible legal assignments)
+		 - is based on the domain
+	 - is a fail first heuristic - prunes the search tree and results in early failure detection
+ - degree heuristic
+	 - choose first the variable involved in most number of constraints with other unassigned values
+		 - is based on the constraints
+	 - used as a tie breaker for MRV
+	 - reduces the branching factor of neighbors
+ - least constrained value
+	 - choose first the value that rules out the fewest values in the remaining variables
+	 - performed once an unassigned variable has been selected for assignment
+	 - Value selection is fail-last heuristic
+	 - what value removes the least number of assignments for other variables
+ - Choose a variable for assignment using MRV and DH as a tie breaker, then use LCV to choose a value to assign to the selected variable
+	 - pick the unassigned variable that has the fewest possible legal assignments
+		 - if tie, then pick the unassigned variable with the most number of constraints
+	 - then use LCV to choose a value to assign to the selected variable

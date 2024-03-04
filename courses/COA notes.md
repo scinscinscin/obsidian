@@ -54,3 +54,71 @@ Multilevel machines
 	 - A single bus multiprocessor
 		 - All CPUs have access to a common bus and shared memory
 	 - Some multicomputers have local memories, only the CPU can access their local memory, not the memory of other CPUs
+
+8086
+ - the 8086 microprocessor family has taken the lead in the personal computer market
+ - used everyone from control systems to superfast network servers
+ - pentium offers compatibility with all previous 8086 machines, with many new architectural components
+ - capable of addressing 1MB of memory
+	 - uses 20 address lines to get 2^20 bytes of memory
+ - 80886 above were capable of addressing 4GB of memory since it contains 32 memory address lines (a 32-bit system)
+	 - Can perform many OS chores such as multitasking, virtual memory addressing, memory management and protection, and control over internal data and instruction cache
+ - Real mode
+	 - has an associated 1MB memory limit
+ - Protected mode
+	 - full 4GB of memory is available to the processor
+ - internal block diagram
+	 - ![[Pasted image 20240224164033.png]]
+	 - Is separated into the execution unit and bus interface unit that has a multiplexed bus going through both sides
+	 - Data Registers, ALU and flag register are in execution unit
+	 - Segment registers and pointers are in BIU
+		 - the BIU is in charge of address generation for memory segment + stack pointer
+	 - Pipelining
+		 - allows the instructions to fetch data while it's executing the current instruction
+	 - Registers
+		 - data registers
+			 - 16 bit registers like AX BX CX DX which can be split into 8 bit registers with AH AL, BH BL, etc.
+			 - AX - accumulator
+			 - BX - base address register
+			 - CX - counter for loop operations
+			 - DX - point to data in I/O operations
+		 - five pointer and index registers, all 16 bits wide
+			 - SP - the stack pointer permits the system to access data in the stack segment
+			 - BP - the base pointer facilitates dereferencing parameters, which are the data and addresses that a program passes through the stack
+			 - IP - the instruction pointer contains the offset address of the next instruction that is to be executed
+			 - SI - the source index is required for some string operations and is associated with the DS register
+			 - DI - the destination index is required for some string operations and is associated with the ES register
+		 - Segment registers
+			 - CS - code segment - used during instruction fetches
+			 - DS - data segment - most used by default when reading or writing data
+			 - SS - stack segment - used during stack operations such as subroutine calls and returns
+			 - ES - extra segment - used for anything the programmer wishes
+		 - Flag register - used to indicate results of arithmetic and logical instructions
+		 - data registers & pointer and index registers make up the general purpose registers
+		 - Extended registers
+			 - begin with the 80386, are prefixed with e
+			 - extends data / pointer and index registers, and adds FS and GS as segment registers
+
+Addressing
+ - real mode addressing space
+	 - a 1MB memory space is broke down into 16 segments of 64KB each
+	 - a segment contains all the memory locations that can be reached when a particular number in a certain segment register is used
+	 - small areas of the addressing space are reserved for special operation
+		 - locations FFFF0 through FFFFF are assigned the role of storing initial instruction to be used after a reset operation
+		 - 00000 through 003FF are used to store the addresses for all 256 interrupts
+	 - 32 bit registers operate as 16 bits to maintain compatibility with earlier 80x86 machines
+
+Endianness
+ - the low byte is stored in the lower address space
+ - the high byte is stored in the higher address space
+ - the number 0xAABB is stored as 0xBBAA since the lower (left) address contains the low byte
+
+Assembler directives
+ - designed to create the required data and perform all appropriate memory allocation and data formatting for little endian values
+ - DB - define byte
+ - DW - define word
+ - DUP - used when many reserved byte or word spaces are needed
+ - EQU - equte - defines a value that can be used in other source statements but does not need to generate any code
+ - A special technique is used to utilize the 32 bit integer on an instruction by instruction basis
+	 - Operand size prefix, a special 1 byte code inserted before each instruction that uses a 16-bit registers
+	 - Tells then to use entire 32-bit length, 1-byte code will have the value of 66 in hex.

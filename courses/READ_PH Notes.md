@@ -235,3 +235,11 @@ Each of them has a unique perspective
 	- Better to be poor than an Indio
 	- Insulars still believed that they are better than the natives
 		- *insert ung napaka racist na reading*
+
+Revolutions
+ - Philippines
+	 - social - inquilinos
+	 - economic - cash crop system
+	 - religion - secularization
+	 - beginning of the open society
+	 - 180 degree change - drastic and can't be controlled anymore

@@ -697,3 +697,115 @@ $$
 		$$
 	- Cumulative distribution function: $F(x) = 1-e^{-\alpha x^{\beta}}$
 
+# Limit Theorems
+**Markov Inequality**
+ - gives an upper bound on the probability that a non negative random variable is greater than or equal to some positive constant
+ - the probability that X >= a is less than E(X)/a provided that E(x) exists
+ 
+Examples
+Using Markov's inequality, find an upper bound on P(X >= an) where p < a < 1. Evaluate the bound for p=1/2 and a=3/4
+Through the theorem we can get that $P(X >= an) <= pn/an$, therefore $P(x>=an) <= 2/3$
+
+Suppose that the average grade on the upcoming Long Exam 1 is 70%. Give an upper bound on the proportion of students who score at least 90%.
+p = 0.70, a = 0.90
+$P(x\ge0.9) <= 0.70 / 0.90 = 7/9$
+
+A coin is weighted so that its probability of landing on heads is 0.20, suppose the coin is flipped 20 times, find a bound for the probability it lands on heads atleast 16 times.
+$P(x\ge16) <= 20 * 0.20/16 = 1/4$
+
+The kth moment of a random variable is the expected value of $X^k$
+The variance of a random variable X is E((X-(X))^2)
+
+---
+
+**Chebyshev's inequality**
+For any random variable X, $P(|x-\mu| \ge a) \le \sigma^2/a^2$
+Find an upper bound on P(x >= an) where p < a < 1. Evaluate the bound for p=1/2 and a=3/4
+$P(x >= an) = \frac{npq}{a^2} = \frac{0.50 * 0.50n}{{0.75}^2} = \frac{4n}{9}$
+
+A fair coin is flipped 100 times. Find a bound on the probability that the number of times the coin lands on heads is atleast 60 or at most 40
+Find $P(x<40 \cup x>60) = P(|x-\mu| \ge 10) \le \frac{0.50 * 0.50 * 100}{10^2} = \frac{1}{4}$
+
+---
+Law of large numbers
+ - if you repeat an experiment independently a large number of times, the average you should obtain is close to the expected value
+ - The expected value of an infinite number of runs should be close to EX
+ - The variance of $\bar X$ is $\frac{\sigma^2}{n}$
+
+Suppose someone gives you a coin and claims that this coin is biased; that it lands on heads
+only 48% of the time. You decide to test the coin for yourself. If you want to be 95% confident that this coin is indeed biased, how many times must you flip the coin?
+
+$$
+	P(|\bar X - 0.48| > 0.02) \le \frac{0.48 * (1-0.48)}{0.02^2n} = 0.05
+$$
+$$
+	n = \frac{0.48 * (1-0.48)}{0.02^2 * 0.05} = 12,480
+$$
+0.02 represents the error or precision.
+
+A survey of 1500 people is conducted to determine whether they prefer Pepsi or Coke.
+The results show that 27% of people prefer Coke while the remaining 73% favour Pepsi. Estimate
+the Margin of error in the poll with a confidence of 90%.
+$$
+	\frac{0.73 * 0.27}{\epsilon^2 * 0.10} = 1500
+$$
+$$
+	\epsilon = \sqrt{\frac{0.73 * 0.27}{1500 * 0.10}} = 0.0362
+$$
+
+---
+
+Central limit theorem
+ - under certain conditions, the sum of a large number of random variables is approximately normal
+$$
+Z = \frac{\bar X - \mu}{\sigma / \sqrt{n}}
+$$
+ - The sampling distribution of the sample mean $\bar x$ will have mean $\mu$ and standard deviation $\frac{\sigma}{\sqrt{n}}$
+	 - If the original population is non normal, the sampling distribution will be normal when n is large
+	 - If the original population is normal, the sampling distribution will be normal for nay sample size
+ - Can be used to conclude that the binomial random variable x is approximately normal when n is large, with mean np and standard deviation
+
+A random sample of size 16 from a normal distribution with mean = 10 and standev 8
+$$
+	P(\bar x > 12) = P(z>\frac{12-10}{8/\sqrt{16}}) = P(z>1) = 1-0.8413 = 0.1587
+$$
+# Hypothesis testing
+
+ - a fundamental statistical method for making population inferences based on sample data. It involves making a hypothesis about a population parameter then using sample data to assess the validity of that hypothesis.
+ - Parts
+	 - Null hypothesis - assumed to be true until proven otherwise
+		 - Represents a position of no effect or no difference
+	 - alternative hypothesis - will be accepted as true if we can disprove H0
+		 - represents what the researcher is trying to find evidence for
+	 - Test statistic and its p value
+		 - a single statistic calculated from the sample which will allow us to reject or not reject H0
+		 - a probability, calculated from the test statistic that measures whether the test statistic is likely or unlikely
+	 - Rejection region
+		 - tells us for which values of the test statistic, or for which p-values the null hypothesis should be rejected
+		 - set of all possible values for which the null hypothesis will be rejected
+		 - can be one one tailed or two tailed
+	 - p-value
+		 - the probability of obtaining a test statistic as extreme as the one calculated from the sample data. A measure of the strength of evidence against the null hypothesis.
+	 - decision rule
+		 - based on the test statistic and the significance level, a decision is made to either reject the null hypothesis or fail to reject it
+		 - we reject H0 based on the significance level, a maximum tolerable risk you want to have of making a mistake
+	 - Conclusion
+		 - interpreting the result of the hypothesis test and drawing conclusions based on the decision made in the previous step
+
+$$
+\begin{align}
+\text{z-test for any value n: }
+z=\frac{\bar x - \mu}{\sigma / \sqrt{n}} \\
+
+\text{t-test: }
+t=\frac{\bar X - \mu}{s / \sqrt{n}} \\
+
+\text{z-test for proportions: }
+z=\frac{\hat p - p}{\sqrt{pq / n}} \\
+
+\text{z-test for comparing two means}\\
+z= \frac{(\bar X_1-\bar X_2)}{\sqrt{\frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2}}}
+
+\end{align}
+$$
+
