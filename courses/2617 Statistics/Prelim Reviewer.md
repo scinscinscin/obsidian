@@ -773,10 +773,11 @@ $$
 
  - a fundamental statistical method for making population inferences based on sample data. It involves making a hypothesis about a population parameter then using sample data to assess the validity of that hypothesis.
  - Parts
-	 - Null hypothesis - assumed to be true until proven otherwise
-		 - Represents a position of no effect or no difference
-	 - alternative hypothesis - will be accepted as true if we can disprove H0
-		 - represents what the researcher is trying to find evidence for
+	 - Hypotheses
+		 - Null hypothesis - assumed to be true until proven otherwise
+			 - Represents a position of no effect or no difference
+		 - alternative hypothesis - will be accepted as true if we can disprove H0
+			 - represents what the researcher is trying to find evidence for
 	 - Test statistic and its p value
 		 - a single statistic calculated from the sample which will allow us to reject or not reject H0
 		 - a probability, calculated from the test statistic that measures whether the test statistic is likely or unlikely
@@ -809,3 +810,155 @@ z= \frac{(\bar X_1-\bar X_2)}{\sqrt{\frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n
 \end{align}
 $$
 
+# ANOVA
+- The sampling plan or experimental design determines the way that a sample is selected
+- In an observational study, The experimenter observes data that already exists, the sampling plan is a plan for collecting data
+- In a designed experiment, the experimenter imposes one or more experimental conditions on the experimental units and records the response
+	- Experimental unit - the object on which a measurement is taken
+	- Factor - an independent variable whose values are controlled and varied by the experimenter
+	- Level - intensity setting of a factor
+	- Treatment - Specific combination of factor levels
+	- Response - Variable being measured by the experimenter
+
+**Analysis of variance**
+ - All measurements exhibit variability
+ - The total variation in the response measurement is broken into proportions that can be attributed to various factors. A properly designed experiment has the ff:
+	 - factor 1, factor 2, random variation
+	 - We compare the variation of one factor to the typical random variation of the experiment
+ - those portions are used to judge the effect of various factors on the experimental response
+
+Assumptions for anova
+ - the observations within each population are normally distributed with a common variance
+ - Assumptions regarding the sampling procedures are specified for each design
+
+### Completely randomized design
+ - an extension of the two independent sample t-test
+**one way classification** - one factor is set at k different levels
+ - Treatments - different normal populations corresponding to k different levels
+ - Asks if the k population means are the same or is at least one mean different from the others?
+![[Pasted image 20240304151535.png]]
+ - random samples of size n_1, n_2, are drawn from k populations with their each sample having their own mean. All of them have a common variance sigma^2
+ - The total variation in this experiment is measured by the total sum of squares
+	 - $SS = \sum(x_{ij} - \bar x)^2$
+		 - find the average of the sample, subtract each test against the sample and square them, same as regular variance formula
+		 - can also be taken with the ff formula as well: $SS = \sum(x_{ij}^2) - {\mu * \sum x_{ij}}$
+			 - Sum of squares of all minus CM
+			 - CM is also equal to $\frac{(\sum x_{ij})^2}{n} = \frac{G^2}{n}$
+				 - G - Grand total of all n observations
+	 - Total sum of squares is divided into sum of squares for treatments (SST) and sum of squares for error (SSE)
+		 - SST - measures the variation among the k sample means
+			 - can be calculated using $SST = \sum {\frac{T_i^2}{n_i}} - CM$
+			 - T_i = total of all observations of a sample
+			 - n_i = number of observations in that sample
+			 - (n = number of observations across all samples / total number of observations )
+		 - SSE - measures the variation within the k samples
+			 - can be calculated using $SSE = SS - SST$
+![[Pasted image 20240304161347.png]]
+ - The sum of squares behave like the numerator of a sample variance, they provide a mean square, an estimation of a variation in the experiment
+	 - Total DF = n-1
+	 - Treatment DF = k-1
+	 - Error df = n-k
+	 - From here we can compute mean squares using the following formulas
+		 - MST = SST / Treatment DF
+		 - MSE = SSE / Error DF
+ - Then create the Anova table
+	   ![[Pasted image 20240304161728.png]]
+	 - Testing the treatment means
+	 - H_0 = the sample means are relatively the same
+		 - if true, then the variation in the sample means measured using MST also provides an unbiased estimate of the global variance
+	 - H_a = at least one mean is difference
+		 - MST is unusually large, there is a large variance in the sample means.
+		 - F = MST / MSE tends to be larger than usual
+ - F-test
+	 - You can reject H_o for large values of F, using a right tailed statistical test.
+	 - When H_0 is true, the test statistic has an F distribution with $df_1 = (k-1)$ and $df_2 = (n-k)$ degrees of freedom, and right-tailed critical values of the F distribution can be used.
+		 - need to use an f-table for this
+		   ![[F-table_Alpha05.webp]]
+		 - Reject H_0 if $F > F_a$ with $k-1$ and $n-k$ df
+
+![[Pasted image 20240304174313.png]]
+
+H_0 = the means are the same
+H_a = atleast one mean is different
+F = 5.00
+Rejection region: $F > F_{.05} = 4.26$
+Decision: Reject H_0 and conclude that there is a difference in the average attention span because 5.0 > 4,26
+
+Confidence intervals
+- if a difference exists between the treatment means, we can explore it with confident intervals
+- Tukey's method for paired comparisons
+	- tests all pairs of population means simultaneously with an overall error rate of alpha
+	- based on studentized range, the difference between largest and smallest of the k sample means
+	- assume that the sample sizes are equal and calculate a ruler that measures the distance required between any pair of means to declare a significant difference
+	- if H_0 is rejected, then this can be used to determine which treatment is different / is the outlier
+	- calculate $\omega = q_a(k, df) \sqrt{\frac{MSE}{n_1}}$
+		- where k - number of treatments
+		- df - error DF or (n-k)
+		- n_i = number of observations in each sample
+		- q_a comes from a tukey table
+		  ![[media_b8b_b8b3a275-dc55-4ef0-86e6-5010664326da_phpG5qMMY.png]]
+- If any pair of means differ by more than omega, they are declared to be different
+	- List the sample means from smallest to largest and measure the distances from each other, take not of any that surpass omega, these can be declared different
+
+**experiment**
+k = 3 - there are 3 treatments
+error df = n - k = 9
+therefore w = q(3, 9) * sqrt(6.47222 / 4) = 5.02
+ - numerator is mean of squares of error, numerator is number of observations
+any difference between means larger than 5.02 is considered a significant difference
+ - compute the means of each of the treatments and arrange them in ascending order
+ - 9.25, 13.25, 14.75
+	 - there is a significant difference between 14.75 and 9.25 since their difference is 5.5 and 5.5 > 5.02
+### Randomized Block Design
+ - when "2 variables" are being observed
+	 - K treatments with each having b blocks, the total number of observations is n = bk
+	 - the purpose of blocking is to remove or isolate the block to block variability that might hide the effect of treatments
+	 - treatments and blocks - only one is of interest to the experimenter
+ - Total SS is divided into 3 parts
+	 - SST - sum of squares for treatments
+		 - measures variation across the k treatment means
+	 - SSB - sum of square for blocks
+		 - measures the variation among the b-block means
+	 - SSE - sum of squares for error
+		 - measures the random variation or experimental error
+ - a randomized block design should not be used when treatments and blocks both correspond to experimental factors of interest to the researcher
+	 - it is not always beneficial
+	 - you cannot construct confidence intervals for individual treatment means unless it's reasonable to assume that the b blocks have been randomly selected from a population of blocks
+ - ![[Pasted image 20240304172742.png]]
+
+Example:
+![[Pasted image 20240304184736.png]]
+
+H_0 = the means are the same
+H_a = atleast one mean is different
+Rejection region: F > F_.05 where the df for k = 2 and  df for error = 6
+F > F_.05 = 5.14
+Since 10.05 > 5.15, reject H_0, and conclude that there is a difference due to soil preparation
+
+**Tukey's method for treatment and block means**
+ - for comparing treatment means
+	 - $\omega = q_a(k, df) \sqrt{\frac{MSE}{b}}$
+ - for comparing block means
+	 - $\omega = q_a(b, df) \sqrt{\frac{MSE}{k}}$
+ - if any pair of means differ by more than omega, they are declared different
+
+compute difference for treatment means
+w = q_a(3, 6) * sqrt(1.888 / 4) = 2.98
+compute the means for each treatment 12, 12.5, 16
+there is a significant difference between 12.5 and 15, (treatments A and B)
+
+### a x b Factorial Experiment
+ - A two-way classification in which involves two factors, both of which are of interest to the experimenter
+ - there are a levels of factor A and b levels of factor B, the experiment is replicated r-times at each factor level combination
+ - the replications allow the experimenter to investigate the interaction between factors A and factor B
+	 - an interaction between the two factors is the tendency for one factor to behave differently depending on the level of one variable
+	 - describes the effect of one factor on the behaviour of another, if there is no interaction, the two factors behave independently
+ - analysis of variance
+	 - SSA - measures the variation among the means for factor A
+		 - computed by adding all of them divided by br - CM
+	 - SSB - measures the variation among the means for factor B
+		 - computed by adding all of them divided by ar - CM
+	 - SS(AB) - measures the variation among the ab combinations of factor levels
+		 - (sum of all values)^2 / r - CM - SSA - SSB
+	 - SSE - measures experimental errors
+		 - Total SS - SSA - SSB - SS(AB)

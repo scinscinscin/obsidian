@@ -237,3 +237,194 @@ Philosophy
 		 - deep understanding of how people perceive their social realities, and in consequence how they act within the social world
  - interpret - report the result
 
+Pre-colonial period
+ - herbal medicines were used to treat illnesses
+ - writing / numerical / measurement systems were used for trading
+ - farming / fishing / mining were first skills
+colonial period
+ - spanish occupation
+	 - formal education were developed and scientific organizations were launched
+	 - medicine and biology were taught in different educational and training institutions
+	 - natives were trained to use innovative approaches in farming
+	 - engineering was introduced and developed
+ - american occupation
+	 - institutions for science and technology
+	 - national research council of the philippines was established in 1933
+		 - medicine / food processing / forestry
+	 - Bureau of Science was replaced by Institute of Science in 1946
+ - post colonial period
+	 - President Ferdinand Marcos
+		 - mandated DepEd to promote science courses in public high school
+		 - established several agencies and organizations like PAGASA
+			 - National Academy of Science and Technology
+			 - International Rice Research Institute
+	 - Corazon Aquino
+		 - NAST was renamed into DOST
+	 - President Fidel Ramos
+		 - 3000 compinent scientists
+		 - Made healthcare accessible in the far-flung areas of the country with Barrio Doctors
+		 - National program for gifted filipino children in science and Technology was created for high school students
+		 - Implemented the FF
+			 - RA8349 - Magna Carta for Scientist Engineers, Researcher, and other Science and Technology Personnel in Government
+			 - RA7687: Science and Technology Scholarship Act of 1994
+			 - RA7459: Investors and Inventions Incentives Act
+			 - RA8293: the Intellectual property code of the Philippines
+	 - Joseph Estrada
+		 - RA8749: Clean Air Act of 1999
+		 - RA8792: Electronic Commerce Act of 2000
+		 - Implemented cost effective irrigation technologies and provided basic healthcare services for those who could not afford them
+	 - Gloria Macapagal Arroyo
+		 - filipinnovation - Philippines as a innovation hub in asia
+		 - RA9367: Biofuels act
+		 - RA10601: Agriculture and Fisheries Mechanization
+	 - Noynoy
+		 - National Scientists were Awarded
+			 - Gavino Trono - Marine Biology
+			 - Angel Alcala - Biological Science
+			 - Ramon Barba - Horticulture
+			 - Edgardo Gomez - Marine Biology
+	 - Rodrigo Duterte
+		 - S&T sector is seen to be a priority based budget on the budget for R&D
+		 - Philippine Space Technology Program
+			 - Diwata-1 in 2016
+			 - Diwata-2 in 2018
+		 - Importance of disaster preparedness
+ - Contributions
+	 - mechanization of farming
+	 - water pumps and sprinklers help in managing the damaging effects of extreme heat caused by climate change
+	 - production of genetically modified crops and fertilizers
+	 - improved transportation
+	 - improved communication
+	 - ways of learning has changed
+ - adverse impacts
+	 - depletion of resources
+	 - generation of wastes
+	 - people became too dependent on science and technology
+
+inventions of filipinos
+ - salamander amphibious tricycle
+	 - Atoy Llave
+ - salt lamp (Sustainable alternative lighting)
+	 - Aisa Mijeno
+ - Medical Incubator
+	 - Dr Fe del Mundo
+ - Mosquito Ovicidal and Larvicidal Lamp
+	 - Dengue Prevention
+	 - launched in 2011
+ - Erythromycin
+	 - an antibiotic used all over the world
+	 - synthesized by Abelardo Aguilar
+	 - Streptomyces Erythreus
+ - Mole Remover
+	 - Rolando dela Cruz
+	 - Anacardium occidentale
+	 - anti cancer skin cream
+ - Jeepneys
+	 - Repurposed and refashioned
+	 - One of the most recognizable national symbols
+ - Banana Ketchup
+	 - Maria Orosa
+
+Technology and the future of humanity
+ - an augmentation of our ideas
+ - should increase our productivity / improve the human body and our mental ability
+ - improve the human experience in physical and cognitive ways
+ - good for us and our development
+	 - should not overlap with our ethics and morality
+ - when you want to get things done in a more convenient way, we use technology, it's an instrument
+ - technology is anthropological because the development of technology is a human activity
+	 - the essence of technology is a driving force, not the instruments or machines themselves
+	 - technology is a way of understanding the world, not just a human activity
+	 - it is a highest danger, risking us to see the world only through technological thinking
+	 - technology is just a means to an end, operated by humans
+	 - it is a way of revelation, reality is relative
+ - Bringing forth and challenging forth
+	 - Bringing forth
+		 - windmill, we are able to draw the energy of the wind and make us of it while letting the wind do its thing
+		 - not destructive
+	 - Challenging forth
+		 - is extraction, like coal
+		 - modern technology challenges nature to reveal itself
+		 - we see nature as a means to an end
+		 - nature as a standing-reserve that can be disposed of by those who binds them
+	 - we should be enframing nature instead of extracting
+		 - using technology to turn nature into a resource for efficient use
+		 - two ways of thinking
+			 - calculative thinking - desire to put an order to nature
+			 - meditative thinking - allows the nature to reveal itself
+ - dangers of technology
+	 - lies in how humans let themselves be consumed by it
+	 - we must not be consumed by technology lest we lose the science of who we are as humans
+ - advancement in science and technology
+	 - the impact of science has increasingly influenced individuals in society
+	 - tech speeds up workflow processes with many devices and machines
+	 - as green energy becomes more popular, technology adapts
+	 - we can form relationships with people some distance away
+ - Biological technologies could shape the society
+	 - genomics & proteomics
+		 - genomics - deals with DNA sequence organization, function, and evolutions of gene
+			 - made possible by the invention of techniques of recombinant DNA / also known as gene cloning or genetic engineering
+		 - proteomics - aims to identify all proteins in a cell or organism including cellular localization, functions and interactions
+	 - biotechnology including cloning / genetic engineering and crispr
+		 - use of living organisms in any form for the convenience of life
+		 - used in medicine, production of vaccines
+		 - in agriculture - BT crops, increasing yields
+		 - industry - fermentation / treatment of oil spills and production of biofuels
+			 - helpful in refining industrial processes
+		 - traditional biotech
+			 - food preservation and fermentation
+		 - modern biotechnology
+			 - molecular tools for obtaining a better understanding of structure and functions of genes in living organisms
+			 - develop new precision tools and diagnotics
+			 - speed up breeding gains and efficiency
+			 - develop pest and disease resistant crops
+			 - combat salinity, drought and problems of agriculture
+			 - enhance the nutritional quality of food
+			 - increase crop varieties and choice
+			 - reduce inputs and production costs
+			 - increase profits
+			 - GMOs
+				 - increased crop yield and pest resistance
+				 - growing concern with how GMOs affect health and the environment
+					 - concerns on human rights
+					 - accident in genetically engineering a virus or bacteria may cause a serious epidemic
+					 - BT toxins were found in the blood of pregnant women in eastern Canada
+				 - humulin - first GMO to be approved, a type of insulin produced using genetically engineered E.coli bacteria
+				 - bovine somatotroin - FDA approved metabolic protein hormone used to increase milk production in dairy cows for commercial use
+				 - flavr savr - FDA approved tomato for sale which delays its ripening effects and gives it a longer shelf life compared with natural tomatos
+				 - golden rice - address Vitamin A deficiency
+				 - Yorkshire pigs - pigs that have genetically modified salivary glands, reduces phosphorus pollution in the environments
+			 - Cloning 
+				 - process by which identical copies of an organism is made
+				 - copy possesses the same genetic material as the original organism
+				 - helps in-depth research
+				 - stem cells can be cloned to produce tissues or organs to replace or repair damaged ones
+				 - allows parents who have lost a child a chance to redress their loss using the dna of their deceased child
+			 - Genetic Engineering
+				 - scientists manipulate genes to create different versions of organisms or in some cases entirely new living things
+				 - geneticists have introduced genes from one species to another
+		- CRISPR - clustered regularly interspaced short palindromic repeats
+			- can be used to edit genes
+			- used in tumor cells to overcome cancer
+			- used to treat blindness / aids / blood disorders
+		- artificial insemination
+			- found to be safe and effective methods
+			- allows single women to be able to have and bear children without having a partner
+			- sperms used in artificial insemination are tested for disorders, decreasing chance of a child having a disorder
+			- IVF - eggs are removed from ovaries and are fertilized in a lab with sperm from a partner
+		- synthetic biology
+			- the design and construction of new biological parts, devices, and systems and the re-design of existing natural biological systems for useful purposes
+			- Personal health monitoring
+				- a portal device that can be worn to record and monitor health related data
+				- remote monitoring of patient
+				- training support for athlete
+				- monitoring of individuals who work with hazardous elements
+				- tracking of professional driver's vital signs to alert them from fatigue
+		- nano technology
+			- science and technology about the control of matter on the atomic and molecular scale
+			- manipulation of matter on an atomic to subatomic scale
+			- more efficient batteries and solar panels
+			- highly sophisticated tools for detecting and treating cancer
+			- better medical imaging and bandages that help prevent infection
+			- next generation materials are stronger and lighter
+			- carbon nanotubes and fibre and products of nanotech
