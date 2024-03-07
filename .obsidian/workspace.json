@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b23e64ac49b3dc6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "courses/2618 Intelligent Systems 1/Prelim Reviewer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "List ng Lahat ng Liabilities ko.md",
+                "file": "courses/2618 Intelligent Systems 1/Prelim Reviewer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "List ng Lahat ng Liabilities ko.md",
+                "file": "courses/2618 Intelligent Systems 1/Prelim Reviewer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "List ng Lahat ng Liabilities ko.md"
+                "file": "courses/2618 Intelligent Systems 1/Prelim Reviewer.md"
               }
             }
           }
@@ -146,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ed155f1b2ec3743",
+  "active": "b23e64ac49b3dc6b",
   "lastOpenFiles": [
-    "courses/STS Notes.md",
     "List ng Lahat ng Liabilities ko.md",
+    "courses/STS Notes.md",
     "courses/READ_PH Notes.md",
     "courses/2617 Statistics/Prelim Reviewer.md",
     "Pasted image 20240304184736.png",
